@@ -1,6 +1,7 @@
 export const profileData = {
-  name: 'Katherine Johnson',
+  firstName: 'Barack',
+  lastName: 'Obama',
   location: 'White House',
-  imageUrl: 'https://i.imgur.com/MK3eW3As.jpg',
-  // imageSize: 90, // Remove this line
+  imageUrl: 'https://i.imgur.com/nU3fYia.jpeg',
+  isAdmin: true,
 };
