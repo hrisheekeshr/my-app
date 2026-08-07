@@ -1,16 +1,16 @@
 {
   "brand": "Four Corners Daily",
   "tagline": "AI · Technology · Chicago · The World",
-  "generatedAt": "2026-08-07T12:45:20.969Z",
+  "generatedAt": "2026-08-07T13:16:23.082Z",
   "timezone": "America/Chicago",
   "publicationDate": "Friday, August 7, 2026",
   "leadStory": {
-    "id": "ai-c1lsw1",
-    "title": "Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - The Washington Post",
-    "summary": "Some US adults are using AI for financial guidance but few trust it, Gallup poll finds The Washington Post",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdnM2b21GTHlLaWV1MDZfazVQNm5iLUlzMmxfUnI3bXVKYm9mNWlhV212SFE1VU5yeTJ0Xy00bFRMRkt5OEh3cV9hRWhlZGQtX3hNTEVFTjJ3QmJ6VU9LRzh1SUNFb2QyUmk0RDlVOUF0VUxyaUI3dlJQYXNmdXQ4Ym9sT2FBc25NUVdKNDBGZHZpU3dJSkVzczVVOENHUUV1T3Rnck5TVmJMUGtJZ3pUTFNOcUFxUEVRRlBnYWRKcWRITmhzWC1qS3QzLUNqSWZnM1BIODVJREpJV0JhRlo2Vw?oc=5",
+    "id": "ai-pns3e3",
+    "title": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy - The Guardian",
+    "summary": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UlBMaGtXenRldEhCZ1RTc0xIYlloVFdSQWlnV3IxWmI5UTlpT0hiTnR2cElIbGlTbzR1WGxZTmEtMGxkM2RicjRDN3BaVjJpZzBXdGNiVkVUWmtyRENVSFFpdTFlSzNGVmZyQnZ5WWctS28?oc=5",
     "source": "Google News — Artificial Intelligence",
-    "publishedAt": "2026-08-07T12:39:24.000Z",
+    "publishedAt": "2026-08-07T13:02:00.000Z",
     "section": "ai",
     "imageUrl": null
   },
@@ -21,6 +21,16 @@
       "shortTitle": "AI",
       "description": "Models, research, and the systems reshaping how we work.",
       "stories": [
+        {
+          "id": "ai-pns3e3",
+          "title": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy - The Guardian",
+          "summary": "The White House’s plan to vet potentially dangerous AI is cloaked in secrecy The Guardian",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UlBMaGtXenRldEhCZ1RTc0xIYlloVFdSQWlnV3IxWmI5UTlpT0hiTnR2cElIbGlTbzR1WGxZTmEtMGxkM2RicjRDN3BaVjJpZzBXdGNiVkVUWmtyRENVSFFpdTFlSzNGVmZyQnZ5WWctS28?oc=5",
+          "source": "Google News — Artificial Intelligence",
+          "publishedAt": "2026-08-07T13:02:00.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
         {
           "id": "ai-c1lsw1",
           "title": "Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - The Washington Post",
@@ -33,8 +43,8 @@
         },
         {
           "id": "ai-4o6c8i",
-          "title": "Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - WRAL",
-          "summary": "Some US adults are using AI for financial guidance but few trust it, Gallup poll finds WRAL",
+          "title": "Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - wral.com",
+          "summary": "Some US adults are using AI for financial guidance but few trust it, Gallup poll finds wral.com",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObldWM3c1ZTJzUlJLNTljTzN3SXc1NGdram1fWVRpcHBtbW1TZWF2RU1jdlR3cmlCLU5MbTBETEhseWtHck1kU3JQS0VZaENBUmE2dVZWSDNYaFpBemd6MF9fTEhWWlh2Zk16UTl0Y2g4Vm02NTVDUEt6bnExZVhyUmRFWThzYlh0UlRnZ3otcDJ2cGt6OGwyZWZsZC0xUGxNazI4STh5bXF1UVByWmoxT0RVLTN5YlZKNkIyT2tR?oc=5",
           "source": "Google News — Artificial Intelligence",
           "publishedAt": "2026-08-07T12:37:45.000Z",
@@ -42,62 +52,52 @@
           "imageUrl": null
         },
         {
-          "id": "ai-htkrxu",
-          "title": "Global Digital Policy Roundup: July 2026 - Tech Policy Press",
-          "summary": "Global Digital Policy Roundup: July 2026 Tech Policy Press",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1QOE0yS1haM2lCSXZMWnVnRXo4a1laVXNiQWVSRTRvTG9Pczkydk9WT2RXckQ4RmRoc2RrNU5nR3ZyQ1Y5ME84dDJuZDlvTDhMS0VEb2dWcWJoTGFmbTBOb0o2SXRvSzdBa2RBMVJJamJPMDBUSFdn?oc=5",
+          "id": "ai-unxz3d",
+          "title": "Who is liable when AI goes rogue? Lawyers see new risks - Reuters",
+          "summary": "Who is liable when AI goes rogue? Lawyers see new risks Reuters",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdm5IRWdwV3E1N1BVWXFDY21mTGJoMTg1TXB3VXFyYXRodDYycGNpZkhxOVp5SGF0NzkwVFlXaHpER2Mwdk1IcU5OaENIMV9MTkZJZFNTU0E5ODV6a1BqS2VacDVZeWhtbWRnaHpIVVpMOGRqR2l4bHNpYW8wZmxvcm90SGxNelNmUmVNS3hSbHhTY1RPem5GTmd0NF91bnNw?oc=5",
           "source": "Google News — Artificial Intelligence",
-          "publishedAt": "2026-08-07T12:36:23.000Z",
+          "publishedAt": "2026-08-07T10:19:08.000Z",
           "section": "ai",
           "imageUrl": null
         },
         {
-          "id": "ai-l1hu89",
-          "title": "DeepMind founder ascends to singular AI role at Google - Computerworld",
-          "summary": "DeepMind founder ascends to singular AI role at Google Computerworld",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMzM3SU5FQWlVMnMxLVNubXNTMndUNUlRS0dKMkNWZTlzcmRicjdQd1FIOEtjcTdtZlNCS3hHcVdybWV6aFQtaFVNbUtVMzcwQm5vclJsNVRxNUNWaWQtclpJUDRuZExVcUJoSTRkemtRb0xWZ3pUaGd4bTFjYmV4SkIyNk1icG5CMldyZ0tNOGwyTV83Slh4NThxZjNycWdhVzdWejVtMnA?oc=5",
+          "id": "ai-70e5jb",
+          "title": "Cyber experts warn AI is overwhelming their response to system flaws - E&E News by POLITICO",
+          "summary": "Cyber experts warn AI is overwhelming their response to system flaws E&E News by POLITICO",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeGdCYUt3X3Q5LVo1SU55YUd5ZFBHQk1JMWxQaUlvUW81cXprR3QteXhkV0tJODlScE00d25CQnNWZWhMcFdPc3VSNUpQZTVOZXk2b0MzY29ZTm8wMTgzZVlNMFphU2Z2dmg4dm5oZ0VFaGhkTkRpS0MyOXhvcFQwcVBUNTBKRENRWEZyQ3dxeDhvaWhacjFsWno0Q2ZuSl9tcnNJ?oc=5",
           "source": "Google News — Artificial Intelligence",
-          "publishedAt": "2026-08-07T12:36:18.000Z",
+          "publishedAt": "2026-08-07T10:05:00.000Z",
           "section": "ai",
           "imageUrl": null
         },
         {
-          "id": "ai-s0ice",
-          "title": "Employers everywhere are using AI – but business schools aren’t preparing students for the shift - The Conversation",
-          "summary": "Employers everywhere are using AI – but business schools aren’t preparing students for the shift The Conversation",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYk42M1Q5bldhZFJmNksyX1dmb1lVSS0wTkg0Qm5nLXhoTmJNNGJGcFNYSExqZjkwT1Z5ZGVvVWlpWDJ2UlpQbmE1aS15eHFVd0xhbzdEaDNXNUhORWdnMnFyMl9RQkc2WFdicjR4eXB5U01IX1V4dE11UUpyRXhDbHFpSE44aXJ5ajRuaFMzVmhnT25Ta1lHRHVrbXRIX2kwUmxneXVNUTFJZEJGVVVPSmFfRmtUTG5kUmdfVzdhaUN4N1lqbXZn?oc=5",
+          "id": "ai-vp2epc",
+          "title": "Artificial intelligence in drug discovery — what it is, where we stand and the path forward - Nature",
+          "summary": "Artificial intelligence in drug discovery — what it is, where we stand and the path forward Nature",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PRnBXREdkUzdBRklQY3VoTXdBbm96TU5uckNwS2ZhX2ZsUmc3eFdpREpSeXREZlFwZ0twM2o3RlAtajBNaEMyNWpzeTZMN2hpalBfT05xUzNzUVJkZ0t3?oc=5",
           "source": "Google News — Artificial Intelligence",
-          "publishedAt": "2026-08-07T12:35:40.000Z",
+          "publishedAt": "2026-08-07T09:50:07.000Z",
           "section": "ai",
           "imageUrl": null
         },
         {
-          "id": "ai-s50g72",
-          "title": "Ossoff launches investigation into impact of AI on children - Georgia Public Broadcasting",
-          "summary": "Ossoff launches investigation into impact of AI on children Georgia Public Broadcasting",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ3B0LWRkVm5BeUVXQnBoSm5GM1BCbEFtQkRGMHI3RHlzMEpYUllWRGE5YlJjWTY4cnBncnpyMzJGQnRuX2doVFpmUjRoOFVnQ3hfLTl6dnJJeXY2MmZaU2cycXJGcVRnQmVpMW9KV2w4NFYxeGNzVWNpRWRYMkQ3REMzRER2UTRMLUVPc2llblNsbnlV?oc=5",
+          "id": "ai-rnvmoj",
+          "title": "AI designs new virus not found in nature - axios.com",
+          "summary": "AI designs new virus not found in nature axios.com",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBYaVQyU0NhTUFLMEUycVI2ZlgzTWMwdVp6aEdYV3BMYlN6UHhtSFVRTmZBbFpKRnFSN0ROOVBuelZlMDhEb2ZwOG1NWGRoSFlMM0Z5bzRWOEI1V3BxenVyM0FhLTBDTDc3ZnVPUTN5N3VNSnZoZVE?oc=5",
           "source": "Google News — Artificial Intelligence",
-          "publishedAt": "2026-08-07T12:29:00.000Z",
+          "publishedAt": "2026-08-07T09:26:37.000Z",
           "section": "ai",
           "imageUrl": null
         },
         {
-          "id": "ai-13f2yq",
-          "title": "Bad AI Vs. Good AI: Why Cybersecurity Became A Crucial Tech Battlefield - Investor's Business Daily",
-          "summary": "Bad AI Vs. Good AI: Why Cybersecurity Became A Crucial Tech Battlefield Investor's Business Daily",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdm9yWXl3aHQyazhDRGU0LUJHUTZ6Y3dsQUlqT0NTUXVveVVHTHVXSWxzRGIxcVF5RURkS0M5S3gyb1BnclVmMlNnMmF3LWEzX2c0alRleENmRDhlY19QN2dLRUZsajlocGljT3RmeHBsZVdkcjljUFJIMXBVOGlXREVTTFUwRGI3YUpqT3lpU21VSHNUZlQ3dXY3UEdWQ0RfV3E0ag?oc=5",
+          "id": "ai-uzo6us",
+          "title": "Who’s controlling artificial intelligence? - Washington Times",
+          "summary": "Who’s controlling artificial intelligence? Washington Times",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY18xYnpGZjQteC1yaEVQRVFfaHBWMUpFdDR4Q0Y2ZUJSRUFpaF93YkhGT3hSTE9iYjA3dkc0bmN5QTZNSU9vN01KNUhkQ2dBbzNsZHlMU1lIQnFnQVQtWmt6TGZZdllodG5UbkNVcmRuZUlKVk9EUTkwa0lWSHo0dlprSzlHN3Jqb1dsVlVMNWxSUzA?oc=5",
           "source": "Google News — Artificial Intelligence",
-          "publishedAt": "2026-08-07T12:01:00.000Z",
-          "section": "ai",
-          "imageUrl": null
-        },
-        {
-          "id": "ai-lm9ow5",
-          "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans - infoq.com",
-          "summary": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans infoq.com",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rOHI5NUk3ZEFCTW1PbFZyb1JrbkZxSVZURENqMm91QTV2WlFDalNpOXFQYW5nNVVES05xbmIxU3B4a0JEaVZFYkp6Z1pxdnN0QWNOUUZON3FYLW4tbGFaR2hETjB6OTQ?oc=5",
-          "source": "Google News — Artificial Intelligence",
-          "publishedAt": "2026-08-07T12:00:27.000Z",
+          "publishedAt": "2026-08-07T09:11:21.000Z",
           "section": "ai",
           "imageUrl": null
         }
@@ -116,16 +116,6 @@
           "url": "https://www.theverge.com/entertainment/975850/teenage-sex-and-death-at-camp-miasma-production-design",
           "source": "Andrew Webster",
           "publishedAt": "2026-08-07T12:00:00.000Z",
-          "section": "technology",
-          "imageUrl": null
-        },
-        {
-          "id": "technology-r7bueg",
-          "title": "Rockstar Owner Take-Two Confirms GTA 6 November Release Date Still on Track - IGN",
-          "summary": "Rockstar Owner Take-Two Confirms GTA 6 November Release Date Still on Track IGN GTA 6 is almost here and there's a new affordable way to upgrade your console before launch GAMINGbible Raymond James reiterates Strong Buy…",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOOWVDTlFJQ2lrLXA3WkVJZkFHdEhMUTBMd2hJU1prM29UYl9SVS1kQ0VRcU1BVmxUblpCNHNUaFpLNHNQOERNaU1Fa0kxaXREMHlodVRvdGJGY2E3M1VhRmRlLVNJRVpUU2tnM1NCR3JNRE51bWRVM3hNdGFDOVI2ajJBdVBGZTIwZXhSN0Zmdl9PTDJQYldHa2VmTXhoMklfUGxOWW5yMjFfZU56ck1EdUotZU5TM0FnT2hKVUJydWl4SmtvVlpfLWg1NjIydFpIU0ZMbzlJaElhR1dxTXFDRHl1Ym4wUm1MbTRjVkxCZklFZVVoU0x3NzYtU1hsRHg5LUQ0?oc=5",
-          "source": "Google News — Technology",
-          "publishedAt": "2026-08-07T11:30:00.000Z",
           "section": "technology",
           "imageUrl": null
         },
@@ -161,8 +151,8 @@
         },
         {
           "id": "technology-3b7580",
-          "title": "QuakeCon goes wild as a surprise, free expansion for Quake is released for the legendary shooter's 30th birthday - eurogamer.net",
-          "summary": "QuakeCon goes wild as a surprise, free expansion for Quake is released for the legendary shooter's 30th birthday eurogamer.net Quake – 30th Anniversary Update slayersclub.bethesda.net Quake: Dawn of the Machine …",
+          "title": "QuakeCon goes wild as a surprise, free expansion for Quake is released for the legendary shooter's 30th birthday - Eurogamer.net",
+          "summary": "QuakeCon goes wild as a surprise, free expansion for Quake is released for the legendary shooter's 30th birthday Eurogamer.net Quake – 30th Anniversary Update Slayers Club Quake: Dawn of the Machine – Available Today…",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wYzAtbGpxRTVFd2RndTNIckp4X0xIalVQUnhqOUhlaExEZUM5SVdyVVpNYlhudWx1TVk3WWw1MmQxb2MtVUpORHphZV9ETk96NVphc19DSnhQY2dhcVFrOGd5Y3NVakxtZEpLZ3lrdHl4aTV6ZVNSV0J3?oc=5",
           "source": "Google News — Technology",
           "publishedAt": "2026-08-07T09:28:09.000Z",
@@ -188,6 +178,16 @@
           "publishedAt": "2026-08-07T03:10:00.000Z",
           "section": "technology",
           "imageUrl": null
+        },
+        {
+          "id": "technology-y36i1u",
+          "title": "Splatoon Raiders 1.1.1 update out now, patch notes - nintendoeverything.com",
+          "summary": "Splatoon Raiders 1.1.1 update out now, patch notes nintendoeverything.com Splatoon Raiders' August Update Introduces the Change Most Requested by Players Polygon.com Splatoon Raiders Debuts in 1st the French Charts…",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeHVUOFdCcHN5RnhnRE5iZkhRd0daOFJsQjhNLXRGT0R4aVZoU1N2RW9zQ2ZqNUEyQUdWUlI0LWdtRkV2Y1hWby0xdjhEMWpza0gzS0NtZk1VUXY4T1lqUnd5dW1wRll6WENfaE1OcTZzYWJ1VXhNMVhkNVMzeGtBNy1SUzVLMDNN?oc=5",
+          "source": "Google News — Technology",
+          "publishedAt": "2026-08-07T00:41:25.000Z",
+          "section": "technology",
+          "imageUrl": null
         }
       ]
     },
@@ -198,82 +198,82 @@
       "description": "Local civic life, culture, and neighborhood reporting.",
       "stories": [
         {
-          "id": "chicago-rwr484",
-          "title": "Chicago Rockford International Airport expands China e-commerce network with Rich Sale International - Air Cargo Week",
-          "summary": "Chicago Rockford International Airport expands China e-commerce network with Rich Sale International Air Cargo Week",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbTF2ZnRpc1I3TUJHanotdWZISV9oQVRiVFpjazByTHF0TV9ZaWlMV3NnSTNlcUk3UFBBRmt1WFgwMEt3RDRPNlYxU2RYVlZCS0hOUzFocHV5enJqdzRUbEI2R1VXSlNMT3ZteVVyMFNydk5RR2ZaOW5xQ0tyV0ZJTkFtSTF3Y0NJcUNkV01DQjhidEJiY0puUzhGQTJJQUlPdW5Wb2lfLVRONmlhSmRhNGZJMVRRZEtJQ2ZlblB4NzZhUTRv?oc=5",
-          "source": "Google News — Chicago",
-          "publishedAt": "2026-08-07T12:40:23.000Z",
+          "id": "chicago-t1wy4j",
+          "title": "West Side Art Teacher Launching Floral Studio In Austin Arts District With Workshops For Neighbors",
+          "summary": "Nash Elementary teacher Hailey Rodden plans to open Florals by Hailey in the fall and eventually expand it to a full retail shop.",
+          "url": "https://blockclubchicago.org/2026/08/07/florals-by-hailey-west-side-art-teacher-launching-floral-studio-in-austin-arts-district-with-workshops-for-neighbors/",
+          "source": "Michael Liptrot",
+          "publishedAt": "2026-08-07T13:00:00.000Z",
           "section": "chicago",
           "imageUrl": null
         },
         {
-          "id": "chicago-fgl8uu",
-          "title": "Loyola University academic building lands full building permit - Urbanize Chicago",
-          "summary": "Loyola University academic building lands full building permit Urbanize Chicago",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUDhJM2Q4Tno3WnVqMEVkMUxYWUdrTnFDM1M4TkxYR1FQRXA4NWdBSVlrdG1FUlVNYXFYSVpLcWx3a0hma0V0YS1EYUFUcWNPOFFiVlZSb1VLXzlmVTdtTHVTSnItNFpNWS11VlhoVWNvSmp5dkhJMTUydEh3Q3ZLN2Vmd3VEZDVZa1N1YTNJNWt4Ni10WjYyRlJ2NHpKdw?oc=5",
-          "source": "Google News — Chicago",
-          "publishedAt": "2026-08-07T12:30:00.000Z",
+          "id": "chicago-7vpwgw",
+          "title": "Cafe Con Leche Celebrates 25 Years Of Breakfast Burritos And Community In Logan Square",
+          "summary": "Restaurateur Esam Hani credits his longtime staff with Cafe Con Leche's longevity and the growth of his hospitality group “one door at a time.\"",
+          "url": "https://blockclubchicago.org/2026/08/07/cafe-con-leche-celebrates-25-years-of-breakfast-burritos-and-community-in-logan-square/",
+          "source": "Ariel Parrella-Aureli",
+          "publishedAt": "2026-08-07T13:00:00.000Z",
           "section": "chicago",
           "imageUrl": null
         },
         {
-          "id": "chicago-3y6ru0",
-          "title": "Back-to-school sales tax holiday begins Friday in Illinois - CBS News",
-          "summary": "Back-to-school sales tax holiday begins Friday in Illinois CBS News",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTjRkelhndFh0dkQxNFFLM2g0T0d1SXprMm5VQ2U2dklseVlrcXBIQmNrWEMyRDZTLVM1NnE5RllWSWtOQThWVEZpeTdDVzdmdmV2OGNGSlZ2UVBWSlMzcFJ0ZkV6ckx6X2J5NzBFNHd6Zk5TcVdRbEF0NEpwdTJIVlB6dkgyMll5S3hkQmxsSQ?oc=5",
-          "source": "Google News — Chicago",
-          "publishedAt": "2026-08-07T12:28:00.000Z",
+          "id": "chicago-695e5y",
+          "title": "'Backyard rodeos' spark steer safety concerns",
+          "summary": "Good morning, Chicago. ✶ 🔎 Below: We take you to the world of suburban backyard rodeos, where steers are knocked down and sometimes stripped of their tails. 🗞️ Plus: Decomposing bodies discovered at a funeral home…",
+          "url": "https://chicago.suntimes.com/morning-edition/2026/08/07/mchenry-county-rodeo-south-chicago-chapel-tom-dart-ice",
+          "source": "Matt Moore",
+          "publishedAt": "2026-08-07T13:00:00.000Z",
           "section": "chicago",
           "imageUrl": null
         },
         {
-          "id": "chicago-cnk1zf",
-          "title": "Chicago man gets 10 years for threatening North Iowa family - KIMT",
-          "summary": "Chicago man gets 10 years for threatening North Iowa family KIMT",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd1JSSHVJeWU1MU5mMDBjVE14ME1Ec2RGa29ILXUtNGg4ZUJnNjFENHE5ZUlBZHhrZFl2RXdBMno3bDV1Q1pBeHJ5RmtlbkQteUVxaUJDc0ltVTR1cXVtM3BFMy1Yd3pCSXNRbUlwbEJDTThMV1hTY0JUaFdLelE2TGs3RXZUWGNCdHYwaEhIU2Rkbm9nU0Y4ZlduTF9vZ3JCU3FOeTJxSExOajJ5WE5XckRaVlZ3M0dWR3hQX0E5V0dGQ2w2d2hnX0JMVEdfVkF4?oc=5",
-          "source": "Google News — Chicago",
-          "publishedAt": "2026-08-07T12:14:00.000Z",
+          "id": "chicago-w30zgm",
+          "title": "Filament Theatre In Portage Park Still Drying Out From Last Week’s Flooding",
+          "summary": "The theater is fundraising to pay for repairs and lost materials and looking to borrow dehumidifiers as it also prepares for its fall season.",
+          "url": "https://blockclubchicago.org/2026/08/07/filament-theatre-in-portage-park-still-drying-out-from-last-weeks-flooding/",
+          "source": "Molly DeVore",
+          "publishedAt": "2026-08-07T12:55:00.000Z",
           "section": "chicago",
           "imageUrl": null
         },
         {
-          "id": "chicago-cxfp99",
-          "title": "Investigation underway after More than 50 decomposing bodies found at Chicago funeral home - CBS News",
-          "summary": "Investigation underway after More than 50 decomposing bodies found at Chicago funeral home CBS News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVjBJQWdxcWJMM0dXTktqTGNCU3g2MEFjNlg4aDFkT1FRTW1nckRfRWxtYzNHbk5QZlJZdVJKN2R2Z0lSSzRSeFJhZERYUDlzQzBhdXVNUGZOT3hnNHQtMXkzQUk3QlhQTVcyRzF1cjBQV1czcXJnM3hoamc3YkdYRnlzVTA5QXZuV2Z0SnJCRWo0N1E1czNLNHdxODctXzBXSW0zam4wWjk5cnd2amh4OUVwQjZaX3FSaFV0UTh2cnRhU2RMc2pSTw?oc=5",
-          "source": "Google News — Chicago",
-          "publishedAt": "2026-08-07T12:11:00.000Z",
+          "id": "chicago-3yykiw",
+          "title": "Mosh For A Good Cause At ‘Anti-ICE’ Hardcore Music Show In Woodlawn Saturday",
+          "summary": "Proceeds from Saturday’s event will go toward groups providing assistance to Chicago immigrants.",
+          "url": "https://blockclubchicago.org/2026/08/07/mosh-for-a-good-cause-at-anti-ice-hardcore-music-show-in-woodlawn-saturday/",
+          "source": "Charlie Kolodziej",
+          "publishedAt": "2026-08-07T12:45:00.000Z",
           "section": "chicago",
           "imageUrl": null
         },
         {
-          "id": "chicago-orhs1j",
-          "title": "Gov. Mike Braun confident in efforts to bring Chicago Bears to Indiana - WLKY",
-          "summary": "Gov. Mike Braun confident in efforts to bring Chicago Bears to Indiana WLKY",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTjlFSVB6RXlyeXBWdHZQbkV4SzdqaWlLWl9uZlBoelg2TmN1NFlhZ01qR3VjWEZPc3o0V1BSZ1dfRmFRMXB4SmY2N1NucDhsV2Q1SWdGTEstMllUN2xzU1MyeC16U0FHaHlQemNPSk4xN3NJVkNIUWxpLXBIOTkzVUpheTNfRVR4Nkg1R3lwRHdHZw?oc=5",
-          "source": "Google News — Chicago",
-          "publishedAt": "2026-08-07T12:08:00.000Z",
+          "id": "chicago-nd3zzd",
+          "title": "5 Art Exhibits To Check Out In August",
+          "summary": "Chicago artists with international roots draw on their experiences in Mexico, China and elsewhere to create new works, on display this month across the city.",
+          "url": "https://blockclubchicago.org/2026/08/07/5-art-exhibits-to-check-out-in-august/",
+          "source": "Web Behrens",
+          "publishedAt": "2026-08-07T12:45:00.000Z",
           "section": "chicago",
           "imageUrl": null
         },
         {
-          "id": "chicago-lhq9es",
-          "title": "Why Hundreds Gather In Chicago Every Sunday To Scream Into Lake Michigan - Yahoo Life UK",
-          "summary": "Why Hundreds Gather In Chicago Every Sunday To Scream Into Lake Michigan Yahoo Life UK",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNzE4S3NmRG5YaEFBQU9QVlR6WFhGWUJsa2EyNFpHbVVPQTBVdWpYTGhrdUlCNVFoVWxiNTRKZXFGemFYRVgxUU1lLWdCS0N6THZMX2ZqZFMyc1JlMzhDaC0yZUdoOXl1eVhDNmZjbHd4T29rS25QaVVMRTRjb0hYbA?oc=5",
+          "id": "chicago-ibk9fh",
+          "title": "Over 50 decomposing bodies found in shocking conditions inside Chicago funeral home - FOX 32 Chicago",
+          "summary": "Over 50 decomposing bodies found in shocking conditions inside Chicago funeral home FOX 32 Chicago",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ON3gwZUNaY3BjUEFxenZsdlZPNm91c3lmc0pwNWRMT0NkSDE3NXIydWlDaDQydDM3VlYza2NsVHN2a29lbkhZNVZHOU5SNWJ1dEFIWWVNU19mM1pSZHhwNnpvT3JQbk83UE9UX0lKNmt5Yy1lOGFRTzJzTTFxd9IBgwFBVV95cUxPSjlvQ3lBRnBVMndLZmZ5Q3RJS1ltWm9yWmthaXNKRHM1Y09nQkZWMmxBYndOUEhIWlR1SXhNM2NjSDlBZ0FDeDlqQkNFN0FtUUxnbklsMGxxTk1CTWZPSkliSHlfYWRiMm1rN2FmTktvcDQxbmRWY2cxbWNWQTI1MGotaw?oc=5",
           "source": "Google News — Chicago",
-          "publishedAt": "2026-08-07T12:01:06.000Z",
+          "publishedAt": "2026-08-07T12:35:51.000Z",
           "section": "chicago",
           "imageUrl": null
         },
         {
-          "id": "chicago-lg5rjd",
-          "title": "Ahead of Chicago Cubs debut, Kevin Gausman eager for another dose of the ‘addicting drug’: the World Series - chicagotribune.com",
-          "summary": "Ahead of Chicago Cubs debut, Kevin Gausman eager for another dose of the ‘addicting drug’: the World Series chicagotribune.com",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOV3FqM2xuZ0thMTJFY25yRnVLU3FjQ2hTRDlBczhWeXhVZDNTMXVRbUN4bWVHOEdiR3FvOWNVNHpnZFpFeHZJRU5HSlB4blBMQmhJb3hsV2ttazBGbXlKdDF5b1BFemh6cm1ycVN4UjNOSGZEV0poMjdPbmQ2eFd0Mw?oc=5",
-          "source": "Google News — Chicago",
-          "publishedAt": "2026-08-07T12:00:53.000Z",
+          "id": "chicago-4bhe8d",
+          "title": "2 hurt, including child in 4-vehicle crash involving ambulance on I-57 in Calumet Park",
+          "summary": "Two people were hurt in a four-vehicle crash involving an ambulance late Thursday on Interstate 57 in south suburban Calumet Park. The crash happened around 11:05 p.m. and involved an ambulance, a pickup truck and two…",
+          "url": "https://chicago.suntimes.com/crime/2026/08/07/2-hurt-including-child-in-4-vehicle-crash-involving-ambulance-on-i-57-in-calumet-park",
+          "source": "Sun-Times Wire",
+          "publishedAt": "2026-08-07T12:21:06.167Z",
           "section": "chicago",
           "imageUrl": null
         }
@@ -286,9 +286,39 @@
       "description": "International affairs and stories shaping the wider world.",
       "stories": [
         {
+          "id": "global-3dmjcc",
+          "title": "Heatwaves expose overcrowding crisis in Europe's ageing prisons - Reuters",
+          "summary": "Heatwaves expose overcrowding crisis in Europe's ageing prisons ReutersSee more headlines & perspectives on Google News",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTVkzS3NlVm56cG5pSXQ1czE2N1o4aFozQ01KREU0RDVXR04zaGlKNmpuLV9mNGhJRGZjMEVmdnViejhiWGRKVWJvT1NLNTJOb0NpRjZfQTJ2VU5BUWZkNlJBTXk4eGN3aF80bTd6clpUWkdCdkpDU3RmZ2w1WXRWcW1TLWFZSDQwM1dBRnp0YjVtUk1GQTBOODR3Z2FWVjZMV3ZYODVMOUxONTNf?oc=5",
+          "source": "Google News — World",
+          "publishedAt": "2026-08-07T12:57:20.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-vd8zoc",
+          "title": "How Japan Reduced Deaths From a Major Quake - The New York Times",
+          "summary": "How Japan Reduced Deaths From a Major Quake The New York Times Overnight temperatures in quake-hit Kumamoto to remain high nhk.or.jp Honda still down as Toyota, Nissan, Mitsubishi restore auto production after Japan’s…",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSXJaalRydktLSGlZeC05akZBWkFTYmhLelpTMVdDMFQxQzNCNC1vem0xUUN4S0U4dnhiaW00M0g4Q3hxRDdtWXJLTVdTSF9PS0xIWGpsTkNhNV9Zb04waXI3N0JlekdwSDNLb1REZEdVWjdfT1Jsa2djMzhYQ0N5bnM2cjVBbkx0WUl5R29fa2NlUQ?oc=5",
+          "source": "Google News — World",
+          "publishedAt": "2026-08-07T12:54:36.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-itgtl3",
+          "title": "Live updates: Teen gunman dead after killing teachers in Thailand’s worst school shooting in years - CNN",
+          "summary": "Live updates: Teen gunman dead after killing teachers in Thailand’s worst school shooting in years CNN Thai teen kills 7 in shooting rampage at home and school USA Today Thailand shooting: Teen kills at least seven and…",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVmFjT3l5UUtOczJUcE1OcEgyRnZnX1p1NVdlZmM1Mi1rODg4MnVwZnNRbWI5cFpaa0o1RzN2YUtjdjBTMXJ5VTBUR1dVNjg2LUlMcVpaamhhcjZqZk45TjI4UEV3QUZJMGpSSzJQek1ZVDg4ODktRnlPdEkweWcyZEFFNW40eTA?oc=5",
+          "source": "Google News — World",
+          "publishedAt": "2026-08-07T12:41:00.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
           "id": "global-omuwic",
           "title": "Iran War Updates: Houthis escalate deadly attacks on Saudi-backed troops as Cruz says Trump must arm Iran's protesters - CBS News",
-          "summary": "Iran War Updates: Houthis escalate deadly attacks on Saudi-backed troops as Cruz says Trump must arm Iran's protesters CBS News Houthi attacks on gov’t forces hint that a major battle in Yemen is brewing Al Jazeera…",
+          "summary": "Iran War Updates: Houthis escalate deadly attacks on Saudi-backed troops as Cruz says Trump must arm Iran's protesters CBS News How the Iran-backed Houthis' claims of deadly attacks are stoking fears of a wider regional…",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMVhleVdzazZyT0ZHcXV5aWJxa3FZaGtTelNHdUJ5cm4tNXNlLU5PYUM3Tk40cVRLQjdWY2Job2NyM0hNTnhKN1diQkkzN0Y0a0lOWmtCaGxxdU5GTUFxZW9IODM0MjI4aU5sS2YzREFrODBHV0pocFpGMkpPWHhla1JaXzRzclYtb085WFhMOFcxaXVfWWh1SXQzSmpJNUU5TzR3?oc=5",
           "source": "Google News — World",
           "publishedAt": "2026-08-07T12:10:00.000Z",
@@ -308,7 +338,7 @@
         {
           "id": "global-wrdujj",
           "title": "Trump says agreement with Iran to reopen Strait of Hormuz ‘could be soon’ - Fox News",
-          "summary": "Trump says agreement with Iran to reopen Strait of Hormuz ‘could be soon’ Fox NewsSee more headlines & perspectives on Google News",
+          "summary": "Trump says agreement with Iran to reopen Strait of Hormuz ‘could be soon’ Fox News A deal with Iran over the Strait of Hormuz may require a compromise from Trump Austin American-Statesman Trump says war ‘can’t go much…",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVVpFZkU5VW1nOG03enRqc3FQYUoyOC1Bd2FveG92VlAwYW1oSmY5VWFVbDZiSGpOczJsRmw4a2xWQ1A2ejVGaXJWcEJLMWt4WklZLTlCTlo1ejZ0TG41NnVTaFZpWTBER0xETU9LNTExQ1JaWlNSakl1UjV0NUkzdk9VQnZnQQ?oc=5",
           "source": "Google News — World",
           "publishedAt": "2026-08-07T11:39:31.000Z",
@@ -316,12 +346,12 @@
           "imageUrl": null
         },
         {
-          "id": "global-itgtl3",
-          "title": "Live updates: Teen gunman dead after killing students and teachers in Thailand’s worst school shooting in years - CNN",
-          "summary": "Live updates: Teen gunman dead after killing students and teachers in Thailand’s worst school shooting in years CNN Thai teen kills 7 in rampage at home and school before shooting himself The Detroit News Thailand…",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVmFjT3l5UUtOczJUcE1OcEgyRnZnX1p1NVdlZmM1Mi1rODg4MnVwZnNRbWI5cFpaa0o1RzN2YUtjdjBTMXJ5VTBUR1dVNjg2LUlMcVpaamhhcjZqZk45TjI4UEV3QUZJMGpSSzJQek1ZVDg4ODktRnlPdEkweWcyZEFFNW40eTA?oc=5",
+          "id": "global-feqvjd",
+          "title": "Plan to limit ‘vertical drinking’ decried by pub landlords and UK politicians - apnews.com",
+          "summary": "Plan to limit ‘vertical drinking’ decried by pub landlords and UK politicians apnews.com Why is there a row about vertical drinking in Westminster? BBC No 10 urges council to 'work with' London pubs amid row over…",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS2hJczJuTXNGUnh5ZGJEdi1DY2RvQjJka3ZFU2pqZnpXSVVieGI3VDNGaDhleG9Jb1BxVG9SRlJuUTZHMmxDNGJneWpCQ0cxTldHN05TM1Z3ZnRRUXhiVGZoYzNlMEFtRkJjOE9QS2tqNDJNSmhITGJfRWJyT3lvZ3UyMzR1NWkyRm0yMlloSkU?oc=5",
           "source": "Google News — World",
-          "publishedAt": "2026-08-07T11:31:00.000Z",
+          "publishedAt": "2026-08-07T11:14:00.000Z",
           "section": "global",
           "imageUrl": null
         },
@@ -334,36 +364,6 @@
           "publishedAt": "2026-08-07T11:09:34.000Z",
           "section": "global",
           "imageUrl": null
-        },
-        {
-          "id": "global-ebt7c5",
-          "title": "Academics call for independent inquiry into Jason Arday's Cambridge appointment - BBC",
-          "summary": "Academics call for independent inquiry into Jason Arday's Cambridge appointment BBC Icarus in the Faculty Lounge The Atlantic Star Scholar Jason Arday Resigns From Cambridge The New York Times Youngest Black professor…",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QdFVieFMzSnk0LUx0alNsVWZ1ckMwSm1CT24zVE1jTmxOeDI1RjM4Wjg0NUYwWHpJREp0eFhBVnNpZ2hYVVNONExpYWZrSmRaaVQ3cHJwelVwdw?oc=5",
-          "source": "Google News — World",
-          "publishedAt": "2026-08-07T11:03:57.000Z",
-          "section": "global",
-          "imageUrl": null
-        },
-        {
-          "id": "global-seas9u",
-          "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
-          "summary": "Live Updates: Latest from Israel, Iran, and Middle East The Jerusalem Post Despite deadly flare-up in violence, US claims progress made in Israel-Lebanon talks The Times of Israel Live Updates • Israel refuses to expand…",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3cUFNNzdRMFhSMXRTRmVZUzV5MF9teDhWdUxCaUpsOVdSVGJKdFFRZ3ZIUE82aUdQQmpnUVh2cHpId1hwUHpSVGxLZGp4YkdTNlphaEpWVENZLTZvWGVjc0JnVlNMdTk5UUtKWmF0ZkFwQXJCUVZCNHFvaTJCSFU?oc=5",
-          "source": "Google News — World",
-          "publishedAt": "2026-08-07T11:00:05.000Z",
-          "section": "global",
-          "imageUrl": null
-        },
-        {
-          "id": "global-cfn241",
-          "title": "Trump targets birthright citizenship. And, Iran aims to ban U.S. from Strait of Hormuz",
-          "summary": "President Trump says he has signed two new orders targeting birthright citizenship. And, Iran is aiming to ban U.S. ships from the Strait of Hormuz.",
-          "url": "https://www.npr.org/2026/08/07/g-s1-137730/up-first-newsletter-trump-birthright-citizenship-iran-oman-strait-of-hormuz-anthony-fauci-mitch-mcconnell",
-          "source": "Brittney Melton",
-          "publishedAt": "2026-08-07T10:56:19.000Z",
-          "section": "global",
-          "imageUrl": null
         }
       ]
     }
@@ -371,17 +371,11 @@
   "meta": {
     "totalStories": 32,
     "sourcesAttempted": 12,
-    "sourcesSucceeded": 11,
+    "sourcesSucceeded": 12,
     "maxPerSection": 8,
     "mode": "rss"
   },
-  "errors": [
-    {
-      "source": "Chicago Tribune — News",
-      "section": "chicago",
-      "message": "Status code 403"
-    }
-  ],
+  "errors": [],
   "sources": [
     {
       "type": "rss",
@@ -394,7 +388,7 @@
       "type": "rss",
       "name": "Google News — Artificial Intelligence",
       "section": "ai",
-      "count": 100,
+      "count": 24,
       "ok": true
     },
     {
@@ -422,7 +416,7 @@
       "type": "rss",
       "name": "Google News — Technology",
       "section": "technology",
-      "count": 60,
+      "count": 24,
       "ok": true
     },
     {
@@ -436,22 +430,21 @@
       "type": "rss",
       "name": "Google News — Chicago",
       "section": "chicago",
-      "count": 100,
+      "count": 24,
       "ok": true
     },
     {
       "type": "rss",
-      "name": "Chicago Tribune — News",
+      "name": "Chicago Sun-Times",
       "section": "chicago",
-      "count": 0,
-      "ok": false,
-      "message": "Status code 403"
+      "count": 24,
+      "ok": true
     },
     {
       "type": "rss",
       "name": "BBC World",
       "section": "global",
-      "count": 27,
+      "count": 24,
       "ok": true
     },
     {
@@ -465,7 +458,7 @@
       "type": "rss",
       "name": "Google News — World",
       "section": "global",
-      "count": 65,
+      "count": 24,
       "ok": true
     }
   ]

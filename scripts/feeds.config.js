@@ -59,8 +59,8 @@ const RSS_FEEDS = [
   },
   {
     section: 'chicago',
-    name: 'WBEZ Chicago',
-    url: 'https://www.wbez.org/feeds/all.rss.xml',
+    name: 'Chicago Sun-Times',
+    url: 'https://chicago.suntimes.com/rss/index.xml',
   },
 
   // Global

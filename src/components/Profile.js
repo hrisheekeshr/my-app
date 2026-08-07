@@ -7,7 +7,7 @@ const Profile = ({ firstName, lastName, location, imageUrl }) => { // Update pro
     <div className="bg-white p-6 rounded-lg shadow-md flex items-center space-x-4"> {/* Added space between items */}
       <img 
         src={imageUrl} 
-        alt={`Photo of ${firstName}`} // Use first name for alt text
+        alt={`${firstName}`}
         className="avatar" 
         style={{ width: `${config.defaultImageSize}px`, height: `${config.defaultImageSize}px` }} // Use config
       />

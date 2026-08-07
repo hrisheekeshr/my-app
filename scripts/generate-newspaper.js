@@ -26,10 +26,9 @@ const {
 } = require('./feeds.config');
 
 const OUTPUT_PATH = path.join(__dirname, '..', 'public', 'data', 'latest.json');
-const FETCH_TIMEOUT_MS = Number(process.env.NEWS_FETCH_TIMEOUT_MS || 15000);
+const FETCH_TIMEOUT_MS = Number(process.env.NEWS_FETCH_TIMEOUT_MS || 12000);
 
 const parser = new Parser({
-  timeout: FETCH_TIMEOUT_MS,
   headers: {
     'User-Agent': 'DailyNewspaperGenerator/1.0 (+https://github.com/hrisheekeshr/my-app)',
     Accept: 'application/rss+xml, application/xml, text/xml, */*',
@@ -50,10 +49,40 @@ function formatPublicationDate(date, timeZone) {
   }
 }
 
+async function fetchText(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+
+  try {
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        'User-Agent': 'DailyNewspaperGenerator/1.0 (+https://github.com/hrisheekeshr/my-app)',
+        Accept: 'application/rss+xml, application/xml, text/xml, application/json, */*',
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    return response.text();
+  } catch (error) {
+    if (error.name === 'AbortError') {
+      throw new Error(`Timed out after ${FETCH_TIMEOUT_MS}ms`);
+    }
+    throw error;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function fetchRssFeed(feed) {
-  const parsed = await parser.parseURL(feed.url);
+  const xml = await fetchText(feed.url);
+  const parsed = await parser.parseString(xml);
   const sourceName = feed.name || parsed.title || 'RSS';
   const items = (parsed.items || [])
+    .slice(0, DEFAULT_MAX_PER_SECTION * 3)
     .map((item) => normalizeItem(item, feed.section, sourceName))
     .filter(Boolean);
 
@@ -79,40 +108,30 @@ async function fetchNewsApi(query, apiKey) {
     ? `https://newsapi.org/v2/top-headlines?${params}`
     : `https://newsapi.org/v2/everything?${params}&sortBy=publishedAt`;
 
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
-
-  try {
-    const response = await fetch(endpoint, { signal: controller.signal });
-    if (!response.ok) {
-      throw new Error(`NewsAPI HTTP ${response.status}`);
-    }
-    const payload = await response.json();
-    if (payload.status !== 'ok') {
-      throw new Error(payload.message || 'NewsAPI error');
-    }
-
-    const items = (payload.articles || [])
-      .map((article) =>
-        normalizeItem(
-          {
-            title: article.title,
-            link: article.url,
-            description: article.description || article.content,
-            source: article.source?.name,
-            publishedAt: article.publishedAt,
-            imageUrl: article.urlToImage,
-          },
-          query.section,
-          article.source?.name || 'NewsAPI'
-        )
-      )
-      .filter(Boolean);
-
-    return { query, items, error: null };
-  } finally {
-    clearTimeout(timer);
+  const body = await fetchText(endpoint);
+  const payload = JSON.parse(body);
+  if (payload.status !== 'ok') {
+    throw new Error(payload.message || 'NewsAPI error');
   }
+
+  const items = (payload.articles || [])
+    .map((article) =>
+      normalizeItem(
+        {
+          title: article.title,
+          link: article.url,
+          description: article.description || article.content,
+          source: article.source?.name,
+          publishedAt: article.publishedAt,
+          imageUrl: article.urlToImage,
+        },
+        query.section,
+        article.source?.name || 'NewsAPI'
+      )
+    )
+    .filter(Boolean);
+
+  return { query, items, error: null };
 }
 
 function pickLeadStory(sectionsPayload) {
@@ -212,18 +231,19 @@ async function generate() {
     };
   });
 
+  const lead = pickLeadStory(sectionsPayload);
   const issue = {
     brand: 'Four Corners Daily',
     tagline: 'AI · Technology · Chicago · The World',
     generatedAt: generatedAt.toISOString(),
     timezone: TIMEZONE,
     publicationDate: formatPublicationDate(generatedAt, TIMEZONE),
-    leadStory: (() => {
-      const lead = pickLeadStory(sectionsPayload);
-      if (!lead) return null;
-      const { titleKey, urlKey, ...publicLead } = lead;
-      return publicLead;
-    })(),
+    leadStory: lead
+      ? (() => {
+          const { titleKey, urlKey, ...publicLead } = lead;
+          return publicLead;
+        })()
+      : null,
     sections: sectionsPayload,
     meta: {
       totalStories: Object.values(sectionsPayload).reduce(
