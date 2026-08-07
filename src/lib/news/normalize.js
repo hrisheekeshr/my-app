@@ -27,12 +27,32 @@ function stripHtml(value) {
 }
 
 /**
+ * Remove trailing publisher suffixes common in Google News titles
+ * (e.g. "Story headline - The Washington Post").
+ * @param {string} title
+ * @returns {string}
+ */
+function stripPublisherSuffix(title) {
+  const clean = stripHtml(title);
+  // Prefer the longest sensible split on " - " / " — " / " | "
+  const parts = clean.split(/\s[-–—|]\s/);
+  if (parts.length < 2) return clean;
+
+  const publisher = parts[parts.length - 1].trim();
+  // Treat short trailing segments as publisher names, keep the rest as the headline.
+  if (publisher.length > 0 && publisher.length <= 48 && parts[0].trim().length >= 24) {
+    return parts.slice(0, -1).join(' - ').trim();
+  }
+  return clean;
+}
+
+/**
  * Canonical title key used for fuzzy deduplication.
  * @param {string} title
  * @returns {string}
  */
 function normalizeTitleKey(title) {
-  return stripHtml(title)
+  return stripPublisherSuffix(title)
     .toLowerCase()
     .replace(NON_ALNUM_RE, ' ')
     .replace(WHITESPACE_RE, ' ')
@@ -107,13 +127,21 @@ function buildStoryId(section, url, title) {
 function normalizeItem(raw, section, fallbackSource = 'Unknown') {
   if (!raw || typeof raw !== 'object') return null;
 
-  const title = stripHtml(raw.title || '');
+  const rawTitle = stripHtml(raw.title || '');
   const url = (raw.link || raw.url || '').trim();
-  if (!title || !url) return null;
+  if (!rawTitle || !url) return null;
 
+  const title = stripPublisherSuffix(rawTitle);
   const description = raw.contentSnippet || raw.summary || raw.description || raw.content || '';
-  const source =
+  let source =
     stripHtml(raw.source || raw.creator || raw.author || fallbackSource) || fallbackSource;
+
+  // Prefer publisher parsed from a Google News-style title suffix when present.
+  if (title !== rawTitle) {
+    const suffix = rawTitle.slice(title.length).replace(/^\s[-–—|]\s*/, '').trim();
+    if (suffix) source = suffix;
+  }
+
   const publishedAt = raw.isoDate || raw.pubDate || raw.publishedAt || null;
   const imageUrl =
     raw.enclosure?.url ||
@@ -121,10 +149,16 @@ function normalizeItem(raw, section, fallbackSource = 'Unknown') {
     raw.imageUrl ||
     null;
 
+  let summary = summarize(description);
+  // Google News often repeats the title as the only snippet — avoid duplicate copy in the UI.
+  if (!summary || normalizeTitleKey(summary) === normalizeTitleKey(title)) {
+    summary = `Coverage from ${source}. Open the source for the full report.`;
+  }
+
   return {
     id: buildStoryId(section, url, title),
     title,
-    summary: summarize(description),
+    summary,
     url,
     source,
     publishedAt: publishedAt ? new Date(publishedAt).toISOString() : null,
@@ -137,6 +171,7 @@ function normalizeItem(raw, section, fallbackSource = 'Unknown') {
 
 module.exports = {
   stripHtml,
+  stripPublisherSuffix,
   normalizeTitleKey,
   normalizeUrl,
   summarize,

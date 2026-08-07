@@ -17,6 +17,18 @@ describe('normalize helpers', () => {
     expect(normalizeTitleKey('OpenAI Unveils GPT-5!!')).toBe('openai unveils gpt 5');
   });
 
+  test('normalizeTitleKey strips publisher suffixes for dedupe', () => {
+    expect(
+      normalizeTitleKey(
+        'Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - The Washington Post'
+      )
+    ).toBe(
+      normalizeTitleKey(
+        'Some US adults are using AI for financial guidance but few trust it, Gallup poll finds - wral.com'
+      )
+    );
+  });
+
   test('normalizeUrl strips tracking params and trailing slash', () => {
     expect(
       normalizeUrl('https://Example.com/Story/?utm_source=news&utm_medium=rss#section')
