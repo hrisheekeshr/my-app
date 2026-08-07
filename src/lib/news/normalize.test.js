@@ -79,4 +79,20 @@ describe('normalize helpers', () => {
     expect(story.summary).toContain('Overnight work');
     expect(story.id).toMatch(/^chicago-/);
   });
+
+  test('normalizeItem replaces title-echo Google News snippets', () => {
+    const story = normalizeItem(
+      {
+        title: 'Who is liable when AI goes rogue? Lawyers see new risks - Reuters',
+        link: 'https://news.google.com/rss/articles/abc',
+        contentSnippet: 'Who is liable when AI goes rogue? Lawyers see new risks Reuters',
+      },
+      'ai',
+      'Google News'
+    );
+
+    expect(story.title).toBe('Who is liable when AI goes rogue? Lawyers see new risks');
+    expect(story.source).toBe('Reuters');
+    expect(story.summary).toBe('Coverage from Reuters. Open the source for the full report.');
+  });
 });

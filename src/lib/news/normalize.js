@@ -150,8 +150,13 @@ function normalizeItem(raw, section, fallbackSource = 'Unknown') {
     null;
 
   let summary = summarize(description);
-  // Google News often repeats the title as the only snippet — avoid duplicate copy in the UI.
-  if (!summary || normalizeTitleKey(summary) === normalizeTitleKey(title)) {
+  // Google News often repeats the title (sometimes with a bare publisher name) as the snippet.
+  const titleKey = normalizeTitleKey(title);
+  const summaryKey = normalizeTitleKey(summary);
+  const summaryIsTitleEcho =
+    !summary || summaryKey === titleKey || summaryKey.startsWith(`${titleKey} `);
+
+  if (summaryIsTitleEcho) {
     summary = `Coverage from ${source}. Open the source for the full report.`;
   }
 
