@@ -1,10 +1,7 @@
 name: Daily Newspaper
 
-# Schedule is UTC. 12:00 UTC ≈ 07:00 America/Chicago (CST) / 06:00 (CDT).
 # Publication labels inside the issue use NEWS_TIMEZONE (default America/Chicago).
 on:
-  schedule:
-    - cron: '0 12 * * *'
   workflow_dispatch:
   push:
     branches:
