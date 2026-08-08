@@ -26,6 +26,7 @@ beforeEach(() => {
             title: 'Artificial Intelligence',
             shortTitle: 'AI',
             description: 'Models and research.',
+            editorial: 'AI desk lead: Labs ship smaller reasoning models (Example Wire).',
             stories: [
               {
                 id: 'ai-1',
@@ -43,6 +44,7 @@ beforeEach(() => {
             title: 'Technology',
             shortTitle: 'Tech',
             description: 'Platforms and gadgets.',
+            editorial: 'Tech section: no stories cleared the desk for this edition.',
             stories: [],
           },
           chicago: {
@@ -50,6 +52,7 @@ beforeEach(() => {
             title: 'Chicago',
             shortTitle: 'Chicago',
             description: 'Local reporting.',
+            editorial: 'Chicago section: no stories cleared the desk for this edition.',
             stories: [],
           },
           global: {
@@ -57,6 +60,39 @@ beforeEach(() => {
             title: 'Global',
             shortTitle: 'World',
             description: 'World affairs.',
+            editorial: 'World section: no stories cleared the desk for this edition.',
+            stories: [],
+          },
+          kerala_politics: {
+            id: 'kerala_politics',
+            title: 'Kerala Politics',
+            shortTitle: 'Kerala',
+            description: 'State politics.',
+            editorial: 'Kerala section: no stories cleared the desk for this edition.',
+            stories: [],
+          },
+          india_politics: {
+            id: 'india_politics',
+            title: 'India Politics',
+            shortTitle: 'India',
+            description: 'National politics.',
+            editorial: 'India section: no stories cleared the desk for this edition.',
+            stories: [],
+          },
+          real_madrid: {
+            id: 'real_madrid',
+            title: 'Real Madrid',
+            shortTitle: 'Madrid',
+            description: 'Club news.',
+            editorial: 'Madrid section: no stories cleared the desk for this edition.',
+            stories: [],
+          },
+          movies: {
+            id: 'movies',
+            title: 'Movies',
+            shortTitle: 'Movies',
+            description: 'Reviews.',
+            editorial: 'Movies section: no stories cleared the desk for this edition.',
             stories: [],
           },
         },
@@ -85,5 +121,8 @@ test('renders newspaper brand in the main view', async () => {
   expect(
     screen.getAllByRole('heading', { name: /labs ship smaller reasoning models/i }).length
   ).toBeGreaterThan(0);
+  expect(
+    screen.getByText(/AI desk lead: Labs ship smaller reasoning models \(Example Wire\)\./i)
+  ).toBeInTheDocument();
   expect(screen.getByText(/friday, august 7, 2026/i)).toBeInTheDocument();
 });

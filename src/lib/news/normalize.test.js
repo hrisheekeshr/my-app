@@ -4,6 +4,8 @@ const {
   normalizeUrl,
   summarize,
   normalizeItem,
+  extractHnPoints,
+  cleanHnDescription,
 } = require('./normalize');
 
 describe('normalize helpers', () => {
@@ -11,6 +13,7 @@ describe('normalize helpers', () => {
     expect(stripHtml('<p>Hello&nbsp;<b>world</b> &amp; friends</p>')).toBe(
       'Hello world & friends'
     );
+    expect(stripHtml('New Balance&#124; August 8th')).toBe('New Balance| August 8th');
   });
 
   test('normalizeTitleKey lowercases and strips punctuation', () => {
@@ -94,5 +97,33 @@ describe('normalize helpers', () => {
     expect(story.title).toBe('Who is liable when AI goes rogue? Lawyers see new risks');
     expect(story.source).toBe('Reuters');
     expect(story.summary).toBe('Coverage from Reuters. Open the source for the full report.');
+  });
+
+  test('extractHnPoints reads Points from hnrss description HTML', () => {
+    expect(
+      extractHnPoints(
+        '<p>Article URL: <a href="https://example.com">https://example.com</a></p><p>Points: 286</p><p># Comments: 40</p>'
+      )
+    ).toBe(286);
+    expect(extractHnPoints('No score here')).toBeNull();
+  });
+
+  test('normalizeItem parses HN points and cleans metadata-only summaries', () => {
+    const story = normalizeItem(
+      {
+        title: 'Hardware backdoors in some x86 CPUs',
+        link: 'https://github.com/xoreaxeaxeax/rosenbridge',
+        content:
+          '<p>Article URL: <a href="https://github.com/xoreaxeaxeax/rosenbridge">https://github.com/xoreaxeaxeax/rosenbridge</a></p><p>Comments URL: <a href="https://news.ycombinator.com/item?id=1">https://news.ycombinator.com/item?id=1</a></p><p>Points: 196</p><p># Comments: 58</p>',
+        isoDate: '2026-08-08T07:04:51.000Z',
+      },
+      'technology',
+      'Hacker News'
+    );
+
+    expect(story.points).toBe(196);
+    expect(cleanHnDescription(story.summary)).toBe(story.summary);
+    expect(story.summary).toBe('Coverage from Hacker News. Open the source for the full report.');
+    expect(story.summary).not.toMatch(/Points:/i);
   });
 });

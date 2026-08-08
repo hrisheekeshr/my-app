@@ -14,6 +14,10 @@ const SectionBlock = ({ section }) => {
         <p>{section.description}</p>
       </header>
 
+      {section.editorial ? (
+        <p className="newspaper-section-editorial">{section.editorial}</p>
+      ) : null}
+
       {section.stories?.length ? (
         <div className="newspaper-grid">
           {section.stories.map((story) => (

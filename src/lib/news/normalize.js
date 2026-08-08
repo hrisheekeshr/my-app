@@ -22,6 +22,8 @@ function stripHtml(value) {
     .replace(/&#39;|&apos;/gi, "'")
     .replace(/&lt;/gi, '<')
     .replace(/&gt;/gi, '>')
+    .replace(/&#(\d+);/g, (_, code) => String.fromCharCode(Number(code)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCharCode(parseInt(code, 16)))
     .replace(WHITESPACE_RE, ' ')
     .trim();
 }
@@ -118,6 +120,37 @@ function buildStoryId(section, url, title) {
 }
 
 /**
+ * Parse Hacker News points from hnrss item HTML/text.
+ * hnrss embeds lines like `<p>Points: 86</p>` in the description; there is no
+ * structured points field and no percentile query — only absolute `?points=N`.
+ * @param {string} text
+ * @returns {number|null}
+ */
+function extractHnPoints(text) {
+  if (!text || typeof text !== 'string') return null;
+  const match = text.match(/Points:\s*(\d+)/i);
+  if (!match) return null;
+  const points = Number(match[1]);
+  return Number.isFinite(points) ? points : null;
+}
+
+/**
+ * Strip hnrss metadata lines so summaries are readable.
+ * @param {string} text
+ * @returns {string}
+ */
+function cleanHnDescription(text) {
+  if (!text || typeof text !== 'string') return '';
+  return stripHtml(text)
+    .replace(/Article URL:\s*\S+/gi, ' ')
+    .replace(/Comments URL:\s*\S+/gi, ' ')
+    .replace(/Points:\s*\d+/gi, ' ')
+    .replace(/#\s*Comments:\s*\d+/gi, ' ')
+    .replace(WHITESPACE_RE, ' ')
+    .trim();
+}
+
+/**
  * Normalize a raw feed/API item into a newspaper story.
  * @param {object} raw
  * @param {string} section
@@ -132,7 +165,17 @@ function normalizeItem(raw, section, fallbackSource = 'Unknown') {
   if (!rawTitle || !url) return null;
 
   const title = stripPublisherSuffix(rawTitle);
-  const description = raw.contentSnippet || raw.summary || raw.description || raw.content || '';
+  const rawDescription =
+    raw.contentSnippet || raw.summary || raw.description || raw.content || '';
+  const points =
+    typeof raw.points === 'number' && Number.isFinite(raw.points)
+      ? raw.points
+      : extractHnPoints(rawDescription);
+  const isHnMetadata =
+    points !== null ||
+    /Article URL:/i.test(rawDescription) ||
+    /Comments URL:/i.test(rawDescription);
+  const description = isHnMetadata ? cleanHnDescription(rawDescription) : rawDescription;
   let source =
     stripHtml(raw.source || raw.creator || raw.author || fallbackSource) || fallbackSource;
 
@@ -169,6 +212,7 @@ function normalizeItem(raw, section, fallbackSource = 'Unknown') {
     publishedAt: publishedAt ? new Date(publishedAt).toISOString() : null,
     section,
     imageUrl: typeof imageUrl === 'string' ? imageUrl : null,
+    points,
     titleKey: normalizeTitleKey(title),
     urlKey: normalizeUrl(url),
   };
@@ -181,5 +225,7 @@ module.exports = {
   normalizeUrl,
   summarize,
   buildStoryId,
+  extractHnPoints,
+  cleanHnDescription,
   normalizeItem,
 };

@@ -1,6 +1,6 @@
 # Four Corners Daily
 
-A daily newspaper generator built on this React app. Each morning it compiles concise stories across four sections — **AI**, **Technology**, **Chicago**, and **Global** — into a readable HTML issue with source links.
+A daily newspaper generator built on this React app. Each morning it compiles concise stories across **AI**, **Technology**, **Chicago**, **Global**, **Kerala Politics**, **India Politics**, **Real Madrid**, and **Movies** into a readable HTML issue with source links and a short section editorial.
 
 The existing profile sidebar (Home / Profile / Settings) is preserved. **Newspaper** is the default main view.
 
@@ -8,11 +8,13 @@ The existing profile sidebar (Home / Profile / Settings) is preserved. **Newspap
 
 - RSS-first pipeline with optional NewsAPI enrichment
 - Normalization, HTML stripping, concise summaries, and deduplication
+- Hacker News technology stories limited to the top 30% by parsed points
+- Per-section editorial synthesis (`section.editorial`) via OpenAI or deterministic fallback
 - Graceful per-source failure handling
 - Responsive editorial layout with section navigation, lead story, and story cards
 - Loading, empty, and error states with accessible semantic markup
 - GitHub Actions schedule that refreshes the issue once per day
-- Unit tests for core normalize/dedupe logic
+- Unit tests for core normalize/dedupe/HN ranking/editorial logic
 
 ## Setup
 
@@ -31,21 +33,22 @@ npm start                    # http://localhost:3000
 | `NEWS_MAX_PER_SECTION` | No | `8` | Max stories kept per section after dedupe |
 | `NEWS_FETCH_TIMEOUT_MS` | No | `15000` | Per-feed fetch timeout |
 | `NEWS_API_KEY` | No | _(unset)_ | Optional [NewsAPI.org](https://newsapi.org/) key |
-| `OPENAI_API_KEY` | No | _(unset)_ | Reserved for future LLM summaries (unused) |
+| `OPENAI_API_KEY` | No | _(unset)_ | Optional [OpenAI](https://platform.openai.com/) key for gpt-4o-mini curation + section editorials |
+| `OPENAI_MODEL` | No | `gpt-4o-mini` | Model override for editorial curation |
 
-Without `NEWS_API_KEY`, the generator uses public RSS feeds only. That is the supported no-key fallback.
+Without `NEWS_API_KEY`, the generator uses public RSS feeds only. That is the supported no-key fallback. Without `OPENAI_API_KEY`, story selection and `section.editorial` use deterministic fallbacks built only from fetched candidates.
 
 ### Repository secrets / variables (GitHub Actions)
 
-- Optional secret: `NEWS_API_KEY`
-- Optional variables: `NEWS_TIMEZONE`, `NEWS_MAX_PER_SECTION`, `NEWS_FETCH_TIMEOUT_MS`
+- Optional secrets: `NEWS_API_KEY`, `OPENAI_API_KEY`
+- Optional variables: `NEWS_TIMEZONE`, `NEWS_MAX_PER_SECTION`, `NEWS_FETCH_TIMEOUT_MS`, `OPENAI_MODEL`
 
 ## Local development
 
 ```bash
 npm start                 # React app
 npm run generate:news     # refresh issue JSON
-npm test                  # Jest (normalize/dedupe + app smoke test)
+npm test                  # Jest (normalize/dedupe/HN/editorial + app smoke test)
 npm run build             # production build (also regenerates news first)
 ```
 
@@ -55,14 +58,21 @@ Open the **Newspaper** item in the sidebar to read the latest issue.
 
 `npm run generate:news` runs `scripts/generate-newspaper.js`:
 
-1. Fetch configured RSS feeds for AI, technology, Chicago, and global news
+1. Fetch configured RSS feeds for all newspaper sections
 2. Optionally query NewsAPI when `NEWS_API_KEY` is present
-3. Normalize titles/URLs/summaries (`src/lib/news/normalize.js`)
-4. Deduplicate by canonical URL and near-matching titles (`src/lib/news/dedupe.js`)
-5. Write `public/data/latest.json`
-6. Record per-source success/failure metadata for the UI
+3. Normalize titles/URLs/summaries (`src/lib/news/normalize.js`), including HN points from hnrss descriptions
+4. For Hacker News, keep only the top 30% by points (`src/lib/news/hnRank.js`); if points are missing, keep the top 30% of feed order (frontpage ranking). Do **not** treat hnrss `?points=N` as a percentile API — that parameter is an absolute threshold only.
+5. Deduplicate by canonical URL and near-matching titles (`src/lib/news/dedupe.js`)
+6. Optionally curate with OpenAI (`gpt-4o-mini`) and generate one concise factual `section.editorial` per section from selected stories only
+7. When OpenAI is unavailable or fails validation, use deterministic story selection plus deterministic editorial text
+8. Write `public/data/latest.json` (backward-compatible additive `section.editorial` field)
+9. Record per-source success/failure metadata for the UI
 
 Feed definitions live in `scripts/feeds.config.js`.
+
+### brutalist.report source note
+
+Inspected 2026-08-08: brutalist.report does **not** expose a stable public RSS/Atom feed, and the former JSON API at `/api` only returns a relocation message pointing at `/about`, which documents no replacement public endpoint (premium features are UI-only). HTML topic pages were not scraped. Until an official public feed returns, technology coverage continues via Ars Technica, The Verge, Google News Technology, and Hacker News.
 
 ## Daily automation
 
@@ -107,9 +117,9 @@ If automatic deployment cannot complete in this environment (missing Pages enabl
 
 ```
 scripts/
-  generate-newspaper.js   # fetch → normalize → dedupe → latest.json
+  generate-newspaper.js   # fetch → normalize → dedupe → editorial → latest.json
   feeds.config.js         # RSS + NewsAPI source config
-src/lib/news/             # shared normalize/dedupe (tested)
+src/lib/news/             # shared normalize/dedupe/HN/editorial (tested)
 src/components/newspaper/ # React newspaper UI
 public/data/latest.json   # latest compiled issue
 .github/workflows/        # daily schedule + deploy
@@ -123,6 +133,8 @@ npm test -- --watchAll=false
 
 Coverage focuses on:
 
-- HTML stripping / URL canonicalization / summaries
+- HTML stripping / URL canonicalization / summaries / HN points parsing
 - URL + fuzzy-title deduplication
-- App smoke render of the newspaper masthead
+- Top-30% HN ranking with feed-order fallback
+- Deterministic section editorial text
+- App smoke render of the newspaper masthead and section editorial

@@ -205,6 +205,17 @@
   font-size: 0.98rem;
 }
 
+.newspaper-section-editorial {
+  margin: 0 0 1.1rem;
+  max-width: 46rem;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.55;
+  letter-spacing: -0.01em;
+}
+
 .newspaper-grid {
   display: grid;
   grid-template-columns: 1fr;

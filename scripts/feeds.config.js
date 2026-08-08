@@ -4,7 +4,22 @@
  * NEWS_TIMEZONE — IANA timezone used for the publication date label (default America/Chicago)
  * NEWS_MAX_PER_SECTION — max stories kept per section after dedupe (default 8)
  * NEWS_API_KEY — optional NewsAPI.org key for extra coverage
- * OPENAI_API_KEY — reserved for future LLM summarization (unused; RSS summaries are default)
+ * OPENAI_API_KEY — optional gpt-4o-mini editorial curation + section editorials
+ *
+ * Hacker News (hnrss.org):
+ * - Frontpage items include `Points: N` inside the RSS description HTML.
+ * - hnrss supports absolute filters such as `?points=100`, but that is NOT a
+ *   percentile / "top 30%" query. Ranking quality filtering is done locally in
+ *   `src/lib/news/hnRank.js` after parsing points (feed-order fallback if absent).
+ *
+ * brutalist.report (inspected 2026-08-08):
+ * - No public RSS/Atom feed (`/feed`, `/rss`, `/rss.xml`, `/atom.xml` → 404).
+ * - Legacy JSON endpoint `https://brutalist.report/api` now returns
+ *   `{"message":"this API has been moved, for updated usage see https://brutalist.report/about"}`
+ *   and `/about` documents no replacement public API (premium features are UI-only).
+ * - Topic pages are HTML aggregators only. We intentionally do not scrape that HTML
+ *   (brittle) and do not add a live brutalist.report source until an official public
+ *   feed/endpoint is restored. Existing RSS technology sources remain the supported path.
  */
 
 const DEFAULT_MAX_PER_SECTION = Number(process.env.NEWS_MAX_PER_SECTION || 8);
@@ -49,6 +64,9 @@ const RSS_FEEDS = [
     section: 'technology',
     name: 'Hacker News',
     url: 'https://hnrss.org/frontpage',
+    // Local top-30% filter by parsed HN points (see hnRank.js). Not an hnrss query.
+    rankBy: 'hnPoints',
+    topPercentile: 0.3,
   },
 
   // Kerala politics

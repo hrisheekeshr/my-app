@@ -1,16 +1,16 @@
 {
   "brand": "Four Corners Daily",
   "tagline": "AI · Technology · Chicago · The World",
-  "generatedAt": "2026-08-08T12:01:53.716Z",
+  "generatedAt": "2026-08-08T14:10:56.302Z",
   "timezone": "America/Chicago",
   "publicationDate": "Saturday, August 8, 2026",
   "leadStory": {
-    "id": "ai-flsi5p",
-    "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
-    "summary": "Coverage from The Motley Fool. Open the source for the full report.",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWEhMSjJYNWVZbTUtSVVydnRxMGlKNVZDdmNEWWlUWjNhTERUMDduZ0FTZXRWUk5idF9yODBZYVF2M29CNEdFUVZwTUdGZmNZZHN6NFBFcWNnVU9qWjg3cy1BbW5vLWZCWlVPNW9MU2lrX3lCdXotMnVSMXFBaGd3SVlCLTh6QVZrVnBsczVMYUZKMWJXVEZudw?oc=5",
-    "source": "The Motley Fool",
-    "publishedAt": "2026-08-08T11:09:51.000Z",
+    "id": "ai-yylp6k",
+    "title": "A pillar of environmental enforcement is targeted by Trump and Musk's AI company",
+    "summary": "Coverage from WRAL. Open the source for the full report.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWk1LWS12Ml8tYTNNaDhJQk1IT0JTbkVHa1ZiS3UwU3hXMDFpeFlPcWZjeHlxN1YtVXRFV1l2eGFyNUg5QUJaLXpEcTl0aGVsTGY0S1J0S1hCeDJpb3l6aXBSRGVHSVVMdTZvTWtRV2tLOXEtTVlPdVlSWjV3UHIwTS1tTGlqM09ZeW53UFJMOGJiblpPb3VnRnliRVV6ck5WTWt5RnZkVTlqaG1sRThxVzNrVWpPUQ?oc=5",
+    "source": "WRAL",
+    "publishedAt": "2026-08-08T12:57:23.000Z",
     "section": "ai",
     "imageUrl": null
   },
@@ -20,14 +20,45 @@
       "title": "Artificial Intelligence",
       "shortTitle": "AI",
       "description": "Models, research, and the systems reshaping how we work.",
+      "editorial": "AI desk today: A pillar of environmental enforcement is targeted by Trump and Musk's AI company (WRAL); Apple says Mac users in China can connect to Alibaba's Qwen AI service (Reuters); and A law promoted by Gavin Newsom is now in effect in California, changing how content created with artificial intelligence is identified (clarin.com).",
       "stories": [
+        {
+          "id": "ai-yylp6k",
+          "title": "A pillar of environmental enforcement is targeted by Trump and Musk's AI company",
+          "summary": "Coverage from WRAL. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWk1LWS12Ml8tYTNNaDhJQk1IT0JTbkVHa1ZiS3UwU3hXMDFpeFlPcWZjeHlxN1YtVXRFV1l2eGFyNUg5QUJaLXpEcTl0aGVsTGY0S1J0S1hCeDJpb3l6aXBSRGVHSVVMdTZvTWtRV2tLOXEtTVlPdVlSWjV3UHIwTS1tTGlqM09ZeW53UFJMOGJiblpPb3VnRnliRVV6ck5WTWt5RnZkVTlqaG1sRThxVzNrVWpPUQ?oc=5",
+          "source": "WRAL",
+          "publishedAt": "2026-08-08T12:57:23.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-185w88",
+          "title": "Apple says Mac users in China can connect to Alibaba's Qwen AI service",
+          "summary": "Coverage from Reuters. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbXVFWnRmd080YXVJQl95andMTEs4bzBySU9OUzFROUdVcVU5UUtjMFF1LVY3WWNEMTZ3di1hM203OUhjQ2d6MFF0NlNWcUdJUndQZXlBWmRXZVhXc2RnSVdORFdmVEZFTWFkNnVVSjVOZFV4NDFkcVo3Z1VramQ5NUZPSkhJclk4R2tuVEtVRzJRNkVmYXhSeTk5NmJ5d0JIRkdSQ1RVR1NnOG5hdmJON0Zlb2t4QV82SWhvZkhWbS1PZw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2026-08-08T12:35:45.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-4qcp50",
+          "title": "A law promoted by Gavin Newsom is now in effect in California, changing how content created with artificial intelligence is identified",
+          "summary": "Coverage from clarin.com. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPWkdaU1lvOFg1Q29ycnhaWjdVaHMzS1hIeUJvbTE1MklZeUtMQ1BNc0FKYzdtUkNuQUNuVUJqVlNuYnZFOUxDNWZRVEVxR3BIYmU5Wl9MbjF1bDB2ZkdBcUdSUU9Ud2tpY3Z2TDM4Y09nRE5ERTJlWlY4SEtRTGNVeF9aaHhWQ1F0RzR3UHFwZG84QUxZWExmVHJ6Yl9ES0FmZS1yd2FKZklBNnpjRElCTmo1MEd1SG1wQVpfUWdFSko2RW5tNGJ6S0dJNnhJNHpzYmFtdU1FR2lSOUplaGZRT1JiUWZvRGJwN2F2bzhzdEN5TmhSN2RHbG5ERXN3MGRtQjltd2FyNEV1ajdI0gGSAkFVX3lxTE1LS1dSbU5YLWlOaXB1VE1TempKdHVqZ1R1bVlNQjRIVUpTc1RqRVFPdElqbTctMWlkNU1aT0ZBRGp3cE5sM3A2VEdZTUtZSWN4MnNNcmxaMnNVX04tZDl1NTM5bGVIVHlOd3djeGY1N21TNGszWmlEX0pFbDR6dkZsenVtWVFwV0ZIZlNRS3VVUkgxdjc3bUV6TGw3WEZfcUp4TTYzOVB2bDl3OWdnenFuR09RRXliV3VJaU45TWRXTE5uelFoR2w0TUVFSl9sRWhnbk9BdGFDa2JmeWM0dV9rcE1YRXJ3elBWTFN1VGZVZWVCWUlJY3BXZjNyUGRCc0pENnZVSGNmbzdXMWlEdU1rd1E?oc=5",
+          "source": "clarin.com",
+          "publishedAt": "2026-08-08T12:03:29.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
         {
           "id": "ai-flsi5p",
           "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher",
-          "summary": "Coverage from The Motley Fool. Open the source for the full report.",
+          "summary": "Coverage from fool.com. Open the source for the full report.",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWEhMSjJYNWVZbTUtSVVydnRxMGlKNVZDdmNEWWlUWjNhTERUMDduZ0FTZXRWUk5idF9yODBZYVF2M29CNEdFUVZwTUdGZmNZZHN6NFBFcWNnVU9qWjg3cy1BbW5vLWZCWlVPNW9MU2lrX3lCdXotMnVSMXFBaGd3SVlCLTh6QVZrVnBsczVMYUZKMWJXVEZudw?oc=5",
-          "source": "The Motley Fool",
-          "publishedAt": "2026-08-08T11:09:51.000Z",
+          "source": "fool.com",
+          "publishedAt": "2026-08-08T11:30:00.000Z",
           "section": "ai",
           "imageUrl": null
         },
@@ -53,7 +84,7 @@
         },
         {
           "id": "ai-qc2yti",
-          "title": "BOOK REVIEWS – A TWO-FER: Pair of New Books about Artificial Intelligence (AI) - tillamookcountypioneer.net",
+          "title": "BOOK REVIEWS – A TWO-FER: Pair of New Books about Artificial Intelligence (AI) - Tillamook County Pioneer",
           "summary": "Coverage from Google News — Artificial Intelligence. Open the source for the full report.",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUU0teXRvT0R4dTVNZHNDbFBSNDYxclRRb2RVY0ZMaGQtU1ZhWDhGNWFMZC1oSjgxYWxhNFEyV0NVOTJQNUh3OWRtMkZOMjBsWklIRzRZSm5YOXRlSTZ0LTNJN1I4bjMtYmxOY0tWcmU5dWhrYzNYWm82Y3Awd3RpeFRUcVVVc2ozeWlkZ1ZVR3d3X2dzSDJFeTlHOTlrREFpQl9zbllOQWVKNGNFWVhFZ1pCZw?oc=5",
           "source": "Google News — Artificial Intelligence",
@@ -70,36 +101,6 @@
           "publishedAt": "2026-08-07T22:11:36.000Z",
           "section": "ai",
           "imageUrl": null
-        },
-        {
-          "id": "ai-g9gf58",
-          "title": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
-          "summary": "Coverage from CNBC. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTJQeExfT19BZ29POG1GUkRSMXVnRFEyb2N2WFVILTI1S2tMSDZZNDc1SmVJMDgwLU1PeFo3RV9HRXY4MkVHc1RKYjMteURycUR0b1JCRmNjazlsLUMwc2Z2d2c2QW1ZeDJTcW5yOVVxZkdIcTR0LVZvX2N2enVtMHJSTExKMXd4MXByeUN0d216a1J6eUZ6WnVyYW55S09DcW9Z0gGoAUFVX3lxTFBwRmlOTVpHcjhhNmVYVHZxRTlmeWU5UmZCcUtqbFMyX0w3VzMtVFgyZ3lZemg2YWxxWXROeWlSWGNzWm5iWEw3YS0yZDFnWXU3TWdIcWVycF96VWtvbnp1NlZPcTlGcTZIbUtnZ0NaVkFha1JiWFJ6eUFqNG9VU1JKN1EzalRfVEpzNkN0WklrZTJuUjJhSXBBRXlLWWdtWVRGRWRzNjNDYw?oc=5",
-          "source": "CNBC",
-          "publishedAt": "2026-08-07T20:22:17.000Z",
-          "section": "ai",
-          "imageUrl": null
-        },
-        {
-          "id": "ai-hgxxu8",
-          "title": "Shore Musings: On Artificial Intelligence",
-          "summary": "Coverage from Cape May County Herald. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbThjUU9YUUEyM0JYbUhHZDN3RU9rSGVxdnczTWZNWXhyZll1SVdWLXZEeDVjaGJVSlNwTkJEVUlBNVp0STU3X3RjOXJxNEpjRjdCNy1GN2VMS0phUXFlRVBUN3JHWWx4cXRhRzFVVmJfV1RNcm5ST1pUZ3JRUEs0dGtTM1B6MnlLWWJVUEZqWkZYbFl1dGt0RVJadVRsUEk?oc=5",
-          "source": "Cape May County Herald",
-          "publishedAt": "2026-08-07T19:56:45.000Z",
-          "section": "ai",
-          "imageUrl": null
-        },
-        {
-          "id": "ai-h7b94m",
-          "title": "Artificial intelligence may enhance implementation of health policy",
-          "summary": "Coverage from News-Medical. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcVRhRUU2RVlIdERzVl9aV2JQS05YYTlXdUVnNUVKNEtpWFR0UWtQNEJXbGlKOU0xR3NmWmZxWGNTT0FKS3RCUWxSZVQ3V1V2aGFnQUZZeTVla2l6U0VGTkVCM2xad2VpUXhtNW51NXRmX1NwY1BtSkEzMnNnam5OQ3FEaHprNDh3ZnFGMzJpUk1EXzlDSlI1ZG5nbEk5YUdpQV9HRUpxY3R5dGoyS085cFhtc3poUQ?oc=5",
-          "source": "News-Medical",
-          "publishedAt": "2026-08-07T16:48:00.000Z",
-          "section": "ai",
-          "imageUrl": null
         }
       ]
     },
@@ -108,6 +109,7 @@
       "title": "Technology",
       "shortTitle": "Tech",
       "description": "Gadgets, platforms, and the infrastructure behind the web.",
+      "editorial": "Tech desk today: Is this $450 laptop from an unknown brand too good to be true? (Antonio G. Di Benedetto); My favorite feel-good show is back (David Pierce); and The first self-driving vehicle on Mars has proven to be a smashing success (Eric Berger).",
       "stories": [
         {
           "id": "technology-nregm9",
@@ -150,42 +152,42 @@
           "imageUrl": null
         },
         {
-          "id": "technology-awzslz",
-          "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
-          "summary": "Article URL: https://simonwillison.net/2026/Aug/7/openai-timeline/ Comments URL: https://news.ycombinator.com/item?id=49220609 Points: 4 # Comments: 0",
-          "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
-          "source": "882542F3884314B",
-          "publishedAt": "2026-08-08T10:57:44.000Z",
+          "id": "technology-nnppp4",
+          "title": "12 Gadgets To Steer Clear Of At Garage Sales",
+          "summary": "Coverage from SlashGear. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTDBzMHVySmlEemFkRjRLaWZPcUYzZTFHNHp5LV9tOXczVFJRa0oyZVZJbEFBNU5rUklNYy1CLTNFUXlLelctLURDQVBUN0ZZdGEtcWpEam54elY0VHRYOGxKUjJPYzBfS2NQYWw2dlh1d2RaYmJRZUFXMWFodUlxT3JLalk2Zw?oc=5",
+          "source": "SlashGear",
+          "publishedAt": "2026-08-08T10:30:00.000Z",
           "section": "technology",
           "imageUrl": null
         },
         {
-          "id": "technology-g335p2",
-          "title": "Apple Introduces Leasing Program for iPhones and Other Devices",
-          "summary": "Article URL: https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html Comments URL: https://news.ycombinator.com/item?id=49220390 Points: 11 # Comments: 15",
-          "url": "https://www.nytimes.com/2026/07/28/technology/apple-leasing-program.html",
-          "source": "Korwell",
-          "publishedAt": "2026-08-08T10:16:01.000Z",
+          "id": "technology-t5vuz6",
+          "title": "We were finally empty nesters. Then we got custody of our granddaughter and had to go back to work to raise her.",
+          "summary": "Coverage from businessinsider.com. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYzM1UWNlMmpDYzR3UlZrWTJYeE1xX2drX25kZjM0OGNxQWRuRGRfY0lfX1FreEZZbEYtY0dTSkRaSy1iVVphU3JfRHNmRnhWNGRBQzc1cm1CMk5xN1Q4TmowR1ZIaF95R1ZJa3JkREVBbmR5dHF3TTZWOTdTWkNnRGtLSDU3TXVLWkpLaU5tdkRaUkoyT3BYZ1k2cXBZdlRqNFV2MGFRUjRvb000dm0tbkRRaHpwUQ?oc=5",
+          "source": "businessinsider.com",
+          "publishedAt": "2026-08-08T09:47:00.000Z",
           "section": "technology",
           "imageUrl": null
         },
         {
-          "id": "technology-z5f3cv",
-          "title": "New Amazon Data Center Is Set to Have the Most Polluting Power Plant in the U.S.",
-          "summary": "Article URL: https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html Comments URL: https://news.ycombinator.com/item?id=49220350 Points: 82 # Comments: 55",
-          "url": "https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html",
-          "source": "sbulaev",
-          "publishedAt": "2026-08-08T10:07:06.000Z",
+          "id": "technology-eo3wxn",
+          "title": "The Super Bee Is Back: Dodge's Newest Charger Packs 600 Horsepower",
+          "summary": "Coverage from Motor1.com. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPejZfSGJCbDNNWHV4d0NYbG91S1EydGVSaFlEV3dRYmh3RjYyeGtpVl9lN0FURHpEazdzUmpsX3dPRHB0X3pnZWJFTnNfMkg1WmxPRDY3S2I4N2dJTGgwS2VkNUoxRjh4OTd4OXFMRFNmOGFJbG9JaFZzSWdwY0REaGVTR0t2VFphUmJiT01HZVRPSzJjVDlqRQ?oc=5",
+          "source": "Motor1.com",
+          "publishedAt": "2026-08-08T08:31:17.000Z",
           "section": "technology",
           "imageUrl": null
         },
         {
-          "id": "technology-mpllo9",
-          "title": "US Military's Cyber Command Unit Grapples with Cluster of Deaths by Suicide",
-          "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide Comments URL: https://news.ycombinator.com/item?id=49220339 Points: 22 #…",
-          "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
-          "source": "rbanffy",
-          "publishedAt": "2026-08-08T10:04:25.000Z",
+          "id": "technology-uueknx",
+          "title": "Here’s When Apple Will Reveal Its iPhone 18 Pro Special Event",
+          "summary": "Coverage from Forbes. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV3RTQ290bUNOUnhidlZmRWxDNFRabHZ5UjFqN0lwZDI3cWE4S1dMOFBfcDFSYUlTajBQUGxiaHlNSHhDdjQtdVZNVG9YaHoyNDV1enNZMFc3WjRXaURURzlDbllrYzBiVGxyMVZyWFJSdlZKd1ZqNGQ3MHZLSzVkWGpOSkxmcU9RcGNJQkZkeEFGMVV4clAyUF9FRi1iRGhSVENDb2FpUWUwUjJqekE2U0dNVFhPdnRJckE?oc=5",
+          "source": "Forbes",
+          "publishedAt": "2026-08-08T08:11:00.000Z",
           "section": "technology",
           "imageUrl": null
         }
@@ -196,84 +198,85 @@
       "title": "Chicago",
       "shortTitle": "Chicago",
       "description": "Local civic life, culture, and neighborhood reporting.",
+      "editorial": "Chicago desk today: 3 shot, 1 fatally, in Englewood (Sun-Times Wire); Sunny Saturday gives way to potential thunderstorms across the Chicago area (NBC 5 Chicago); and Will the Chicago Bears have a Top 5 Offensive Line? (Windy City Gridiron).",
       "stories": [
         {
-          "id": "chicago-a76mb",
-          "title": "Claire's revamps piercing experience for Gen Alpha, but brand nostalgia spans generations",
-          "summary": "Teen accessories and jewelry retailer Claire’s said its stores will undergo a “glow-up,” one year after it filed for Chapter 11 bankruptcy. The company, which moved from Hoffman Estates to Rosemont earlier this summer…",
-          "url": "https://chicago.suntimes.com/money/2026/08/08/claires-ear-piercing-experience-gen-alpha-brand-nostalgia-generations",
-          "source": "Mariah Rush",
+          "id": "chicago-lyl2hy",
+          "title": "3 shot, 1 fatally, in Englewood",
+          "summary": "A man was killed and two others were injured in a shooting Friday night in Englewood on the South Side. Three men were standing outside in the 700 block of West 73rd Street when they got in an argument with a person…",
+          "url": "https://chicago.suntimes.com/crime/2026/08/08/3-shot-1-fatally-in-englewood",
+          "source": "Sun-Times Wire",
+          "publishedAt": "2026-08-08T13:56:29.596Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-b09qjg",
+          "title": "Sunny Saturday gives way to potential thunderstorms across the Chicago area",
+          "summary": "Coverage from NBC 5 Chicago. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQS0hMQVpqenhFbGJtMXpWVW5sTG5MVHlYbjlyd2UxdXg5bG9uZjRBOHA0OFpaV2VCUHl1bzlMYTZSRGtoX2VXUGhJTlI4aXBSWGNpUEF2T2pPRi1mdTk2UVR6SjU4RTAwdi1kdi1zUzlIZ2ttTDFEN2tiZHVFd3NBRzBxSWtWMGpGTXRwQXVMT3VDakI0dER6UWFRSUstaU8tUWI2M2lwWVJSc2ttNUE2S2U2Nlk4QVZDMHBmUnZFa9IBxwFBVV95cUxNSXRmUi1hSjMyU2x3QUEzMXlmb0JHUFVlWENTaldsa1RVNEV3TGVrcDYwMkFwNGx2SDl6YVF3Nk10QlJTZl9YaEtjM2RWdTQ0Y1lQV2FyNzUxZzFkV3VYb1FaeEphOEgyR01iT3lMUmtiZUR6SFFkcl8xWVY1WXVsSEFPdVR2cXRyOTFuRVpUa1NGcndDX1pMaHdsZWpLWHplN3EwQUdKR0p6dDh5bmN4LUtrVUxfTGF2a3l5bnVJMzM2ZG1EZmdR?oc=5",
+          "source": "NBC 5 Chicago",
+          "publishedAt": "2026-08-08T13:45:25.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-ponp0n",
+          "title": "Will the Chicago Bears have a Top 5 Offensive Line?",
+          "summary": "Coverage from Windy City Gridiron. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMU5XWFdSNHY0dWlkWTRvby1EMkU0QnJIenl4b2lIZGRndHIzV2gzQXRyc0hBRDJ3QWNXajZ0dmpVbWxpeExoVjg0eFYxNGdBSW9CT2VNVWluX3dIZjlaR0x3encyNTh4VXVwZVFJcGpZcmo0XzBGc190VzVFU2l6czl2c1FhUl9VZXlfUXRsY2NTYlF6OXJrd0d3dDRiR1BUVzgxbXZRUW9IT3k2TzhOWlQxbk53WXM?oc=5",
+          "source": "Windy City Gridiron",
+          "publishedAt": "2026-08-08T13:00:00.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-4z1j58",
+          "title": "Winners and Losers From the Second Week of Chicago Bears Training Camp",
+          "summary": "Coverage from Sports Illustrated. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONWJET0gxcEtoc2gyMThCSk83ZGU0NjNxSjNzYWhXRExLdmJLMlA5VmFVYWFYVG42eWlPVWprN2x1cU93ejlRcVI2TGxYb3VEY3VZbUVOekwwblZmOE5YYUEzN1ZtLVZIb3E0UEhjRVY3OXE3VXNuRVFJbUM2YkFubGxCaUo4MDlhY3cydHJodEtMdzBVV1ItWlV5eEUtUzdmdUo0TEVaVQ?oc=5",
+          "source": "Sports Illustrated",
+          "publishedAt": "2026-08-08T12:12:46.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-6dcvw0",
+          "title": "Caitlin Clark, Aliyah Boston on Indiana Fever’s injury report vs. Chicago Sky",
+          "summary": "Coverage from Yahoo Sports. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMnBBQjNWU0owa3VFcmZfdnBlSm9YSTJsNVY2OG5jYzFDZGRiaGJRRExPZGJFY0R1dFEwVjBUeFRVT3lmeWNPcFBjcGFSMFFmQWc1d1M4T0R2Vm8yeTBIR2tGYVhwTjlXRmYxQ3RnT3kwcjFZTXB1TzZfSXdTaXN0LXEwYzlWNEhrVGJRLQ?oc=5",
+          "source": "Yahoo Sports",
+          "publishedAt": "2026-08-08T12:08:13.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-r6sjxt",
+          "title": "Man dead, 2 others injured after shooting on Chicago's South Side",
+          "summary": "Coverage from CBS News. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSS1yc1VSNjNJYzAxRGxaTURzYlUxdGQxRjJtNmo1UDJ6Q2FZMTFRODdINUViV3VFVEltZzFUSHpJWlJwTlQ4dURjLURPVlJGVlFCei1FWDZCZjJzQ3loNVJFSkp4YXhGQ05DdUEzRWpveVdyN1ViYkQ0amRfX29XVkRmcTcxaVA0bnhV?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-08-08T12:01:00.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-5q91rp",
+          "title": "Young Chicago Bears receivers latch on to veteran Kalif Raymond: ‘I’ve been staying on his hip’",
+          "summary": "Coverage from chicagotribune.com. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYi1pNHVRdXVEa1REOUJlQnVTWW5pSE5LRFBHVHRZcjh3LW9KYmFXcWF6UXEzX3RZanlMdGcyTFRaQUFKQm1fY0FnM0NGdXl4SEg5Y1pMVGt4ZUptQl9kd2c3Y3VhUUc5ZGM5blFRNTdnUllCWHlMTnJSNlpCM2RVRDM3V3VRTTA?oc=5",
+          "source": "chicagotribune.com",
+          "publishedAt": "2026-08-08T12:00:06.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-kt1jdb",
+          "title": "Chicago Cubs news — PCA, Bregman, Imanaga - Bleed Cubbie Blue",
+          "summary": "Coverage from Google News — Chicago. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQandiTjVnQmZXYnhNR2F1M01EQkhDSzl6amJheW5uV3FRVGJZUlRzTUt3UE5pYXRoUHNYb2xjVDJFRHJyM2F6MUMwNVZ4UjA3SFJENllzUlhKbUt4dTlxSDBVQnRNc2ozV29hR1VFbWJpek1iTkxUNXJyNVI2T0l1VTdIY25GczRCNWdqNjBlVDAxVmFLckZIdWNR?oc=5",
+          "source": "Google News — Chicago",
           "publishedAt": "2026-08-08T12:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-gdt3z3",
-          "title": "Ivory Buchanan charged in West Rogers Park, Chicago hit-and-run crash that hurt Jamie Drozier on 61st birthday on Ravenswood Ave",
-          "summary": "Coverage from abc7chicago.com. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU1U4U2pQTnp6eUcxWUIzemNraHZYVUJBR0hDdXpKbzBEQjMwc1FpZ1MxbWdpZWlqTTFtMUxlbXh1NE5fMVd6OFpDNkJTT0JacmlacUtzTEREMnc4d054bVhrQUV3SjJXV2hwVGxIUmRuWXQtcXhTWmducm4wOFJTbHdfN2phbGxDallTS1VfZWlVUlRDX1NPbnJRY0hUSDl5Q3lrYS1xYVYyZEFlVWMtMkJKQ3hxcTZlUU5wdVFwUGpzNnluNTZaOVB4UTUyaUhUMTZMOU9HVDA3M1pRYlNhOTh30gHnAUFVX3lxTE04Y3hpSU5ZdkpUS3pBSjFtRXRjZEViVmlwVTZWSnpGVEJ1NjF3UVprVVVHb0ZDdzFYRG5JQjJDUXFHSll4WEJQUldmWjVrWVN3R0lKSVlxMkxkQmdBMzE1STNPWHBFdUthOTZiQ2NncllvTTZvV3VzY0lPOEhzMGpKamxLdV9XUHBQX18talpEOWliUG1MNmhXNFhvM1QyUEI4Zmk1R1cwR05BaE1teW42emRZSExhUTl3a0FONE1MbUwzejZ4bmp3NUFqVmJIQVpFUl9HQmFLQThVUG9uVGJOZVd5TFBaMA?oc=5",
-          "source": "abc7chicago.com",
-          "publishedAt": "2026-08-08T11:08:02.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-4w3coe",
-          "title": "Without housing on South, West sides, Chicago's Black communities won't grow",
-          "summary": "“If you don’t build it, they can’t come.” That’s not a misquotation of the mysterious voice that spoke to Kevin Costner in the 1989 hit film, “Field of Dreams.” In that sports fantasy blockbuster, Costner’s character…",
-          "url": "https://chicago.suntimes.com/columnists/2026/08/08/housing-south-west-sides-chicago-black-communities-alden-loury",
-          "source": "Alden Loury",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-avx6cn",
-          "title": "Nasty weather is understandable",
-          "summary": "On July 27, I flew from Charlotte, North Carolina, to Chicago to catch a connecting flight to Lincoln, Nebraska. My flight to Lincoln was scheduled to depart about 1 p.m. After arriving at my assigned gate, I learned…",
-          "url": "https://chicago.suntimes.com/letters-to-the-editor/2026/08/08/weather-delay-flight-united-airlines-mental-health-black-teens-grocery-store-sox-pope-trump",
-          "source": "but not United Airlines' nasty response",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-ik9cv2",
-          "title": "Chicago parents expect to outspend U.S. average on back-to-school supplies, survey shows",
-          "summary": "Mollie Vivoda was squinting at her cellphone while also holding shopping lists at a Target in Bucktown on Wednesday. Her three children will be starting school in a couple weeks, and her two daughters joined her for the…",
-          "url": "https://chicago.suntimes.com/money/2026/08/08/chicago-parents-cps-outspend-us-average-back-to-school-supplies-survey",
-          "source": "Mariah Rush",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-ddipjs",
-          "title": "Can would-be buyer afford to take over more Chicago-area hospitals?",
-          "summary": "Insight Health Systems is interested in rescuing two closed Chicago-area hospitals, even as its hospital in Chicago appears to be struggling. Since buying historic Mercy Hospital in 2021 for $1 — keeping it from closing…",
-          "url": "https://chicago.suntimes.com/health/2026/08/08/insight-health-systems-west-suburban-medical-center-weiss-memorial-hospital",
-          "source": "Kristen Schorsch",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-dn1kqc",
-          "title": "How we photographed Lollapalooza's energy",
-          "summary": "This week’s top photo comes from Photojournalism Intern Jeremy Battle. Follow him on Instagram. What makes this photo important? Lollapalooza’s 35th year concluded with a day full of energetic performances and lingering…",
-          "url": "https://chicago.suntimes.com/photography/2026/08/08/how-we-photographed-lollapaloozas-energy",
-          "source": "Jeremy Battle",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-4b4907",
-          "title": "Dear Abby: Illness, Mom's Passing and Time Have Increased Isolation",
-          "summary": "DEAR ABBY: I have a chronic illness and have been on a long-term leave of absence from my job for two years now. I have always surrounded myself with good people and have been blessed with great friends and family. When…",
-          "url": "https://chicago.suntimes.com/dear-abby/2026/08/08/dearabby-today-dear-abby-illness-moms-passing-and-time-have-increased-isolation",
-          "source": "Abigail Van Buren",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
           "section": "chicago",
           "imageUrl": null
         }
@@ -284,74 +287,25 @@
       "title": "Global",
       "shortTitle": "World",
       "description": "International affairs and stories shaping the wider world.",
+      "editorial": "World desk today: US gifts $1bn to Colombia on new right-wing president's first day of office (BBC World); K-pop's global wave inspires Chile's next pop stars (John Bartlett); and Child among three killed in Russian missile attacks near Kyiv (BBC World).",
       "stories": [
         {
-          "id": "global-a4q3x9",
-          "title": "Switzerland is a neutral nation but has more nuclear bunkers than any country in the world",
-          "summary": "Instead of scrapping its network of bomb shelters after the Cold War, Switzerland kept building them. The country has more than 370,000 nuclear bomb shelters. Some are now used to house migrants.",
-          "url": "https://www.npr.org/2026/08/08/g-s1-137635/switzerland-nuclear-bunkers",
-          "source": "Rob Schmitz",
-          "publishedAt": "2026-08-08T11:01:00.000Z",
-          "section": "global",
-          "imageUrl": null
-        },
-        {
-          "id": "global-96edr5",
-          "title": "Yemen Teeters on Civil War as Regional Stability Hangs in the Balance",
-          "summary": "Coverage from The New York Times. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbnQ0d3FCSjl6MlhMSDhaY05wTEJwa0ZsVm9CUFQ4d1NfcWtPdERNM3ZIdzI4LUxITEI4TXEtdDRvNzBjdmJ6YkxoYmRna1BGTi1qOXJ3R1ZxS2QyaWxLQW9OV1JiVFhzWk1fWjNMSGJKMkU5ZmJSU2hUWjBoOFNPa2V1THduTjR5WWM0bXJuRWI2OGM?oc=5",
-          "source": "The New York Times",
-          "publishedAt": "2026-08-08T11:00:45.000Z",
-          "section": "global",
-          "imageUrl": null
-        },
-        {
-          "id": "global-omuwic",
-          "title": "Iran War Updates: Yemen's Houthis escalate deadly attacks on Saudi-backed troops",
-          "summary": "Coverage from CBS News. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMVhleVdzazZyT0ZHcXV5aWJxa3FZaGtTelNHdUJ5cm4tNXNlLU5PYUM3Tk40cVRLQjdWY2Job2NyM0hNTnhKN1diQkkzN0Y0a0lOWmtCaGxxdU5GTUFxZW9IODM0MjI4aU5sS2YzREFrODBHV0pocFpGMkpPWHhla1JaXzRzclYtb085WFhMOFcxaXVfWWh1SXQzSmpJNUU5TzR3?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-08-08T10:58:00.000Z",
-          "section": "global",
-          "imageUrl": null
-        },
-        {
-          "id": "global-wrdujj",
-          "title": "Trump says agreement with Iran to reopen Strait of Hormuz ‘could be soon’",
-          "summary": "Coverage from Fox News. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVVpFZkU5VW1nOG03enRqc3FQYUoyOC1Bd2FveG92VlAwYW1oSmY5VWFVbDZiSGpOczJsRmw4a2xWQ1A2ejVGaXJWcEJLMWt4WklZLTlCTlo1ejZ0TG41NnVTaFZpWTBER0xETU9LNTExQ1JaWlNSakl1UjV0NUkzdk9VQnZnQQ?oc=5",
-          "source": "Fox News",
-          "publishedAt": "2026-08-08T10:31:06.000Z",
-          "section": "global",
-          "imageUrl": null
-        },
-        {
-          "id": "global-380lao",
-          "title": "Todd Blanche, Trump's ex-lawyer, confirmed as US attorney general",
-          "summary": "Republican Senator Bill Cassidy was the deciding vote after a lengthy stand-off.",
-          "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
+          "id": "global-tfx66y",
+          "title": "US gifts $1bn to Colombia on new right-wing president's first day of office",
+          "summary": "Abelardo de la Espriella used his maiden speech to promise an \"all-out war\" on what he calls \"narco-terrorism\".",
+          "url": "https://www.bbc.co.uk/news/articles/cy9wy3y0e5wo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
-          "publishedAt": "2026-08-08T10:19:46.000Z",
+          "publishedAt": "2026-08-08T13:49:09.000Z",
           "section": "global",
           "imageUrl": null
         },
         {
-          "id": "global-euo1zj",
-          "title": "Europe resorts to drastic measures as rivers dry up, bringing energy and economic pain",
-          "summary": "Coverage from NBC News. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORW9kUmNkai1DRVc4ZjJsV3BMQnN2bEE4dEZoc1laWnIyVE5ZY3RJQTZteTJ2MnZybnA4VnFjYlg4Zm1YWVZ1R3UtbXNoRXFNY0NEUmxIbF9veG92QzVvYzU5ZXJSY3QxMS1HQzVpVkRUbzZ6YmxfQW9NMURMVklrRkhkTlduVnRxNnFya1RaTXZvTk1iOGR4S2tSdUNNdzFkdV9jalhLQUJYc2VEM2k5Nkt6bkp5bGs?oc=5",
-          "source": "NBC News",
-          "publishedAt": "2026-08-08T09:00:42.000Z",
-          "section": "global",
-          "imageUrl": null
-        },
-        {
-          "id": "global-pqvi3d",
-          "title": "Families retrieve bodies after a 14-year-old killed at least 7 in a shooting outside Bangkok",
-          "summary": "Coverage from apnews.com. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZDRVbmJYT1dkcjVDVFcxSUd1N3NQX05HcXVpR0lRRWo4RDVCTGpLTG5aVDRnSk5Yc3NoRi1VaENibDRldWRWZGo2WlFtdXBGZUdNV2RHVl9XWTEzTDIzWEwxNktuNEtUc09uY1FROTNyTWJ4LUo2VFhkcG50UlVaSkpYNTNTMFBQTFlld1I3TENoM3l3Y2RCekJJUnppdHhNMHB5SnpSb1ZmMF91QmdJOA?oc=5",
-          "source": "apnews.com",
-          "publishedAt": "2026-08-08T08:11:00.000Z",
+          "id": "global-noyrup",
+          "title": "K-pop's global wave inspires Chile's next pop stars",
+          "summary": "K-pop conquered the world — now Chile's young creatives are remixing the movement and making it their own.",
+          "url": "https://www.npr.org/2026/08/08/nx-s1-5899791/k-pop-chile-bts",
+          "source": "John Bartlett",
+          "publishedAt": "2026-08-08T13:34:45.000Z",
           "section": "global",
           "imageUrl": null
         },
@@ -361,15 +315,421 @@
           "summary": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
           "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
-          "publishedAt": "2026-08-08T06:12:56.000Z",
+          "publishedAt": "2026-08-08T13:29:38.000Z",
           "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-380lao",
+          "title": "Trump's ex-lawyer Todd Blanche narrowly confirmed as US attorney general",
+          "summary": "The vote cements Trump's former criminal defence lawyer as the nation's top law enforcement official despite a rare pushback from some Republicans.",
+          "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "publishedAt": "2026-08-08T13:23:16.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-lmxi11",
+          "title": "Iran says deal on Strait of Hormuz is close but will not open the waterway by itself",
+          "summary": "Coverage from NBC News. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOHdLUWp2NDlHVUNRNUxzazJIX3lzdzlVR0tMZEJacTVUa0N1bGZocG9jV01IT2MzNU5fdmJsUTNPQV9RN0tRT3FUclpuMWFUb0RpVmpNekVSZDBlcUxsVXplQzZjYW8xeGVXVEhKTnBZOGdkOF9mNkpBUWhpWUxDV2RBQUlSOFlrVGNFY25xckY1a19XTW9zdHhqXzRMNFZsOFZuTUJn?oc=5",
+          "source": "NBC News",
+          "publishedAt": "2026-08-08T13:17:41.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-a4v2wf",
+          "title": "UAE says one of its ships was targeted by missile as U.S.-Iran tensions over Strait of Hormuz remain high",
+          "summary": "Coverage from CNBC. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOHg1SGZ0bkhEeVc2QWNHb3ZDbUJsUVRLMHZhdUxxV1dZQXlZM2lkYTJmSDZVQlFmV1EtRHFHV294N1pkbERPZXk0dHJSbWJtOUFwTHBwRERWY2xFMVJMZ1ZIM1ZLelR6QTJkUXVZVEFsRktVVUJObWhvRlQzU0t0aFc1Y2xraDkxV2J4MDQ2c3pVMm_SAZgBQVVfeXFMTVBpTHl0QWRxSHFON2dTREVVTmNjUGVRSW0yMWo1ZFpVMjlDdXhPdTJwUGl4Y1pOSHIzT3NjTHU4UXd6Vk80X3hEODF4V29tQnc1dGg2NENoZmU2ME1aUWVmZzRhZEVxbzRCQlc5RFRxX1NHTF9jdFdHczVrVXBiWXlPM0lNR19udzMtRURBYXFnSnVVWk16SFY?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-08-08T13:06:30.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-96edr5",
+          "title": "Yemen Teeters on Civil War as Regional Stability Hangs in the Balance",
+          "summary": "Coverage from nytimes.com. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbnQ0d3FCSjl6MlhMSDhaY05wTEJwa0ZsVm9CUFQ4d1NfcWtPdERNM3ZIdzI4LUxITEI4TXEtdDRvNzBjdmJ6YkxoYmRna1BGTi1qOXJ3R1ZxS2QyaWxLQW9OV1JiVFhzWk1fWjNMSGJKMkU5ZmJSU2hUWjBoOFNPa2V1THduTjR5WWM0bXJuRWI2OGM?oc=5",
+          "source": "nytimes.com",
+          "publishedAt": "2026-08-08T12:14:24.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-wztn95",
+          "title": "NBA forward Clarke's death due to effects of drugs",
+          "summary": "Memphis Grizzlies forward Brandon Clarke's death was due to the effects of heroin and cocaine, the Los Angeles medical authority reveals.",
+          "url": "https://www.bbc.co.uk/sport/basketball/articles/czekj4wg41po?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "publishedAt": "2026-08-08T12:05:04.000Z",
+          "section": "global",
+          "imageUrl": null
+        }
+      ]
+    },
+    "kerala_politics": {
+      "id": "kerala_politics",
+      "title": "Kerala Politics",
+      "shortTitle": "Kerala",
+      "description": "State politics, policy, and public life in Kerala.",
+      "editorial": "Kerala desk today: Kerala to remove income criterion for pay wards in govt hospitals (ThePrint); Vijayan slams Kerala govt’s move to end doorstep pension delivery through cooperative banks (ThePrint); and AMAI opposes Kerala’s move to set up standalone AYUSH University (ThePrint).",
+      "stories": [
+        {
+          "id": "kerala_politics-kn88p6",
+          "title": "Kerala to remove income criterion for pay wards in govt hospitals",
+          "summary": "Coverage from ThePrint. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelFkUDZhS3pMc1c1eGM5N192X0EtdmIzRUJGUl9DNXVYVnhjX09DMlR1QjkxeGljNmJWS19iNnNGRVo4ZXduZk5KcDl1eVlndnZTc2Nud3J0UHB0TFRja1ZZYTI0QmJLaDVYbkN2UDJRWWVHTHd1T09IMHB0b0tEQnNENy1sbWZacE1CYzktMTdXbEUybmhaVnpOcGpBMFBQYWfSAacBQVVfeXFMTklsSks0NmhlM2dRWVJQNUZ2QXVSUUZxelB1RWU0MWZUa2RKbUxhUGFfejhpaXVhSmF0RmZwX2J0TmpPQWRRQlo4OS1seG5RWWVLTlNIQXNjUThHc2JLQjNpTUJaZU1ZNjlBcTlhWWRfTFpwNG03a1BEdTU0Q200Z3VtNHhfbmwxMktHQ2FwMG44UGk0Q29YSE1QbzJpWERrUnF2aGQ2cWc?oc=5",
+          "source": "ThePrint",
+          "publishedAt": "2026-08-07T14:50:51.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-pu26s5",
+          "title": "Vijayan slams Kerala govt’s move to end doorstep pension delivery through cooperative banks",
+          "summary": "Coverage from ThePrint. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYjY1cUFuSWdqU1pyX0NXdWxBQ255SFd6QTI1MHRfUE5fU05OMEJsSGhKQW9GYlJGaUtNRlhGTHhNczVLOHN3UkJfSGt6UHVPeE9mLWV2cTl1SFI0QUs5MVNaRU1Wd0lEVkJUY0JuZjluSHh4R3pxSFNTanp4MFk5blBYN3NXUTJ3OVNWZFdieDdyNE43X3VRSllhNFRxMFQ5a1ZOZ1hzTUhWeUY2YlBaSnR0ZXlHT250dHozUm1vOFVZRkXSAcgBQVVfeXFMTmZhVGhQRUpFWExKLVotc0txMVd5ckktYVFyZVBQREh5Y0xORWc2X0RBa1hpaXAwamhJOHNreEZndGxpMWZlWGltcW5HT1ZNNFVMZ2tpbmIycmRwb0ZraHZtRXhFWWc4eGs0aXpaNEUtNXpGSFlDQjZTR2JFb0JCMXdFbmdjNkJpdWtFSVNSalBzcDBsTDhUV1c1dXFsNF9fT1lwbURyUWIyWldfX19MTUFYTnZSMm5WVk92VFFNNDUwZzJxeGQ2TTg?oc=5",
+          "source": "ThePrint",
+          "publishedAt": "2026-08-07T07:47:46.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-kqgms2",
+          "title": "AMAI opposes Kerala’s move to set up standalone AYUSH University",
+          "summary": "Coverage from ThePrint. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWDl6dDRXLUxKbUF0a21ZSFJrYVl0bzVYWmc2ZGxNMl9nT1gxNHBiWTM4cFdabERYMEI2dE1yQUxzd2syU0d5eGZOTF9qVjBPZTY4aXRxbWtTRjliQS13YmZIb09KbzdtWUFfdGZZYlZ1VTc3dGgxVllZaHltNjFNN3pyOWJCQVgtWDFpNGlGZEJPcDVQMHM0aTFnSUFDanPSAaQBQVVfeXFMUDZhM2swYW41M2g4dXNjSjNVLWFCTURqTERoelh3T0dUZHpWQ2NVLUk1cEFqOUJkamVlRElwMzF4TDVxcGh2elNLcjI1VlFnR3NTMXlDRjEwVTVSamJOOTQxRTlzUXh0UW12eWRlNFJqNGFOTkRzQTdxaGdfSVl1TkloZWlBWDJIeGk5bzVTazlLN0RiNy1TdUJBVi1Bd1k0U0wydDE?oc=5",
+          "source": "ThePrint",
+          "publishedAt": "2026-08-06T13:52:52.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-ujezyf",
+          "title": "Kerala mandates SC/ST, women’s representation in HDS",
+          "summary": "Coverage from ThePrint. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM1EtMnNvTEZWREFXWWVGRGlneWFsTXdfWTZJa0JTaDZSWk0zUEpvODA5WlYtM2xrci1oRGFlaWowcUthWHdUN2RXNTdMb0VVc21fQk9JTld6RGVLQzRlU0RtSFhkamhKaWtmcU9zZXJ1Mnp6Q3FpZkxsSlRwdk9iTGVfOE1TbVVrLXZSai130gGTAUFVX3lxTE4yYkNaOExSbGpHRkZBWmJpX05oUzY3LVVCYzVra24wRENEd2RXRUpuMVd1YmRfTkpKWUJLQ21uQnh4dlpxNTdGd3ZTaG54cFRuY2tQSUpTMFBlWHU1cVY1ZzlOR2hBVDVEODFhSGZoZE5qM21HbVoyWjlJSEJFLXRsdXdueXY3OGZEd0hFWUpvY0xBZw?oc=5",
+          "source": "ThePrint",
+          "publishedAt": "2026-08-06T12:52:45.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-2qb6wd",
+          "title": "Keralam: CPM cadres get 16-year jail term for bid to murder RSS karyakartas in 2018 Panoor case",
+          "summary": "Coverage from organiser.org. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQRUtzNWpqbnZCRFZpaFdPZC11ZzM0OEoyQ0l4eENvVjBQSFotMWF3WmxQYlhvcEQyaEI5Q2hma1p1WXhqVGJocXdvNGY3ZmVMWWlCeHNrQVhaMWVXYmthcHJfdjJrdGdCZVhwVkNnSDRUZHFGQU00UDZ2bUFXb09tdzhzb3Eyc3ZuVU0tclBrUmlXWENxNWN5VlJnQy02MTh3RFJTdmt1MXhJMl96YzMtMG80OFplU0lLU09LNlpLZnhtOVZscTcwX1l1c3R4UXlrM2tPdHk4dkVIYmR50gHiAUFVX3lxTE0wM0FpMjlIUUUxQ1dlM29BeEEzXzc5aXpOV2VKWTZVMGcydWdUeGRIRnpzd2ZkWGYxSFFWaWlBVFZoWDlqeDE1cktlTWJCczRkLTJrREhMalBUVUx5bTl1NTRHaUZHNnVtaURsS1BhMld4TzVDSmlldEpNWnpqWFcxcnhQTWsxYm53ZEctZXQ3WU55TUVKaGhqNVF6QXBkWVc5bWNyVTZRc3FnTDFzOHdRTGJRcjdMY2VmbkdTR3JsdTlUeUp2c1AtRG1mZ2kxMlp3cjJQT09IdERBbXpLOUpLd0E?oc=5",
+          "source": "organiser.org",
+          "publishedAt": "2026-08-05T16:05:26.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-7zlpj8",
+          "title": "Kerala plans AI-backed disaster system tailored to sudden weather shifts",
+          "summary": "Coverage from India Today. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX3JXSl8tcktPLXEyQVY3MVJRWHZGT080SFJ1eVJMb1p3ZkpuVl8wSmk3czdraWpMU1FRMzhWQ2c3SUNZd0tyQWRKalFVZi15WTFjY24tQ240TGVNZ2dhVXpjNTRIUnp4VDhvOG9xS24yU3ByY2xIZXk2SG9EQXlSaENyc1lkRTNyc2d5VEE5aHRuaGFZVFkzTko4ZDlSRFh4bHB0Sm9zdHROVmNlUFM0cy1rcUV4S2cwa0RwTFJ2QzREbXRjYl9rLU9XU2paVDJKSXhhY0NwTGxBVzRNNmZGT0RFd9IB6AFBVV95cUxQa21Xc2hMaUxwdWlxYzNxZTRxcVB3RU9kR0R5akdYdU1tWHVKYU9BTjQ3aGhjamtEQmxTRzdmc1V6R1ZCUi1CZlNWeXVmZGw3Z0duSVJXOFBZN1VvOUJaWnhFd3hxRkswUU5jQkZRX2lwc3lFM1pKQVJwOTB6TmlyaXp1NXdQaTVjYXhSa3RHQk9xc0l0bTNndzV4Y1RfaWxkb1dHNWZndGxHbXFYSjlhNHJqUTNhRnJWQmdobnh1NDlfNDhfNGxWZk5NQ1NISUItbENrcVUtWm5oZWV0Wk1OQ3h1QUttQy1P?oc=5",
+          "source": "India Today",
+          "publishedAt": "2026-08-05T10:44:16.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-6cj461",
+          "title": "Kerala Government Estimates Rs 50 Crore Damage to Infrastructure",
+          "summary": "Coverage from India News Network. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQzdtM05GZ0ZOVjN0UVc2N3h6RE9wald1WnpPT0Fha2ZzemhVMldrN25GT3lBdTRkMTktMmZjRXVGSDVIamtGTDJ6MlhoNjJrRDVVVWdYN2Y5VGgzQjhpb1VvNl9VZ0E3ZTRPYWxxVU5yY1hCSFdPNlBuTldPcXpLUVN2eFV0MFZHVWhOaFhud1hvZkFJczlFcTZSSHdoXzBpM1RlOXlR?oc=5",
+          "source": "India News Network",
+          "publishedAt": "2026-08-04T21:35:54.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-4tpk2y",
+          "title": "Shashi Tharoor discusses Kerala political developments with Congress chief",
+          "summary": "Coverage from The News Mill. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbWRXVDhoby1vN3RRdEtDVDB2YW9Tb2htZDVkaksyNlhJSWR4djlpdGRpbGtMcmdTY1NPOHl4U2xJb19WOGgtRk5Kd2x6ek5xUk1SZVJrNDh6LXFBSklNNjB5N2p2c1gwb3dKZEQxU25halFtd2ZKQUZYY0loWWxPM05nT3F0bnd5NlF0Nmd5cjM3UmNSdVBrZHJReGx4aTV4cWY0Q192MWV2cXM?oc=5",
+          "source": "The News Mill",
+          "publishedAt": "2026-08-03T12:37:10.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        }
+      ]
+    },
+    "india_politics": {
+      "id": "india_politics",
+      "title": "India Politics",
+      "shortTitle": "India",
+      "description": "National politics and policy debates across India.",
+      "editorial": "India desk today: #WATCH 🎥 | Mumbai: Congress MP Shashi Tharoor acknowledged that Rahul Gandhi’s ‘Chhatron Ki Goonj’ campaign did not resonate with students to the same extent as the CJP protest at Jantar Mantar, and said the party needs to examine why. Respondin - LinkedIn (Google News — India Politics); India can't seek friendship while allowing Hasina to make statements against Bangladesh: Salahuddin (tbsnews.net); and India’s ‘cockroach’ protest movement keeps heat on Modi (The Japan Times).",
+      "stories": [
+        {
+          "id": "india_politics-b6hcgx",
+          "title": "#WATCH 🎥 | Mumbai: Congress MP Shashi Tharoor acknowledged that Rahul Gandhi’s ‘Chhatron Ki Goonj’ campaign did not resonate with students to the same extent as the CJP protest at Jantar Mantar, and said the party needs to examine why. Respondin - LinkedIn",
+          "summary": "#WATCH 🎥 | Mumbai: Congress MP Shashi Tharoor acknowledged that Rahul Gandhi’s ‘Chhatron Ki Goonj’ campaign did not resonate with students to the same extent as the CJP protest at Jantar Mantar, and said the party…",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVGV1RERZVjdUSnNGX0ZybU5lWXlWeUhBYWlnWTRUV2NaYVluaDgyUUJucDVLU3pZU1phb0tEUDY4T0xBSzZtVnkwWUJYcDhKNWVleEFvTUtrMXRmbVRkT1dkVmRuTUotWG8xQUtZWW1sSkZFRVZhTzhKc2FsYmFwZldDQjY5eFdWbkdCb0o4bVluMk5wcU1xUHB6akZpUDhITkVKd3JPWDJiNlFVMFE?oc=5",
+          "source": "Google News — India Politics",
+          "publishedAt": "2026-08-08T12:56:59.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-iv1tmk",
+          "title": "India can't seek friendship while allowing Hasina to make statements against Bangladesh: Salahuddin",
+          "summary": "Coverage from tbsnews.net. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQU3NRTnhmYy1jV1pkeXdZZVB4cWJYUHQ5Rkk3QjQ2alUwZlFnRHM1Q3VnNkVOcl9DYU1NdXU2Q0tncWFnMG82MGVka1FwNFVwWXUxb3ZoZGt2M2w3bVlYUkM1TFVFd1dsbVo5VVlGd0tHSHVnbmR4Smx4YUswOEJaSlI4d1RITUZZVndWVVUtTUliVGNzd1FySlF5V0o5eDVhbnpTNjBQcXJJY1JUdVFQQnBUMG90OTTSAbwBQVVfeXFMT2tLRjAwbEh5ZFV6M0wzYTRtVFlFeXNQRzdIc0V1NHdIUjU5RDhZQTVDd1NhMENCMEhYcFlpUzlOTVFEU2syOUdHc2doRjBGOUxMRzBZWVotc1A3V1BUM1M0TVFlZDdGSFY4Skh5M1R5bHZPSWNqZ05lVHk0aWZYeFNNWDd0blJoMlJOVXJYTGhiMkJUQ2xnbWZVZ185dENhTnRvQkhQMlllTmM1NWZNUWtsOHR0dTBUWDZ3R3o?oc=5",
+          "source": "tbsnews.net",
+          "publishedAt": "2026-08-08T10:45:00.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-d9uji7",
+          "title": "India’s ‘cockroach’ protest movement keeps heat on Modi",
+          "summary": "Coverage from The Japan Times. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTFcyVlhLWEZfd0x1eXhxREVFZS00Zk42ZHoxdXFZbGJBSXN0MzlKWkZxWU9iM0hMNnRMb1dsQUtMLWplRXJjQmVOcEVZY1lNYnVCODd5SlNERFpKN3FYLTJBX3BDSF9pbUxrYXhtN3JtTXBOVHk0ajNzaXdlRnYyLWRnTzBERFhCWS1zOHh6eGRFZnduSkpNYVBTY1RvaE5X?oc=5",
+          "source": "The Japan Times",
+          "publishedAt": "2026-08-08T05:05:00.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-3nmqko",
+          "title": "The Nijjar–Pannun Paradox: Law, Intelligence And The Politics Of Accountability - OpEd",
+          "summary": "Coverage from Eurasia Review. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZFAtU2NtNEFiRTBsWU51ZEhYbUQ4cWd3ZG9PRHhaMU9vT3VxWEdIVk1kMW1fQnUxX3JUUmRQTXdSWVRHQ1A5SXZHVlJreE5hbXhVOHAyVFlXTV9hRVBYRGNZYy1seHdSbVZrY0Jkck9ZVDFkTTFSR0lmMWhLa1hvdV9LVXpLeGZLdFA3SVM4VmxVMzRWb3BWUlc3VVF3b0ZTSUFtRzhaeUN2Y0pQY3dhdl9RLWgtVW14M01pcG5UYw?oc=5",
+          "source": "Eurasia Review",
+          "publishedAt": "2026-08-07T20:31:24.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-fmqho6",
+          "title": "Video | Gen Z Politics: Why Young India Rejects Political Labels - ndtv.com",
+          "summary": "Coverage from Google News — India Politics. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVzEwTS1hNkpldEo5eEZyNDZ5Z2dYSThkUm5nRUxWU1Nzb0ZuR0VyR2VjcmRzMWtOTVpkUFNQaDUyam5GV2xmdWxWa250NTFJWXo0dlVQNXRjellSM1ZxS184a0xPeE1WQ0d6cTI4SDNrMFljajcxRkRjWVc5aXlQTWVXT3U4UzlOeEhjcTVBOEt2VS1Z?oc=5",
+          "source": "Google News — India Politics",
+          "publishedAt": "2026-08-07T18:56:59.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-dapb6f",
+          "title": "India’s cockroach movement: how satire became political power as youth protest forced change",
+          "summary": "Coverage from The Conversation. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSURmMVJYNm9DbFJFYUtVRmRjc19PMHdEbFZ2Nm1RaFVjSm40b1BCZlpXYTltTWlweVlLZmY4NEZQa1NuME9aTkp5VG83SG9nNm1RelpscUxJRlRROXJ6b2h5MEs1bm9leVptUlFST2M5VHp2cVF0eGNCNUZQaGdFWWVTMjdfanV1aVdwcTVjaTFhaUpNdEh2SHU1aFhrWlU1Vk1UOFJ2ZG44TzBISmdEckk5WmRfaTY0c2ZUbzJTTWI4dEU?oc=5",
+          "source": "The Conversation",
+          "publishedAt": "2026-08-07T13:25:28.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-mnmsyf",
+          "title": "India’s Communal Violence is Crossing into Nepal - The Diplomat",
+          "summary": "Coverage from Asia-Pacific. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRzgzT2ktTU9BeEpJenFMSVJDZDZtYk5UWlA1Q2JoYm1CenRVWU51VF9tdzA2UFhWV2xhYWNiYm5vTkdiaUFXZmhkcUkwc01SSnN3NnJVU1BRSE9aVVd4NUhPTnhndWpfOThPQWowdEI5RUFoR0dNWlhEUjNSbWJYV01sQ2J4TjA?oc=5",
+          "source": "Asia-Pacific",
+          "publishedAt": "2026-08-07T12:40:55.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-4hhw2q",
+          "title": "Bangladesh-India Relations Hit Fresh Turbulence - The Diplomat",
+          "summary": "Coverage from Asia-Pacific. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbjNIS3lJaXZFWDBDRUN5TUhlSlFsNWU3RTg0aGQ2OHJBM1JQVTFOalZUeERyTlVtRWUwWjhod3dqbWlUZmctU3I5M01lNU5ndUZnX3dtc3BVM21jSGtDR1EzR1gzNVhCN0xiUlVkNmdEcFB4M3V1eXJMNk9leVV2VnpFODA2T3M?oc=5",
+          "source": "Asia-Pacific",
+          "publishedAt": "2026-08-06T16:40:55.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        }
+      ]
+    },
+    "real_madrid": {
+      "id": "real_madrid",
+      "title": "Real Madrid",
+      "shortTitle": "Madrid",
+      "description": "Club news, matches, and transfers for Real Madrid.",
+      "editorial": "Madrid desk today: New Balance| August 8th, 2026 (Kung_Fu_Zizou); Real Madrid vs Ferencvaros, 2026 live stream: Time, TV channels and how to watch preseason online (Lucas Navarrete); and Rodri Is Not Coming To Real Madrid.. So, What Does Next Year’s Midfield Look Like? (Kiyan Sobhani).",
+      "stories": [
+        {
+          "id": "real_madrid-qnoovy",
+          "title": "New Balance| August 8th, 2026",
+          "summary": "The Daily Merengue is a place where you can feel free to discuss all things football. Do not be alarmed by the overt RMCF bias. It’s in the name! Shoutout to the mods who do a fantastic job, Ezek, Valyrian Steel…",
+          "url": "https://www.managingmadrid.com/general/111058/new-balance-august-8th-2026",
+          "source": "Kung_Fu_Zizou",
+          "publishedAt": "2026-08-08T13:38:10.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-e4426u",
+          "title": "Real Madrid vs Ferencvaros, 2026 live stream: Time, TV channels and how to watch preseason online",
+          "summary": "Real Madrid visit Ferencvaros in what will be the team’s second preseason friendly. Madrid have some reinforcements but players like Bellingham, Mbappé, Tchouameni or Courtois won’t be available yet. REAL MADRID SQUAD…",
+          "url": "https://www.managingmadrid.com/111083/real-madrid-ferencvaros-2026-live-stream-time-tv-channels-and-how-to-watch-preseason-online",
+          "source": "Lucas Navarrete",
+          "publishedAt": "2026-08-08T06:56:17.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-aqu3lx",
+          "title": "Rodri Is Not Coming To Real Madrid.. So, What Does Next Year’s Midfield Look Like?",
+          "summary": "KLAGENFURT, AUSTRIA - AUGUST 01: Jose Mourinho, Head Coach of Real Madrid, speaks with Arda Gueler of Real Madrid during the pre-season friendly match between Real Madrid and Fiorentina at Woerthersee Stadion on August…",
+          "url": "https://www.managingmadrid.com/kiyans-observations/111079/rodri-is-not-coming-to-real-madrid-so-what-does-next-years-midfield-look-like",
+          "source": "Kiyan Sobhani",
+          "publishedAt": "2026-08-08T03:12:45.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-dir45e",
+          "title": "Managing Madrid Podcast: What’s Next For Real Madrid In The Transfer Market?",
+          "summary": "AUDIO: View Link VIDEO: Here’s the Managing Madrid Experience Form: ⁠⁠https://form.typeform.com/to/bCxFrAI2⁠?⁠ On this episode of the Managing Madrid Podcast, Kiyan Sobhani and Don Amancio discuss: A new perspective on…",
+          "url": "https://www.managingmadrid.com/managing-madrid-podcast/111073/managing-madrid-podcast-whats-next-for-real-madrid-in-the-transfer-market",
+          "source": "Kiyan Sobhani",
+          "publishedAt": "2026-08-07T20:18:51.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-obydmn",
+          "title": "OFFICIAL: Mastantuono joins Fiorentina on loan deal",
+          "summary": "Real Madrid have announced that Franco Mastantuono will play the 2026-27 season for Fiorentina on a loan deal which will expire next summer. Real Madrid C. F. and ACF Fiorentina have agreed on the loan of player Franco…",
+          "url": "https://www.managingmadrid.com/111069/mastantuono-fiorentina-real-madrid-official-2026",
+          "source": "Lucas Navarrete",
+          "publishedAt": "2026-08-07T14:44:46.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-2e4d6",
+          "title": "Diomande In The Rough | August 7th, 2026",
+          "summary": "The Daily Merengue is a place where you can feel free to discuss all things football. Do not be alarmed by the overt RMCF bias. It’s in the name! Shoutout to the mods who do a fantastic job, Ezek, Valyrian Steel…",
+          "url": "https://www.managingmadrid.com/general/111015/diomande-in-the-rough-august-7th-2026",
+          "source": "Kung_Fu_Zizou",
+          "publishedAt": "2026-08-07T14:23:26.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-8f96rl",
+          "title": "Real Madrid announce squad for preseason friendly against Ferencvaros",
+          "summary": "Real Madrid have published their squad list for Saturday’s preseason friendly against Ferencvaros which will be played in Hungary. REAL MADRID SQUAD LIST: Goalkeepers: Lunin, Sergio Mestre, and Javi Navarro. Defenders…",
+          "url": "https://www.managingmadrid.com/111059/real-madrid-ferencvaros-squad-list-2026",
+          "source": "Lucas Navarrete",
+          "publishedAt": "2026-08-07T14:06:27.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-rxabcc",
+          "title": "Diomandé did not train with Real Madrid’s squad this Friday",
+          "summary": "Real Madrid’s newest signing Yan Diomandé was announced on Thursday afternoon, and although he passed his medical last night and everything went according to plan, he did not train with the group this Friday and…",
+          "url": "https://www.managingmadrid.com/111053/diomande-did-not-train-with-real-madrids-squad-this-friday",
+          "source": "Lucas Navarrete",
+          "publishedAt": "2026-08-07T10:54:36.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        }
+      ]
+    },
+    "movies": {
+      "id": "movies",
+      "title": "Movies",
+      "shortTitle": "Movies",
+      "description": "Reviews and entertainment coverage across Malayalam and English cinema.",
+      "editorial": "Movies desk today: Jude Anthany Joseph says he walked out of Ayushmann film over Mohanlal’s ‘secondary casting’ (Malayalam Entertainment); How Fahadh Faasil delivered an acting masterclass across three distinct characters in 2019 (Anandu Suresh); and ‘Mentally exhausting’: Prasanth Alexander forced to abandon Pathanamthitta house after floods (Malayalam Entertainment).",
+      "stories": [
+        {
+          "id": "movies-2pbkx1",
+          "title": "Jude Anthany Joseph says he walked out of Ayushmann film over Mohanlal’s ‘secondary casting’",
+          "summary": "Coverage from Malayalam Entertainment. Open the source for the full report.",
+          "url": "https://indianexpress.com/article/entertainment/malayalam/jude-anthany-joseph-says-he-walked-out-of-ayushmann-film-over-mohanlals-secondary-casting-10823826/",
+          "source": "Malayalam Entertainment",
+          "publishedAt": "2026-08-08T12:01:29.000Z",
+          "section": "movies",
+          "imageUrl": null
+        },
+        {
+          "id": "movies-it8mu",
+          "title": "How Fahadh Faasil delivered an acting masterclass across three distinct characters in 2019",
+          "summary": "Coverage from Anandu Suresh. Open the source for the full report.",
+          "url": "https://indianexpress.com/article/entertainment/malayalam/how-fahadh-faasil-delivered-an-acting-masterclass-across-three-distinct-characters-in-2019-10814889/",
+          "source": "Anandu Suresh",
+          "publishedAt": "2026-08-08T03:18:27.000Z",
+          "section": "movies",
+          "imageUrl": null
+        },
+        {
+          "id": "movies-7uotp7",
+          "title": "‘Mentally exhausting’: Prasanth Alexander forced to abandon Pathanamthitta house after floods",
+          "summary": "Coverage from Malayalam Entertainment. Open the source for the full report.",
+          "url": "https://indianexpress.com/article/entertainment/malayalam/actor-prasanth-alexander-forced-to-abandon-pathanamthitta-house-after-floods-in-kerala-10820390/",
+          "source": "Malayalam Entertainment",
+          "publishedAt": "2026-08-06T10:37:09.000Z",
+          "section": "movies",
+          "imageUrl": null
+        },
+        {
+          "id": "movies-5u34i0",
+          "title": "Thudakkam trailer: Vismaya Mohanlal’s film promises high-stakes drama; Mohanlal makes cameo",
+          "summary": "Coverage from Malayalam Entertainment. Open the source for the full report.",
+          "url": "https://indianexpress.com/article/entertainment/malayalam/thudakkam-trailer-vismaya-mohanlals-film-promises-high-stakes-drama-mohanlal-makes-cameo-10816281/",
+          "source": "Malayalam Entertainment",
+          "publishedAt": "2026-08-03T14:07:31.000Z",
+          "section": "movies",
+          "imageUrl": null
+        },
+        {
+          "id": "movies-clg7nm",
+          "title": "Vismaya Mohanlal recalls getting lost in Himalayas with brother Pranav: ‘Ran out of water’",
+          "summary": "Coverage from Malayalam Entertainment. Open the source for the full report.",
+          "url": "https://indianexpress.com/article/entertainment/malayalam/vismaya-mohanlal-recalls-getting-lost-himalayas-brother-pranav-ran-out-of-water-10815859/",
+          "source": "Malayalam Entertainment",
+          "publishedAt": "2026-08-03T10:02:02.000Z",
+          "section": "movies",
+          "imageUrl": null
+        },
+        {
+          "id": "movies-6ocezc",
+          "title": "‘Inseparable twins’: Kunchacko Boban, Jayasurya got jaundice together on Swapnakoodu set",
+          "summary": "Coverage from Malayalam Entertainment. Open the source for the full report.",
+          "url": "https://indianexpress.com/article/entertainment/malayalam/kunchacko-boban-jayasurya-swapnakoodu-friendship-jaundice-trivia-prithviraj-sukumaran-10814644/",
+          "source": "Malayalam Entertainment",
+          "publishedAt": "2026-08-02T11:32:58.000Z",
+          "section": "movies",
+          "imageUrl": null
+        },
+        {
+          "id": "movies-wdfm13",
+          "title": "Why Malayalam cinema struggles with sci-fi, and how modern films are changing the game",
+          "summary": "Coverage from Anandu Suresh. Open the source for the full report.",
+          "url": "https://indianexpress.com/article/entertainment/malayalam/malayalam-sci-fi-films-history-pluto-aavasavyuham-athisayan-gaganachari-masthishka-maranam-10804595/",
+          "source": "Anandu Suresh",
+          "publishedAt": "2026-07-31T02:31:10.000Z",
+          "section": "movies",
+          "imageUrl": null
+        },
+        {
+          "id": "movies-wvi7bt",
+          "title": "When severe back pain threatened Mohanlal’s career, Osho and KJ Yesudas helped him heal",
+          "summary": "Coverage from Malayalam Entertainment. Open the source for the full report.",
+          "url": "https://indianexpress.com/article/entertainment/malayalam/mohanlal-reveals-how-osho-and-kj-yesudas-helped-him-recover-from-severe-back-pain-10810666/",
+          "source": "Malayalam Entertainment",
+          "publishedAt": "2026-07-30T15:00:16.000Z",
+          "section": "movies",
           "imageUrl": null
         }
       ]
     }
   },
   "meta": {
-    "totalStories": 32,
+    "totalStories": 64,
     "sourcesAttempted": 20,
     "sourcesSucceeded": 20,
     "maxPerSection": 8,
@@ -423,7 +783,7 @@
       "type": "rss",
       "name": "Hacker News",
       "section": "technology",
-      "count": 20,
+      "count": 6,
       "ok": true
     },
     {
