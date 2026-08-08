@@ -51,6 +51,49 @@ const RSS_FEEDS = [
     url: 'https://hnrss.org/frontpage',
   },
 
+  // Kerala politics
+  {
+    section: 'kerala_politics',
+    name: 'Google News — Kerala Politics',
+    url: 'https://news.google.com/rss/search?q=Kerala+politics&hl=en-US&gl=US&ceid=US:en',
+  },
+
+  // India politics
+  {
+    section: 'india_politics',
+    name: 'Indian Express Politics',
+    url: 'https://indianexpress.com/section/politics/feed/',
+  },
+  {
+    section: 'india_politics',
+    name: 'Google News — India Politics',
+    url: 'https://news.google.com/rss/search?q=India+politics&hl=en-US&gl=US&ceid=US:en',
+  },
+
+  // Real Madrid
+  {
+    section: 'real_madrid',
+    name: 'Managing Madrid',
+    url: 'https://www.managingmadrid.com/rss/index.xml',
+  },
+
+  // Movies and ratings
+  {
+    section: 'movies',
+    name: 'Malayalam Movie Reviews',
+    url: 'https://indianexpress.com/section/entertainment/malayalam/mollywood-movie-review/feed/',
+  },
+  {
+    section: 'movies',
+    name: 'English Movie Reviews',
+    url: 'https://indianexpress.com/section/entertainment/hollywood/english-movie-review/feed/',
+  },
+  {
+    section: 'movies',
+    name: 'Malayalam Entertainment',
+    url: 'https://indianexpress.com/section/entertainment/malayalam/feed/',
+  },
+
   // Chicago local
   {
     section: 'chicago',
