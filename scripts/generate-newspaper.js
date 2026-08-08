@@ -9,10 +9,15 @@ const {
   SECTIONS,
   selectTopPercentileByPoints,
   resolveEditorial,
+  getZonedParts,
+  getPreviousDateKey,
 } = require('../src/lib/news');
 const { DEFAULT_MAX_PER_SECTION, TIMEZONE, RSS_FEEDS, NEWS_API_QUERIES } = require('./feeds.config');
 
-const OUTPUT_PATH = path.join(__dirname, '..', 'public', 'data', 'latest.json');
+const DATA_DIR = path.join(__dirname, '..', 'public', 'data');
+const OUTPUT_PATH = path.join(DATA_DIR, 'latest.json');
+const ARCHIVE_DIR = path.join(DATA_DIR, 'archive');
+const PREVIOUS_PATH = path.join(DATA_DIR, 'previous.json');
 const FETCH_TIMEOUT_MS = Number(process.env.NEWS_FETCH_TIMEOUT_MS || 12000);
 const EDITOR_MODEL = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 const SECTION_ID_LIST = SECTIONS.map((section) => section.id).join('|');
@@ -339,8 +344,44 @@ async function generate() {
     sources: sourceReports,
   };
 
-  fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
+  const dateKey = getZonedParts(generatedAt, TIMEZONE).dateKey;
+  issue.meta.dateKey = dateKey;
+
+  fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
+
+  // Preserve the last completed local day's issue for the 5 AM morning brief.
+  if (fs.existsSync(OUTPUT_PATH)) {
+    try {
+      const existing = JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf8'));
+      const existingKey = existing?.meta?.dateKey || getZonedParts(new Date(existing.generatedAt), TIMEZONE).dateKey;
+      if (existingKey && existingKey !== dateKey) {
+        fs.writeFileSync(PREVIOUS_PATH, `${JSON.stringify(existing, null, 2)}\n`, 'utf8');
+        fs.writeFileSync(
+          path.join(ARCHIVE_DIR, `${existingKey}.json`),
+          `${JSON.stringify(existing, null, 2)}\n`,
+          'utf8'
+        );
+        console.log(`[newspaper] Archived previous issue → archive/${existingKey}.json`);
+      }
+    } catch (error) {
+      console.warn(`[newspaper] Could not archive previous issue: ${error.message}`);
+    }
+  }
+
   fs.writeFileSync(OUTPUT_PATH, `${JSON.stringify(issue, null, 2)}\n`, 'utf8');
+  fs.writeFileSync(
+    path.join(ARCHIVE_DIR, `${dateKey}.json`),
+    `${JSON.stringify(issue, null, 2)}\n`,
+    'utf8'
+  );
+
+  // Ensure yesterday's archive exists for morning briefs even on first run of the day.
+  const previousKey = getPreviousDateKey(generatedAt, TIMEZONE);
+  const previousArchivePath = path.join(ARCHIVE_DIR, `${previousKey}.json`);
+  if (!fs.existsSync(previousArchivePath) && fs.existsSync(PREVIOUS_PATH)) {
+    fs.copyFileSync(PREVIOUS_PATH, previousArchivePath);
+  }
+
   console.log(
     `[newspaper] Wrote ${issue.meta.totalStories} stories in ${editorialMode} mode → ${path.relative(process.cwd(), OUTPUT_PATH)}`
   );

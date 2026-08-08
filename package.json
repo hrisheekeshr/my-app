@@ -16,12 +16,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "node scripts/generate-newspaper.js",
+    "prebuild": "npm run generate:all",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:ci": "CI=true react-scripts test --watchAll=false --forceExit",
     "eject": "react-scripts eject",
     "generate:news": "node scripts/generate-newspaper.js",
+    "generate:morning-brief": "node scripts/generate-morning-brief.js",
+    "generate:all": "npm run generate:news && npm run generate:morning-brief",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

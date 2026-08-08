@@ -10,11 +10,13 @@ The existing profile sidebar (Home / Profile / Settings) is preserved. **Newspap
 - Normalization, HTML stripping, concise summaries, and deduplication
 - Hacker News technology stories limited to the top 30% by parsed points
 - Per-section editorial synthesis (`section.editorial`) via OpenAI or deterministic fallback
+- Masthead **Refresh** button (cache-busted reload of `latest.json` + morning brief)
+- Day/night refresh cadence + 5 AM morning brief with follow-ups from yesterday
 - Graceful per-source failure handling
 - Responsive editorial layout with section navigation, lead story, and story cards
 - Loading, empty, and error states with accessible semantic markup
-- GitHub Actions schedule that refreshes the issue once per day
-- Unit tests for core normalize/dedupe/HN ranking/editorial logic
+- GitHub Actions hourly gate enforcing Chicago day/night cadence (Cursor Automation prompts included)
+- Unit tests for core normalize/dedupe/HN ranking/editorial/schedule logic
 
 ## Setup
 
@@ -46,13 +48,15 @@ Without `NEWS_API_KEY`, the generator uses public RSS feeds only. That is the su
 ## Local development
 
 ```bash
-npm start                 # React app
-npm run generate:news     # refresh issue JSON
-npm test                  # Jest (normalize/dedupe/HN/editorial + app smoke test)
-npm run build             # production build (also regenerates news first)
+npm start                      # React app
+npm run generate:news          # refresh issue JSON + archive
+npm run generate:morning-brief # yesterday summary + follow-ups
+npm run generate:all           # news + morning brief
+npm test                       # Jest (normalize/dedupe/HN/editorial/schedule + app smoke)
+npm run build                  # production build (also regenerates news + brief)
 ```
 
-Open the **Newspaper** item in the sidebar to read the latest issue.
+Open the **Newspaper** item in the sidebar to read the latest issue. Use the masthead **Refresh** button to reload the published JSON.
 
 ## Pipeline operation
 
@@ -66,9 +70,26 @@ Open the **Newspaper** item in the sidebar to read the latest issue.
 6. Optionally curate with OpenAI (`gpt-4o-mini`) and generate one concise factual `section.editorial` per section from selected stories only
 7. When OpenAI is unavailable or fails validation, use deterministic story selection plus deterministic editorial text
 8. Write `public/data/latest.json` (backward-compatible additive `section.editorial` field)
-9. Record per-source success/failure metadata for the UI
+9. Archive the issue under `public/data/archive/YYYY-MM-DD.json` and retain `previous.json` when the local date rolls
+10. Record per-source success/failure metadata for the UI
+
+`npm run generate:morning-brief` compares yesterday’s archive to the latest issue and writes `public/data/morning-brief.json` (summary + per-story follow-ups).
 
 Feed definitions live in `scripts/feeds.config.js`.
+
+## Refresh cadence & Cursor Automations
+
+Intended local timezone: **America/Chicago**
+
+| Window | Cadence | Purpose |
+|---|---|---|
+| Day 07:00–21:00 | every 2 hours | Refresh newspaper feeds |
+| Night 22:00 / 02:00 / 06:00 | every 4 hours | Refresh newspaper feeds |
+| 05:00 | daily | Morning brief + follow-ups from previous day |
+
+Cursor Automations are UI-configured (not repo config-as-code). Ready-to-paste prompts and cron guidance live in [`.cursor/automations/`](.cursor/automations/).
+
+GitHub Actions (`.github/workflows/daily-newspaper.yml`) runs hourly and uses `scripts/should-refresh-now.js` / `scripts/should-morning-brief-now.js` to enforce the same Chicago day/night rules as a backup publisher.
 
 ### brutalist.report source note
 

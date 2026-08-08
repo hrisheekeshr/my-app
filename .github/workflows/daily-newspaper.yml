@@ -1,12 +1,31 @@
 name: Daily Newspaper
 
 # Publication labels inside the issue use NEWS_TIMEZONE (default America/Chicago).
+# Cadence (local America/Chicago):
+#   Day 07:00–21:00 → refresh every 2 hours
+#   Night 22:00 / 02:00 / 06:00 → refresh every 4 hours
+#   05:00 → morning brief + follow-ups from previous day
+# GitHub cron is UTC; an hourly gate script enforces the Chicago day/night rules.
 on:
+  schedule:
+    - cron: '10 * * * *'
   workflow_dispatch:
+    inputs:
+      force_refresh:
+        description: 'Force a newspaper refresh even outside the day/night cadence'
+        required: false
+        default: 'true'
+        type: boolean
+      force_morning_brief:
+        description: 'Force morning-brief generation'
+        required: false
+        default: 'false'
+        type: boolean
   push:
     branches:
       - develop
       - daily-newspaper-generator
+      - daily-newspaper-generator-editorials-hn-brutalist
 
 permissions:
   contents: write
@@ -25,6 +44,8 @@ jobs:
       NEWS_MAX_PER_SECTION: ${{ vars.NEWS_MAX_PER_SECTION }}
       NEWS_FETCH_TIMEOUT_MS: ${{ vars.NEWS_FETCH_TIMEOUT_MS }}
       NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -38,31 +59,67 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Decide refresh cadence
+        id: cadence
+        run: |
+          FORCE_REFRESH='${{ github.event_name != 'schedule' && (github.event_name != 'workflow_dispatch' || inputs.force_refresh == true) }}'
+          FORCE_BRIEF='${{ github.event_name == 'workflow_dispatch' && inputs.force_morning_brief == true }}'
+
+          if [ "$FORCE_REFRESH" = "true" ]; then
+            echo "refresh=true" >> "$GITHUB_OUTPUT"
+            echo "Forced newspaper refresh"
+          elif node scripts/should-refresh-now.js; then
+            echo "refresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "refresh=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping newspaper refresh for this hour"
+          fi
+
+          if [ "$FORCE_BRIEF" = "true" ]; then
+            echo "brief=true" >> "$GITHUB_OUTPUT"
+            echo "Forced morning brief"
+          elif node scripts/should-morning-brief-now.js; then
+            echo "brief=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "brief=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping morning brief for this hour"
+          fi
+
       - name: Generate daily issue
+        if: steps.cadence.outputs.refresh == 'true'
         run: npm run generate:news
 
+      - name: Generate morning brief
+        if: steps.cadence.outputs.brief == 'true' || steps.cadence.outputs.refresh == 'true'
+        run: npm run generate:morning-brief
+
       - name: Run tests
+        if: steps.cadence.outputs.refresh == 'true' || steps.cadence.outputs.brief == 'true' || github.event_name == 'push'
         run: npm run test:ci
 
       - name: Build site
+        if: steps.cadence.outputs.refresh == 'true' || steps.cadence.outputs.brief == 'true' || github.event_name == 'push'
         run: npm run build
         env:
           CI: true
 
       - name: Commit refreshed issue data
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: >
+          (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch') &&
+          (steps.cadence.outputs.refresh == 'true' || steps.cadence.outputs.brief == 'true')
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/latest.json
+          git add public/data/latest.json public/data/morning-brief.json public/data/previous.json public/data/archive || true
           if git diff --staged --quiet; then
             echo "No issue data changes to commit"
           else
-            git commit -m "chore: refresh daily newspaper issue"
+            git commit -m "chore: refresh newspaper issue and morning brief"
             git push
           fi
 
       - name: Deploy to GitHub Pages
+        if: steps.cadence.outputs.refresh == 'true' || steps.cadence.outputs.brief == 'true' || github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

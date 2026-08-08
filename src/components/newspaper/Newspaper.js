@@ -3,6 +3,7 @@ import SectionBlock from './SectionBlock';
 import './Newspaper.css';
 
 const ISSUE_URL = `${process.env.PUBLIC_URL || ''}/data/latest.json`;
+const BRIEF_URL = `${process.env.PUBLIC_URL || ''}/data/morning-brief.json`;
 
 function formatShortDate(value) {
   if (!value) return null;
@@ -60,44 +61,118 @@ const EmptyState = ({ onRetry }) => (
   </div>
 );
 
+const MorningBrief = ({ brief }) => {
+  if (!brief || brief.meta?.missingArchive) return null;
+  const sectionsWithFollowUps = (brief.sections || []).filter(
+    (section) => (section.followUps || []).length > 0
+  );
+  if (!sectionsWithFollowUps.length && !brief.summary) return null;
+
+  return (
+    <section className="newspaper-brief" aria-label="Morning brief">
+      <header className="newspaper-brief-header">
+        <p className="newspaper-lead-label">Morning brief</p>
+        <h2>Yesterday’s stories & follow-ups</h2>
+        <p>{brief.summary}</p>
+        {brief.forDate || brief.generatedAt ? (
+          <div className="newspaper-story-meta">
+            {brief.forDate ? <span>For {brief.forDate}</span> : null}
+            {brief.generatedAt ? <span>Compiled {formatShortDate(brief.generatedAt)}</span> : null}
+            <span>
+              {brief.meta?.followUpsFound || 0}/{brief.meta?.previousStories || 0} follow-ups
+            </span>
+          </div>
+        ) : null}
+      </header>
+
+      <div className="newspaper-brief-sections">
+        {sectionsWithFollowUps.map((section) => (
+          <div key={section.id} className="newspaper-brief-section">
+            <h3>{section.title}</h3>
+            <p>{section.summary}</p>
+            <ul>
+              {(section.followUps || []).slice(0, 4).map((item) => (
+                <li key={item.previous.id || item.previous.url}>
+                  <a href={item.previous.url} target="_blank" rel="noopener noreferrer">
+                    {item.previous.title}
+                  </a>
+                  {item.update ? (
+                    <>
+                      {' '}
+                      →{' '}
+                      <a href={item.update.url} target="_blank" rel="noopener noreferrer">
+                        {item.update.title}
+                      </a>
+                    </>
+                  ) : (
+                    <span className="newspaper-brief-note"> — {item.note}</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
 const Newspaper = () => {
   const [issue, setIssue] = useState(null);
+  const [brief, setBrief] = useState(null);
   const [status, setStatus] = useState('loading');
   const [errorMessage, setErrorMessage] = useState('');
   const [reloadToken, setReloadToken] = useState(0);
+  const [refreshing, setRefreshing] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
     const controller = new AbortController();
 
     async function loadIssue() {
-      setStatus('loading');
+      setStatus((current) => (current === 'ready' ? current : 'loading'));
+      setRefreshing(true);
       setErrorMessage('');
 
       try {
-        const response = await fetch(`${ISSUE_URL}?t=${Date.now()}`, {
-          signal: controller.signal,
-          headers: { Accept: 'application/json' },
-        });
+        const bust = Date.now();
+        const [issueResponse, briefResponse] = await Promise.all([
+          fetch(`${ISSUE_URL}?t=${bust}`, {
+            signal: controller.signal,
+            headers: { Accept: 'application/json' },
+          }),
+          fetch(`${BRIEF_URL}?t=${bust}`, {
+            signal: controller.signal,
+            headers: { Accept: 'application/json' },
+          }).catch(() => null),
+        ]);
 
-        if (!response.ok) {
-          throw new Error(`Could not load the latest issue (HTTP ${response.status}).`);
+        if (!issueResponse.ok) {
+          throw new Error(`Could not load the latest issue (HTTP ${issueResponse.status}).`);
         }
 
-        const payload = await response.json();
+        const payload = await issueResponse.json();
+        let briefPayload = null;
+        if (briefResponse?.ok) {
+          briefPayload = await briefResponse.json();
+        }
         if (cancelled) return;
 
         setIssue(payload);
+        setBrief(briefPayload);
         const total = payload?.meta?.totalStories ?? 0;
         setStatus(total > 0 ? 'ready' : 'empty');
       } catch (error) {
         if (cancelled || error.name === 'AbortError') return;
         setIssue(null);
+        setBrief(null);
         setStatus('error');
         setErrorMessage(
           error.message ||
             'Something went wrong while loading the newspaper. Check that public/data/latest.json exists.'
         );
+      } finally {
+        if (!cancelled) setRefreshing(false);
       }
     }
 
@@ -116,7 +191,18 @@ const Newspaper = () => {
     <div className="newspaper">
       <div className="newspaper-shell">
         <header className="newspaper-masthead">
-          <p className="newspaper-kicker">Daily compiled edition</p>
+          <div className="newspaper-masthead-row">
+            <p className="newspaper-kicker">Daily compiled edition</p>
+            <button
+              type="button"
+              className="newspaper-button newspaper-refresh"
+              onClick={retry}
+              disabled={refreshing}
+              aria-busy={refreshing}
+            >
+              {refreshing ? 'Refreshing…' : 'Refresh'}
+            </button>
+          </div>
           <h1 className="newspaper-brand">{issue?.brand || 'Four Corners Daily'}</h1>
           <p className="newspaper-tagline">
             {issue?.tagline ||
@@ -160,6 +246,8 @@ const Newspaper = () => {
                 </a>
               ))}
             </nav>
+
+            <MorningBrief brief={brief} />
 
             {issue.leadStory ? (
               <article className="newspaper-lead" aria-label="Lead story">

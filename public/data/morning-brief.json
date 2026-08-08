@@ -1,0 +1,23 @@
+{
+  "brand": "Four Corners Daily",
+  "type": "morning-brief",
+  "forDate": "2026-08-07",
+  "generatedAt": "2026-08-08T15:29:12.198Z",
+  "timezone": "America/Chicago",
+  "publicationDate": null,
+  "summary": "Morning brief for 2026-08-07: no archived previous-day issue was found yet. Refresh the newspaper during the day so tomorrow’s 5 AM brief has source material.",
+  "sections": [],
+  "meta": {
+    "previousStories": 0,
+    "followUpsFound": 0,
+    "mode": "deterministic",
+    "missingArchive": true,
+    "today": "2026-08-08"
+  },
+  "errors": [
+    {
+      "source": "morning-brief",
+      "message": "Missing archive for 2026-08-07"
+    }
+  ]
+}
