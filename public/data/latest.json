@@ -1,7 +1,7 @@
 {
   "brand": "Four Corners Daily",
   "tagline": "AI · Technology · Chicago · The World",
-  "generatedAt": "2026-08-08T12:01:36.396Z",
+  "generatedAt": "2026-08-08T12:01:53.716Z",
   "timezone": "America/Chicago",
   "publicationDate": "Saturday, August 8, 2026",
   "leadStory": {
@@ -198,12 +198,52 @@
       "description": "Local civic life, culture, and neighborhood reporting.",
       "stories": [
         {
+          "id": "chicago-a76mb",
+          "title": "Claire's revamps piercing experience for Gen Alpha, but brand nostalgia spans generations",
+          "summary": "Teen accessories and jewelry retailer Claire’s said its stores will undergo a “glow-up,” one year after it filed for Chapter 11 bankruptcy. The company, which moved from Hoffman Estates to Rosemont earlier this summer…",
+          "url": "https://chicago.suntimes.com/money/2026/08/08/claires-ear-piercing-experience-gen-alpha-brand-nostalgia-generations",
+          "source": "Mariah Rush",
+          "publishedAt": "2026-08-08T12:00:00.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
           "id": "chicago-gdt3z3",
           "title": "Ivory Buchanan charged in West Rogers Park, Chicago hit-and-run crash that hurt Jamie Drozier on 61st birthday on Ravenswood Ave",
           "summary": "Coverage from abc7chicago.com. Open the source for the full report.",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPU1U4U2pQTnp6eUcxWUIzemNraHZYVUJBR0hDdXpKbzBEQjMwc1FpZ1MxbWdpZWlqTTFtMUxlbXh1NE5fMVd6OFpDNkJTT0JacmlacUtzTEREMnc4d054bVhrQUV3SjJXV2hwVGxIUmRuWXQtcXhTWmducm4wOFJTbHdfN2phbGxDallTS1VfZWlVUlRDX1NPbnJRY0hUSDl5Q3lrYS1xYVYyZEFlVWMtMkJKQ3hxcTZlUU5wdVFwUGpzNnluNTZaOVB4UTUyaUhUMTZMOU9HVDA3M1pRYlNhOTh30gHnAUFVX3lxTE04Y3hpSU5ZdkpUS3pBSjFtRXRjZEViVmlwVTZWSnpGVEJ1NjF3UVprVVVHb0ZDdzFYRG5JQjJDUXFHSll4WEJQUldmWjVrWVN3R0lKSVlxMkxkQmdBMzE1STNPWHBFdUthOTZiQ2NncllvTTZvV3VzY0lPOEhzMGpKamxLdV9XUHBQX18talpEOWliUG1MNmhXNFhvM1QyUEI4Zmk1R1cwR05BaE1teW42emRZSExhUTl3a0FONE1MbUwzejZ4bmp3NUFqVmJIQVpFUl9HQmFLQThVUG9uVGJOZVd5TFBaMA?oc=5",
           "source": "abc7chicago.com",
           "publishedAt": "2026-08-08T11:08:02.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-4w3coe",
+          "title": "Without housing on South, West sides, Chicago's Black communities won't grow",
+          "summary": "“If you don’t build it, they can’t come.” That’s not a misquotation of the mysterious voice that spoke to Kevin Costner in the 1989 hit film, “Field of Dreams.” In that sports fantasy blockbuster, Costner’s character…",
+          "url": "https://chicago.suntimes.com/columnists/2026/08/08/housing-south-west-sides-chicago-black-communities-alden-loury",
+          "source": "Alden Loury",
+          "publishedAt": "2026-08-08T11:00:00.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-avx6cn",
+          "title": "Nasty weather is understandable",
+          "summary": "On July 27, I flew from Charlotte, North Carolina, to Chicago to catch a connecting flight to Lincoln, Nebraska. My flight to Lincoln was scheduled to depart about 1 p.m. After arriving at my assigned gate, I learned…",
+          "url": "https://chicago.suntimes.com/letters-to-the-editor/2026/08/08/weather-delay-flight-united-airlines-mental-health-black-teens-grocery-store-sox-pope-trump",
+          "source": "but not United Airlines' nasty response",
+          "publishedAt": "2026-08-08T11:00:00.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-ik9cv2",
+          "title": "Chicago parents expect to outspend U.S. average on back-to-school supplies, survey shows",
+          "summary": "Mollie Vivoda was squinting at her cellphone while also holding shopping lists at a Target in Bucktown on Wednesday. Her three children will be starting school in a couple weeks, and her two daughters joined her for the…",
+          "url": "https://chicago.suntimes.com/money/2026/08/08/chicago-parents-cps-outspend-us-average-back-to-school-supplies-survey",
+          "source": "Mariah Rush",
+          "publishedAt": "2026-08-08T11:00:00.000Z",
           "section": "chicago",
           "imageUrl": null
         },
@@ -234,46 +274,6 @@
           "url": "https://chicago.suntimes.com/dear-abby/2026/08/08/dearabby-today-dear-abby-illness-moms-passing-and-time-have-increased-isolation",
           "source": "Abigail Van Buren",
           "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-avx6cn",
-          "title": "Nasty weather is understandable",
-          "summary": "On July 27, I flew from Charlotte, North Carolina, to Chicago to catch a connecting flight to Lincoln, Nebraska. My flight to Lincoln was scheduled to depart about 1 p.m. After arriving at my assigned gate, I learned…",
-          "url": "https://chicago.suntimes.com/letters-to-the-editor/2026/08/08/weather-delay-flight-united-airlines-mental-health-black-teens-grocery-store-sox-pope-trump",
-          "source": "but not United Airlines' nasty response",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-4w3coe",
-          "title": "Without housing on South, West sides, Chicago's Black communities won't grow",
-          "summary": "“If you don’t build it, they can’t come.” That’s not a misquotation of the mysterious voice that spoke to Kevin Costner in the 1989 hit film, “Field of Dreams.” In that sports fantasy blockbuster, Costner’s character…",
-          "url": "https://chicago.suntimes.com/columnists/2026/08/08/housing-south-west-sides-chicago-black-communities-alden-loury",
-          "source": "Alden Loury",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-ik9cv2",
-          "title": "Chicago parents expect to outspend U.S. average on back-to-school supplies, survey shows",
-          "summary": "Mollie Vivoda was squinting at her cellphone while also holding shopping lists at a Target in Bucktown on Wednesday. Her three children will be starting school in a couple weeks, and her two daughters joined her for the…",
-          "url": "https://chicago.suntimes.com/money/2026/08/08/chicago-parents-cps-outspend-us-average-back-to-school-supplies-survey",
-          "source": "Mariah Rush",
-          "publishedAt": "2026-08-08T11:00:00.000Z",
-          "section": "chicago",
-          "imageUrl": null
-        },
-        {
-          "id": "chicago-bfzy63",
-          "title": "Where to watch Caitlin Clark, Indiana Fever vs. Chicago Sky today",
-          "summary": "Coverage from Iowa City Press-Citizen. Open the source for the full report.",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOUmtGVDRTczQ5WTlpUDZZODJpQkNYYURUQXNpRmplX0FCLXdsTGkzRUVFTXREWmNLYkkyZFFKZVNUbF8xNUVQSzJFNVFURmNPQ0NBcW5CNWN2dUlNdkJvdjd2UzRFenhDdWh1NmpMN3dmTTBqQkUxcnpCY2tWSnZwUDdaVmdQRWFvSlA1UlNMYnZwVjdGaWhUYU1FUUUtSU9Ud1c3R0h0ZkpUbWo3Q2QybVRIZG52blRCY1VUWDRCSjJDZHE2VXhHalVTVFNqWFZRUlU2dFZ1RTR0RGttT3pDUTBVUURNXzRZVEx5Mzd2VUNNZm5MQ295bg?oc=5",
-          "source": "Iowa City Press-Citizen",
-          "publishedAt": "2026-08-08T10:48:00.000Z",
           "section": "chicago",
           "imageUrl": null
         }
