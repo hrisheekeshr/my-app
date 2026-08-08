@@ -45,6 +45,11 @@ const RSS_FEEDS = [
     name: 'Google News — Technology',
     url: 'https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en',
   },
+  {
+    section: 'technology',
+    name: 'Hacker News',
+    url: 'https://hnrss.org/frontpage',
+  },
 
   // Chicago local
   {
