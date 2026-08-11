@@ -8,11 +8,12 @@ const {
   dedupeStories,
   SECTIONS,
   selectTopPercentileByPoints,
-  resolveEditorial,
+  resolveSectionEditorialFields,
   getZonedParts,
   getPreviousDateKey,
 } = require('../src/lib/news');
 const { DEFAULT_MAX_PER_SECTION, TIMEZONE, RSS_FEEDS, NEWS_API_QUERIES } = require('./feeds.config');
+const { getEditorialBrief } = require('./editorial.config');
 
 const DATA_DIR = path.join(__dirname, '..', 'public', 'data');
 const OUTPUT_PATH = path.join(DATA_DIR, 'latest.json');
@@ -106,14 +107,28 @@ function publicStory(story) {
   return result;
 }
 
-function withSectionEditorial(sectionMeta, stories, editorial) {
+function withSectionEditorial(sectionMeta, stories, editorial, editorialDoc = null, options = {}) {
+  const fields = resolveSectionEditorialFields(
+    sectionMeta,
+    stories,
+    editorial,
+    editorialDoc,
+    {
+      brief: getEditorialBrief(sectionMeta.id),
+      mode: options.mode,
+      reviewedAt: options.reviewedAt,
+    }
+  );
+
   return {
     id: sectionMeta.id,
     title: sectionMeta.title,
     shortTitle: sectionMeta.shortTitle,
     description: sectionMeta.description,
-    // Backward-compatible additive field for section synthesis.
-    editorial: resolveEditorial(editorial, sectionMeta, stories),
+    // Legacy plain string (required for older UI / bakers).
+    editorial: fields.editorial,
+    // Additive Phase-1 structured editorial with URL-constrained citations.
+    editorialDoc: fields.editorialDoc,
     stories,
   };
 }
@@ -124,7 +139,9 @@ function deterministicSections(stories) {
     const selected = dedupeStories(stories.filter((story) => story.section === section.id))
       .slice(0, DEFAULT_MAX_PER_SECTION)
       .map(publicStory);
-    sections[section.id] = withSectionEditorial(section, selected, null);
+    sections[section.id] = withSectionEditorial(section, selected, null, null, {
+      mode: 'deterministic',
+    });
   });
   return sections;
 }
@@ -157,7 +174,13 @@ function validateEditorialResult(value, candidates) {
       })
       .filter(Boolean);
 
-    sections[section.id] = withSectionEditorial(section, stories, returned.editorial);
+    sections[section.id] = withSectionEditorial(
+      section,
+      stories,
+      returned.editorial,
+      returned.editorialDoc || null,
+      { mode: 'llm' }
+    );
   }
 
   if (!Object.values(sections).some((section) => section.stories.length)) {
@@ -297,18 +320,27 @@ async function generate() {
     errors.push({ source: 'OpenAI editorial', section: 'all', message });
   }
 
-  // Guarantee every section has an editorial field even if an older path omitted it.
+  // Guarantee every section has legacy editorial + editorialDoc fields.
   SECTIONS.forEach((section) => {
     const current = sections[section.id];
     if (!current) {
-      sections[section.id] = withSectionEditorial(section, [], null);
+      sections[section.id] = withSectionEditorial(section, [], null, null, {
+        mode: editorialMode === 'llm' ? 'llm' : 'deterministic',
+      });
       return;
     }
-    current.editorial = resolveEditorial(
-      current.editorial,
+    const fields = resolveSectionEditorialFields(
       section,
-      current.stories || []
+      current.stories || [],
+      current.editorial,
+      current.editorialDoc,
+      {
+        brief: getEditorialBrief(section.id),
+        mode: current.editorialDoc?.mode || (editorialMode === 'llm' ? 'llm' : 'deterministic'),
+      }
     );
+    current.editorial = fields.editorial;
+    current.editorialDoc = fields.editorialDoc;
   });
 
   const lead =
@@ -339,6 +371,7 @@ async function generate() {
       sourcesSucceeded: sourceReports.filter((report) => report.ok).length,
       maxPerSection: DEFAULT_MAX_PER_SECTION,
       mode: editorialMode,
+      editorialPipeline: 'phase1-editorialDoc',
     },
     errors,
     sources: sourceReports,
