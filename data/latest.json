@@ -1,0 +1,1003 @@
+{
+  "brand": "Four Corners Daily",
+  "tagline": "AI · Technology · Chicago · The World",
+  "generatedAt": "2026-08-12T13:05:15.756Z",
+  "timezone": "America/Chicago",
+  "publicationDate": "Wednesday, August 12, 2026",
+  "leadStory": {
+    "id": "ai-80rx04",
+    "title": "Oracle Health debuts revamped patient portal with an AI upgrade",
+    "summary": "Coverage from Fierce Healthcare. Open the source for the full report.",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2JiWE1QeDVsTUtJREU5QVN1NHZZcnlCblJIaGFJN0FpbzJSaURTMmtka084TE1sdVRfWEFfbThXTDJ4dl9DSVNpeUp6Z285NVNjNzNfbldTMGk2TXFtU29ZT1JrVENGekdRbGVIeFEzODhnUzM4ZGRWd3ZZbkxPUmtiRTRtOGpHNWhMa0pfanhZMzNrYllHQVBoZUdxcTduc3ZVekNRanpzY2dQeFd2cDhB?oc=5",
+    "source": "Fierce Healthcare",
+    "publishedAt": "2026-08-12T12:59:11.000Z",
+    "section": "ai",
+    "imageUrl": null
+  },
+  "sections": {
+    "ai": {
+      "id": "ai",
+      "title": "Artificial Intelligence",
+      "shortTitle": "AI",
+      "description": "Models, research, and the systems reshaping how we work.",
+      "editorial": "AI desk today: Oracle Health debuts revamped patient portal with an AI upgrade (Fierce Healthcare); Cognition AI Eyes $40 Billion Valuation From New Funding (PYMNTS.com); and AI was supposed to destroy jobs. Where’s the carnage? (The Guardian).",
+      "editorialDoc": {
+        "version": 1,
+        "text": "AI desk today: Oracle Health debuts revamped patient portal with an AI upgrade (Fierce Healthcare); Cognition AI Eyes $40 Billion Valuation From New Funding (PYMNTS.com); and AI was supposed to destroy jobs. Where’s the carnage? (The Guardian).",
+        "citations": [
+          {
+            "storyId": "ai-80rx04",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2JiWE1QeDVsTUtJREU5QVN1NHZZcnlCblJIaGFJN0FpbzJSaURTMmtka084TE1sdVRfWEFfbThXTDJ4dl9DSVNpeUp6Z285NVNjNzNfbldTMGk2TXFtU29ZT1JrVENGekdRbGVIeFEzODhnUzM4ZGRWd3ZZbkxPUmtiRTRtOGpHNWhMa0pfanhZMzNrYllHQVBoZUdxcTduc3ZVekNRanpzY2dQeFd2cDhB?oc=5",
+            "source": "Fierce Healthcare"
+          },
+          {
+            "storyId": "ai-e8cy7w",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUWZMaHlEaWZ0VGNFME1YN0EtUk9IUHZJdmNSSThYRFdTTlJqQ29CTWdoYUJGZEUzSzRqemdUZ2NsQ3Iwc3dBMVpNeHRjMzFlb19QQ1Q4M0tHTWhzN3RQZmJDemxrWTdXVWFIclZRbTUwX1Yxb051S3BNSHpJUzRPMTZlR0VrcWg1T0VzYzgtSlBqVElmOWVOY3lFa3MxZDdsU2c1blh2cXF2VHdqb3RYQWJPcw?oc=5",
+            "source": "PYMNTS.com"
+          },
+          {
+            "storyId": "ai-uybzwr",
+            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RVJfLU9XbWFoYlEzQ0hqdWxJVlJBZUxIcnk1VnZkR0JiVHNvSDVEelVmbDU4Ung2M3FJQUtncTNDUDR2NDJ0RkgxUWJEZEd4VzY5WUlJTGhGenVqOTZRcEYzcFNPc29xT2pYRUdFcF9kZFpEa2VXZQ?oc=5",
+            "source": "The Guardian"
+          }
+        ],
+        "mode": "deterministic",
+        "status": "ok",
+        "reviewedAt": "2026-08-12T13:05:21.255Z"
+      },
+      "stories": [
+        {
+          "id": "ai-80rx04",
+          "title": "Oracle Health debuts revamped patient portal with an AI upgrade",
+          "summary": "Coverage from Fierce Healthcare. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2JiWE1QeDVsTUtJREU5QVN1NHZZcnlCblJIaGFJN0FpbzJSaURTMmtka084TE1sdVRfWEFfbThXTDJ4dl9DSVNpeUp6Z285NVNjNzNfbldTMGk2TXFtU29ZT1JrVENGekdRbGVIeFEzODhnUzM4ZGRWd3ZZbkxPUmtiRTRtOGpHNWhMa0pfanhZMzNrYllHQVBoZUdxcTduc3ZVekNRanpzY2dQeFd2cDhB?oc=5",
+          "source": "Fierce Healthcare",
+          "publishedAt": "2026-08-12T12:59:11.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-e8cy7w",
+          "title": "Cognition AI Eyes $40 Billion Valuation From New Funding",
+          "summary": "Coverage from PYMNTS.com. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUWZMaHlEaWZ0VGNFME1YN0EtUk9IUHZJdmNSSThYRFdTTlJqQ29CTWdoYUJGZEUzSzRqemdUZ2NsQ3Iwc3dBMVpNeHRjMzFlb19QQ1Q4M0tHTWhzN3RQZmJDemxrWTdXVWFIclZRbTUwX1Yxb051S3BNSHpJUzRPMTZlR0VrcWg1T0VzYzgtSlBqVElmOWVOY3lFa3MxZDdsU2c1blh2cXF2VHdqb3RYQWJPcw?oc=5",
+          "source": "PYMNTS.com",
+          "publishedAt": "2026-08-12T12:55:51.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-uybzwr",
+          "title": "AI was supposed to destroy jobs. Where’s the carnage?",
+          "summary": "Coverage from The Guardian. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85RVJfLU9XbWFoYlEzQ0hqdWxJVlJBZUxIcnk1VnZkR0JiVHNvSDVEelVmbDU4Ung2M3FJQUtncTNDUDR2NDJ0RkgxUWJEZEd4VzY5WUlJTGhGenVqOTZRcEYzcFNPc29xT2pYRUdFcF9kZFpEa2VXZQ?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "2026-08-12T12:33:00.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-qgzkaf",
+          "title": "Meta and Nvidia plant 'very firm flag' in open-weight AI race led by Chinese Labs",
+          "summary": "Coverage from CNBC. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rbG55ODQ1MkFvUG1lN1VpX2RiZlFkYUJLenJBaURVamhSSi1jUVRvT0VRTVI5c2tJN2xMUlhjM3dzMFJZbGo4ZUpLM2ZkYTQ4UW5CRi1aMlpUTi01TUpIYWV5N1UwdzlTUGpOTkhkdTc2TjA3Q211OHNwcHNKRk3SAYQBQVVfeXFMTTNJdG5JRE9Ca044b2JZemp6NVZuNW5ORFo0SnFveEhYWHhOYjc3WWlLY2l6SXctS2dTRjdwRlBnbDV4Z3h1ajYxVDR3SHZ1dXdDMm4xc1RzNnhvTDBXNEx5bTEtdnRnVEd3cnNZc0hKV3otZFZGQ3p1MUZ4RmJNT3lXT0hh?oc=5",
+          "source": "CNBC",
+          "publishedAt": "2026-08-12T12:00:01.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-esazrs",
+          "title": "The Wrong Conversation About Artificial Intelligence",
+          "summary": "Coverage from Mexico Business News. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOEVLcXBZck50eHA5WmdEbGdaSG53OFZ1RVFyOWtsanFsMFZoNlpNTmtfd21GV2QyRmRpLWQzR29jM1NuVFFEQk1LanhENTBQLVZsNkRveXhTaDhqOWxZWlREeWpMUE1UUzV1aG9MellfNEx2dU16eTRkOTVMa0tINjZIclhOdHhOSC15THZuWmJQbkFEVTdn?oc=5",
+          "source": "Mexico Business News",
+          "publishedAt": "2026-08-12T12:00:00.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-t3hh97",
+          "title": "Assort Health rolls out AI agent to automate referrals for specialty practices and health systems",
+          "summary": "Coverage from Fierce Healthcare. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcVNIbWVsNHRscjJFV3F6azZlcjNuTXlsYnpPbG9yZTFaU0JYWmhZUnJwSFlOSzVRXzFZMUxWOTB1dHBZaVRyS3lqX1pxMl9TRThwNU5OQkVHc1FEMTNsOHVKR3ZaRkpfazRXWG4ydW83YWY4M0ljMUt5SHBLU0tJQkg2a2NtUTZMR1NCTUxiZDVvWWlGbUc4clRfdzhUOUtTVE1ITmdEUTJZaC1adnc?oc=5",
+          "source": "Fierce Healthcare",
+          "publishedAt": "2026-08-12T11:59:16.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-pp91tx",
+          "title": "AI in Nebraska education: Higher ed looks to human-centric approach to integrate artificial intelligence",
+          "summary": "Coverage from Nebraska Public Media. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdWJpZXVGV25TS2o0eWN6VHFCY3VlQmxfXzZOWDU1TExTN2syNmZMc3F3U0dyVlN0MHhsUXZhSTBNTklEMFBtMnI3QUc4VUtjc0lrYUVwVnpwdWVXa1NpTXV2Y0tEWmFZTEpMSGNKYW1TdUZ5aDFuQ2lUNXlaM21BY1Z5XzlMbTNvLUF0R0c3LV8xeXJvdVdQelFzR0ViVmVXVmRsN2RhSEFRSDVBbTB0MElxWUk1Z0pVc3FiajBTU2ZYMTk5RENDT2tRSzdXUHBOZFhpMjhYMHZqRG5pTE9JOGlRQWxES2JMdm5INGFKTQ?oc=5",
+          "source": "Nebraska Public Media",
+          "publishedAt": "2026-08-12T11:10:16.000Z",
+          "section": "ai",
+          "imageUrl": null
+        },
+        {
+          "id": "ai-942bzd",
+          "title": "I Asked AI to Write a Novel. It’s Not So Bad.",
+          "summary": "Coverage from Mother Jones. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTWkyN2kza1RRU1ZaeFczaGprd0hzRGx3TFc0cDgta1V4Y1VjSXVYaGM3Q213OU92dDdlNUt5Uk1KQ1RIaFI5WmJaTGswaV9YZzdpaUN1SjEwaFI4aENXZ1BnblF5b1lxWjBXT2tJXy03VF85YjEtODI3VWRsMFdCRm94NHpVUlEzcnFBbFhsZUFNUm5WTVBTT0FJSWY0elpobXp1Y1VnSVN4WHZJOGY5RVBQaHdMRjZ0NWhIei1aNA?oc=5",
+          "source": "Mother Jones",
+          "publishedAt": "2026-08-12T11:00:28.000Z",
+          "section": "ai",
+          "imageUrl": null
+        }
+      ]
+    },
+    "technology": {
+      "id": "technology",
+      "title": "Technology",
+      "shortTitle": "Tech",
+      "description": "Gadgets, platforms, and the infrastructure behind the web.",
+      "editorial": "Tech desk today: Insta360’s next 360-degree action cam puts bigger sensors in a smaller design (Andrew Liszewski); Did poop enable the evolution of complex animals? (Kiona N. Smith); and Honor’s Robot Phone is better than a gimbal in a phone has any right to be (Dominic Preston).",
+      "editorialDoc": {
+        "version": 1,
+        "text": "Tech desk today: Insta360’s next 360-degree action cam puts bigger sensors in a smaller design (Andrew Liszewski); Did poop enable the evolution of complex animals? (Kiona N. Smith); and Honor’s Robot Phone is better than a gimbal in a phone has any right to be (Dominic Preston).",
+        "citations": [
+          {
+            "storyId": "technology-v3i6vj",
+            "url": "https://www.theverge.com/tech/978211/insta360-x6-360-degree-action-camera-8k-price-availability",
+            "source": "Andrew Liszewski"
+          },
+          {
+            "storyId": "technology-6aw84g",
+            "url": "https://arstechnica.com/science/2026/08/feces-fueled-a-flurry-of-evolution-during-the-cambrian-study-suggests/",
+            "source": "Kiona N. Smith"
+          },
+          {
+            "storyId": "technology-h12fkz",
+            "url": "https://www.theverge.com/gadgets/978314/honor-robot-phone-hands-on-impressions-test-gimbal-camera",
+            "source": "Dominic Preston"
+          }
+        ],
+        "mode": "deterministic",
+        "status": "ok",
+        "reviewedAt": "2026-08-12T13:05:21.263Z"
+      },
+      "stories": [
+        {
+          "id": "technology-v3i6vj",
+          "title": "Insta360’s next 360-degree action cam puts bigger sensors in a smaller design",
+          "summary": "Insta360 announced the next iteration of its popular 360-degree action cameras that have helped the company expand its offerings. The new X6 introduces a design that's smaller than last year's X5 and X4 Air but with…",
+          "url": "https://www.theverge.com/tech/978211/insta360-x6-360-degree-action-camera-8k-price-availability",
+          "source": "Andrew Liszewski",
+          "publishedAt": "2026-08-12T13:00:00.000Z",
+          "section": "technology",
+          "imageUrl": null
+        },
+        {
+          "id": "technology-6aw84g",
+          "title": "Did poop enable the evolution of complex animals?",
+          "summary": "In a recent study, evolution gets even messier than usual.",
+          "url": "https://arstechnica.com/science/2026/08/feces-fueled-a-flurry-of-evolution-during-the-cambrian-study-suggests/",
+          "source": "Kiona N. Smith",
+          "publishedAt": "2026-08-12T12:34:38.000Z",
+          "section": "technology",
+          "imageUrl": null
+        },
+        {
+          "id": "technology-h12fkz",
+          "title": "Honor’s Robot Phone is better than a gimbal in a phone has any right to be",
+          "summary": "The Robot Phone takes pop-up cameras to a whole new level. The Robot Phone, which launches today in China, doesn't sound like a good idea - and not only because it's not actually a robot. Instead it's a regular Android…",
+          "url": "https://www.theverge.com/gadgets/978314/honor-robot-phone-hands-on-impressions-test-gimbal-camera",
+          "source": "Dominic Preston",
+          "publishedAt": "2026-08-12T12:30:00.000Z",
+          "section": "technology",
+          "imageUrl": null
+        },
+        {
+          "id": "technology-ltyyyj",
+          "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
+          "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: he's launched a startup. That entrepreneur…",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+          "source": "Robert Hart",
+          "publishedAt": "2026-08-12T12:09:34.000Z",
+          "section": "technology",
+          "imageUrl": null
+        },
+        {
+          "id": "technology-f04kxp",
+          "title": "Grok is now an AI ‘teammate’ you can assign work",
+          "summary": "You’ll have to be fine with letting Grok sign into your online accounts, however. | Image: SpaceXAI SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that…",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+          "source": "Jess Weatherbed",
+          "publishedAt": "2026-08-12T11:58:54.000Z",
+          "section": "technology",
+          "imageUrl": null
+        },
+        {
+          "id": "technology-2des6v",
+          "title": "How to watch the Made by Google event stream and Pixel 11 announcement",
+          "summary": "Coverage from 9to5Google. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPckUyNXVLZTZqV3lURTVyQS1OT3g2ZFE3LTlkMFFldnBNRWdhc0VEWU1IZE5Eb05NMzl0QmhpbEJaM0lqQ1lqVmxnRHRZWGtWQUVkVHBnR1BJMUxWUVVyWEMzNE84cUVzVXJNd2xCRWZ3U3l0QkZVam5WV3EzWEVYXzZpbHlpWDk5TlUwemljOE5zZXV4S1JQSlJ6REJyUEU2YjBMeTBramQ?oc=5",
+          "source": "9to5Google",
+          "publishedAt": "2026-08-12T11:00:00.000Z",
+          "section": "technology",
+          "imageUrl": null
+        },
+        {
+          "id": "technology-ppi9qw",
+          "title": "Helldivers 2 Update 7.0.0 Out Now - Check Out the Patch Notes",
+          "summary": "Coverage from IGN. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOX3ByU0RwUnpqNm5Ca2JXcXZvNVFXZFlJN0Exa1djak9iN3dRQUxuNldZdUQ3NlRPSjdmWmZaNFR3Tzk5NHl4RHN4V2hXZTFpVk96LUZ3UFNsWk9LdnNjX1A1LVNiRy03NGx6OVctVGNsX3RfYnZpTDd3MGR2N1Y4cnFtMmxjckFobFVDRzVXaURfTDhTTEJaV3YxanFMd05CSW5PNUpuX043VmxFOXdZX0VDUVlzOW4wcVNWaExJZ0xocERqUEVsZjJuWC1zQmNiLUxhQXFobGJma2FPYWtYTnhVbw?oc=5",
+          "source": "IGN",
+          "publishedAt": "2026-08-12T09:49:03.000Z",
+          "section": "technology",
+          "imageUrl": null
+        },
+        {
+          "id": "technology-x4pzvf",
+          "title": "State of Play for Phantom Blade Zero Announced for Next Week, 11-Minute Trailer Revealed",
+          "summary": "Coverage from pushsquare.com. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMmwtMS1XR2dEbWJ1MkZ3SU5VSnNvdGVaNXJRT053Y0NsQWFIUEpRVzM2QkdnWHpfelNlUjVqR3kwekVnTXVNT2ZtQWNpelZvenNDbm5fV3pGS1hHUkxWUFc2TVZQRng5RllhS0VRU21pSlpMUkROVE5iY2NITHQ5UnVMT2RrQnNOWDJ5ZVBTRzBVZ1dkZzI3NS03ZFU0WHJlMXVTdjk3cTJNV2RjRWdyTm9uOXdndDRpY0hrS2M3TC01MUsxU1E?oc=5",
+          "source": "pushsquare.com",
+          "publishedAt": "2026-08-12T08:00:00.000Z",
+          "section": "technology",
+          "imageUrl": null
+        }
+      ]
+    },
+    "chicago": {
+      "id": "chicago",
+      "title": "Chicago",
+      "shortTitle": "Chicago",
+      "description": "Local civic life, culture, and neighborhood reporting.",
+      "editorial": "Chicago desk today: Lobbyist, mayoral candidate John Kelly says Chicago has had enough of career politicians (CBS News); Chicago Board Of Elections Rules On Final Challenges To School Board Candidacies (Mila Koumpilova, Chalkbeat); and Opinion | Chicagoans are getting fed up with the city’s teachers union - The Washington Post (Google News — Chicago).",
+      "editorialDoc": {
+        "version": 1,
+        "text": "Chicago desk today: Lobbyist, mayoral candidate John Kelly says Chicago has had enough of career politicians (CBS News); Chicago Board Of Elections Rules On Final Challenges To School Board Candidacies (Mila Koumpilova, Chalkbeat); and Opinion | Chicagoans are getting fed up with the city’s teachers union - The Washington Post (Google News — Chicago).",
+        "citations": [
+          {
+            "storyId": "chicago-rzb6uc",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUkdqRTE5U3NKdHQtREc2ZXRTcGNqeTdhZ0FMMHdQZ1VJQ01VbTRRdzlIQUxianIybHNRWDIzdmw2NW45NGtBTVlqZVhLN2FsWm14SXh6LTZjOWJkdDRQRjhWRlNJdm1URTdNVkpMRmlwMUNlcllxMU9MSDBIb0ptRjlkYTR5NWxmYW45X0tnV2M4VEpvdk1XSFMzYVYzelZEWmthZw?oc=5",
+            "source": "CBS News"
+          },
+          {
+            "storyId": "chicago-b4ztbm",
+            "url": "https://blockclubchicago.org/2026/08/12/chicago-board-of-elections-rules-on-final-challenges-to-school-board-candidacies/",
+            "source": "Mila Koumpilova, Chalkbeat"
+          },
+          {
+            "storyId": "chicago-ats5s8",
+            "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUI5ZmFaUEt0ZDNXdkVIWnpGdi1YUHdoXzM2V1FtTk5taGo3Wk9PNmhpNUxJc3NTSnFHX0haYVVqQjFvMVVNVm94N0o1M29Jamo4YktfVlU1SzRmOTdPcWxWZDdveDBGQnZuNjB4clZRbi1TQjBnWXYyOGJBOURxZ2xoQzNzRVo1alJlV3FabmJ2SlBFblozNHdLbUhrT0FQSFBSRlo3WVVHOGZ3OUR5bEpYNVZHUnhNRFE?oc=5",
+            "source": "Google News — Chicago"
+          }
+        ],
+        "mode": "deterministic",
+        "status": "ok",
+        "reviewedAt": "2026-08-12T13:05:21.268Z"
+      },
+      "stories": [
+        {
+          "id": "chicago-rzb6uc",
+          "title": "Lobbyist, mayoral candidate John Kelly says Chicago has had enough of career politicians",
+          "summary": "Coverage from CBS News. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUkdqRTE5U3NKdHQtREc2ZXRTcGNqeTdhZ0FMMHdQZ1VJQ01VbTRRdzlIQUxianIybHNRWDIzdmw2NW45NGtBTVlqZVhLN2FsWm14SXh6LTZjOWJkdDRQRjhWRlNJdm1URTdNVkpMRmlwMUNlcllxMU9MSDBIb0ptRjlkYTR5NWxmYW45X0tnV2M4VEpvdk1XSFMzYVYzelZEWmthZw?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-08-12T12:39:18.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-b4ztbm",
+          "title": "Chicago Board Of Elections Rules On Final Challenges To School Board Candidacies",
+          "summary": "Four final candidates for Chicago school board — including two incumbents — survived challenges to their signature petitions and were cleared to get on the November ballot at a Tuesday meeting of the city’s Board of…",
+          "url": "https://blockclubchicago.org/2026/08/12/chicago-board-of-elections-rules-on-final-challenges-to-school-board-candidacies/",
+          "source": "Mila Koumpilova, Chalkbeat",
+          "publishedAt": "2026-08-12T12:35:24.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-ats5s8",
+          "title": "Opinion | Chicagoans are getting fed up with the city’s teachers union - The Washington Post",
+          "summary": "Coverage from Google News — Chicago. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUI5ZmFaUEt0ZDNXdkVIWnpGdi1YUHdoXzM2V1FtTk5taGo3Wk9PNmhpNUxJc3NTSnFHX0haYVVqQjFvMVVNVm94N0o1M29Jamo4YktfVlU1SzRmOTdPcWxWZDdveDBGQnZuNjB4clZRbi1TQjBnWXYyOGJBOURxZ2xoQzNzRVo1alJlV3FabmJ2SlBFblozNHdLbUhrT0FQSFBSRlo3WVVHOGZ3OUR5bEpYNVZHUnhNRFE?oc=5",
+          "source": "Google News — Chicago",
+          "publishedAt": "2026-08-12T12:33:23.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-pcerd2",
+          "title": "Firms Linked To 2 Men Convicted Of Public Corruption Have Gotten Campaign Business From Gov, CTU",
+          "summary": "The firms tied to former Ald. Isaac “Ike” Carothers and former Blagojevich administration official Bamani Obadele have gotten campaign business from Gov. JB Pritzker and in the hotly contested race for Chicago School…",
+          "url": "https://blockclubchicago.org/2026/08/12/firms-linked-to-2-men-convicted-of-public-corruption-have-gotten-campaign-business-from-gov-ctu/",
+          "source": "Andrew Adams, Illinois Answers Project and Peter Nickeas, Illinois Answers Project",
+          "publishedAt": "2026-08-12T12:23:41.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-gcpp7p",
+          "title": "Another round of severe thunderstorms moving into Chicago area Wednesday",
+          "summary": "Coverage from CBS News. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdUdtbXZVNXRPblM2LUI0QlRyRVBMZWhxREduWTN0QmUybzJscXl0N3ZVVFFDNmlwRlV4SFZaNW5pWW9KZTJyWlFYVmVLaFJoczlMczF5T1I3OEUxb20zaGZDT1hwN3B3Yk9jWXpFS0xkbXd5eXd3cDhhdjZ0SjVwanBMMUFpUFdH?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-08-12T12:02:04.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-3lex0z",
+          "title": "Chicago Bears Question of the Day: Will injuries in the secondary derail the season?",
+          "summary": "Coverage from Windy City Gridiron. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOckE4Y19QN3BVc0VvQUxVeEJoUFhLMlc5NkN2bTJTdXJ0Y0hhQVF4SU9SWU80UFp1RW83bFhUdmFuYnc2QlhZTXJyWVoxdFRLUWx5cGg2d0V3emNxcFVtQWtmQkJIQUFnZEFEQjZ6cHlKOTBXUjJYV1dPbUdOc1Z3SndBYmhOWXR0bXEzbE1FdWhENnN5VTFJM2puMGFWSEJpSWRrZHBRcC1nMi10QzBkWUxpc1pHTFZiMy1EVEltdnRXcmdJWDhJc3NvQmZLbHZuWGhiUVBXdlJFOGZSZ1JlRExn?oc=5",
+          "source": "Windy City Gridiron",
+          "publishedAt": "2026-08-12T12:00:00.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-bfn1mv",
+          "title": "CUBS POSTCAST: Alex Bregman & Nico Hoerner STAY HOT in Chicago #Cubs 8-6 WIN over the Nationals",
+          "summary": "Coverage from 12newsnow.com. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNUDM4REwxNDZyaHhUc1ZjLWYxSVZaTi1wQjA2YWZ2UDRYTUdpYmItZXBlYmNhVXlPbmV0NHRUUUJxUWdiUGR2LWxrUG8tUVk5QVlWQWtkb1pCNzFNWlh0d2F0NzlLcEVJMjhzakhwWHg5czAyME9xaVdidm4zSmh6dDB0M1FNRzhwZGlMNmgtLUxVbUNFYjhmWW02X0pPMWw2aVNQN09MMlgyLTNEWi1ZM3hoTlNrdVU3VlNDRlhJcjF5WUstd3ItbERMUzdMSXV3VVRyMHU5NGpkZlI4UERrbVRCZnBIbk16TkpLUklSZGZKSFA5dXlvUEJNQXFXUmthUXo5N2ZCRXZ4d1JwTVA0UlkzbGo0UHJtRHFtZzRiS3d2ek5uR0xNVWJRbE1LZ0gxRjdZMUxOZXN4bmw2UTN4VA?oc=5",
+          "source": "12newsnow.com",
+          "publishedAt": "2026-08-12T11:35:00.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        },
+        {
+          "id": "chicago-2hhw10",
+          "title": "Editorial: Brandon Johnson turns to an analyst who downgraded Chicago’s credit as his new CFO",
+          "summary": "Coverage from Chicago Tribune. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVkhxUWVNTk5kTFVyODJqbnZEWTlHTXVKRUNuTHRqX2VTVW1xY2RzdDZPTTh4cTZTSjlNVUttM09SbTVvczNCZDZ6bUxwSGZVX0hjYWt1TDY1bW9TZDJTWmMxaWJWT3cyZkZGa2owb1FGcllpaGg4SHBLbEg1ZGdDWE1peERmeEI0NnY4c0NrQi0ycmRBU0tBVWJHdkJSb0ZPNXNLUnV5OEFiWkxrUUtvVldsLWZTWmpOZGRmd3ktelkzX3BRRmpjTTIyZFlyMUU?oc=5",
+          "source": "Chicago Tribune",
+          "publishedAt": "2026-08-12T11:00:35.000Z",
+          "section": "chicago",
+          "imageUrl": null
+        }
+      ]
+    },
+    "global": {
+      "id": "global",
+      "title": "Global",
+      "shortTitle": "World",
+      "description": "International affairs and stories shaping the wider world.",
+      "editorial": "World desk today: Zhu Rongji, who drove China's 1990s economic reforms, has died at 97 (Emily Feng); Close Trump aides — but no Cabinet officials — made secret catering truck move - The Washington Post (Google News — World); and Israeli settlers besieging Palestinian families in West Bank village (BBC World).",
+      "editorialDoc": {
+        "version": 1,
+        "text": "World desk today: Zhu Rongji, who drove China's 1990s economic reforms, has died at 97 (Emily Feng); Close Trump aides — but no Cabinet officials — made secret catering truck move - The Washington Post (Google News — World); and Israeli settlers besieging Palestinian families in West Bank village (BBC World).",
+        "citations": [
+          {
+            "storyId": "global-5bdeqm",
+            "url": "https://www.npr.org/2026/08/12/1196705508/zhu-rongji-china-former-premier-dead",
+            "source": "Emily Feng"
+          },
+          {
+            "storyId": "global-qpxmju",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdW9WZlJYZDQ0MHFKdDhuV1JJbXBIdWx6czVIVlRDajF5bm5ZSUlqSVBZLUJvZ2hjM1c3eUt5OUpFQlZCWlRHMlpkemlVUEJkS3BKaHBRdl9GZEk4VkpCdGZzdDd5T24waEtqWUhsNktBdFVhUzNWRUgwQTVsSHlQajB2QVdoQzZUanZodS0wQ01fMjRoNE5FdHZjdHVzSzlFdndyUTMxYUswSnZuQ0t5MS1naTBjY2xrdEJ5dnlmYw?oc=5",
+            "source": "Google News — World"
+          },
+          {
+            "storyId": "global-wyhcqi",
+            "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
+            "source": "BBC World"
+          }
+        ],
+        "mode": "deterministic",
+        "status": "ok",
+        "reviewedAt": "2026-08-12T13:05:21.276Z"
+      },
+      "stories": [
+        {
+          "id": "global-5bdeqm",
+          "title": "Zhu Rongji, who drove China's 1990s economic reforms, has died at 97",
+          "summary": "Zhu was renowned for reforms that sought to transition China from the post-Maoist years to a more global market-oriented financial system, without ceding party control over the economy.",
+          "url": "https://www.npr.org/2026/08/12/1196705508/zhu-rongji-china-former-premier-dead",
+          "source": "Emily Feng",
+          "publishedAt": "2026-08-12T12:36:30.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-qpxmju",
+          "title": "Close Trump aides — but no Cabinet officials — made secret catering truck move - The Washington Post",
+          "summary": "Coverage from Google News — World. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdW9WZlJYZDQ0MHFKdDhuV1JJbXBIdWx6czVIVlRDajF5bm5ZSUlqSVBZLUJvZ2hjM1c3eUt5OUpFQlZCWlRHMlpkemlVUEJkS3BKaHBRdl9GZEk4VkpCdGZzdDd5T24waEtqWUhsNktBdFVhUzNWRUgwQTVsSHlQajB2QVdoQzZUanZodS0wQ01fMjRoNE5FdHZjdHVzSzlFdndyUTMxYUswSnZuQ0t5MS1naTBjY2xrdEJ5dnlmYw?oc=5",
+          "source": "Google News — World",
+          "publishedAt": "2026-08-12T12:28:13.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-wyhcqi",
+          "title": "Israeli settlers besieging Palestinian families in West Bank village",
+          "summary": "Israeli security forces have reportedly withdrawn and about a dozen settlers are said to remain at the site where two families have been besieged since Sunday.",
+          "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "publishedAt": "2026-08-12T12:16:22.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-zflvxw",
+          "title": "Zhu Rongji, who helped turn China into a trading giant, dies at 97",
+          "summary": "Zhu brought China into the WTO and championed reforms that fuelled growth.",
+          "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "publishedAt": "2026-08-12T12:10:45.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-b17tha",
+          "title": "At least 44 die as ferry sinks in Zimbabwe's Lake Kariba",
+          "summary": "The vessel is said to have overturned after being hit by strong waves.",
+          "url": "https://www.bbc.co.uk/news/articles/czxe2vyxd7do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "publishedAt": "2026-08-12T12:01:34.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-99odp4",
+          "title": "Wisconsin result dents winning streak for Democratic Party's left wing",
+          "summary": "Centrist David Crowley is projected to have beaten democratic socialist Francesca Hong, breaking a recent nationwide trend.",
+          "url": "https://www.bbc.co.uk/news/articles/c9347ezzwljo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "publishedAt": "2026-08-12T11:32:17.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-l2fn4b",
+          "title": "Danube river's low water levels reveal remains of WWII soldiers and motorcycle",
+          "summary": "A remarkably well-preserved motorcycle and identification tags were found alongside the bodies.",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gp3zmkpmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "publishedAt": "2026-08-12T11:28:05.000Z",
+          "section": "global",
+          "imageUrl": null
+        },
+        {
+          "id": "global-yvmeem",
+          "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
+          "summary": "Following a 10-hour rescue operation, emergency workers pulled the 32-year-old from beneath slabs of concrete.",
+          "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "publishedAt": "2026-08-12T11:28:02.000Z",
+          "section": "global",
+          "imageUrl": null
+        }
+      ]
+    },
+    "kerala_politics": {
+      "id": "kerala_politics",
+      "title": "Kerala Politics",
+      "shortTitle": "Kerala",
+      "description": "State politics, policy, and public life in Kerala.",
+      "editorial": "Kerala desk today: Opinion | Soft Hindutva, Hard Double Standards: The Kerala Story - News18 (Google News — Kerala Politics); MP Parameswaran, eminent nuclear scientist, dies at 91 (Utkarsh Classes); and CPI(M) accuses Kerala govt of ‘neglecting’ fishermen amid search ops (ThePrint).",
+      "editorialDoc": {
+        "version": 1,
+        "text": "Kerala desk today: Opinion | Soft Hindutva, Hard Double Standards: The Kerala Story - News18 (Google News — Kerala Politics); MP Parameswaran, eminent nuclear scientist, dies at 91 (Utkarsh Classes); and CPI(M) accuses Kerala govt of ‘neglecting’ fishermen amid search ops (ThePrint).",
+        "citations": [
+          {
+            "storyId": "kerala_politics-pmjz1o",
+            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU3VpVWlPVE94R1czV1p6Q3Nxa1hLblgwRUxGR0ZqX1hFakhsQ0pwTUpZckFpUWptckZqSEUxcXFweFMxWEJnazNNR3E3US1YZ2ZzX1F2TlA4TURBNi05TUJselZXd3BKRkpaYXg2RzU2RWFRQmlVQWNGU0NmTEl0dDNCQWUzSUFCdlRBV1VLSnRmbUFvclJabF9BWVkzN24wVzV4am0zQXZtM1ZpSGN0RdIBtgFBVV95cUxQNTExMjVib21iTG5PS2laSDhiVkkzTGZyZHRDV0dIOUo0VEx1MVltajZrS2RTV2hhbUl6bE9mcEdpNWx3ZGdUS0l6VUk3X2tmUnJLSi1hUHRiTWVWWWQ5R2gyRVJmYXVFZUJ6T3NQS1dUMFQtLWJwM0FpZlZtbWg3X3VUUDNQOFdXM3c1NmUxMUVLZjlENDVlaVdpMkwzd25KeFluSERRZjYxTnVfV2xWbzN3dU5VQQ?oc=5",
+            "source": "Google News — Kerala Politics"
+          },
+          {
+            "storyId": "kerala_politics-ag5wf1",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkxhV2NvWVFfTmwzeEFwdzZHaG5qTWNiTVVXTldzT09JZEhEWTNDR21XdWtVTVExVkVpSzRTbVpXQ1VPUWh0T0o4aG1IY1Fxb0FkaFNac3FjTmRYT3FYNFRLdG1tREtGeWZfd1V4RnhpSHlWVDYtOEV3MVdvUVJONzhiTDJ1eTN4dFN6VnFDclhLb0FYS0RSV1VrODE2UVY0bGQycTAyNWxtckw0RWJFenFMRQ?oc=5",
+            "source": "Utkarsh Classes"
+          },
+          {
+            "storyId": "kerala_politics-hrh5gy",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHhkdjlyM3ozOWtZSjdwS3hZVHBlOVFtQTNOeU5XUW9HZnpwUXNxZ3A5eGFSaTIzN09kMWNLdGxRdGo3Wl81ajlCaHpyOGlIZ1Q5dUw3YkZtbV9SMGN2d29WdWJaSFZ4am9fZk5XQzUwbW51REJDTEMyM3dDRG9sb3hVUEZDc1dIeGllT3hkTUNvWXIwSDVZOEJ6bnNvVWw30gGmAUFVX3lxTE11Zi1zbjJsSURFR204Q2dQVnRkMnd4c0ppMzc4cmxpUkZudHcyTDBuSHhZT1doR3RUMllRMllpemFUVzE0b3Y3UzhXQkw5V3JfTS15cmhNcnFyRmRTdmM3dTlwZl85TF9DSFNBODA3TWdEaHZHMV9xTW56VTJ6eWhsbXNzRTJ0dU9Ldm9wSG5RTHlLd19lRURNeDRwSWl1UEp5WXJqOGc?oc=5",
+            "source": "ThePrint"
+          }
+        ],
+        "mode": "deterministic",
+        "status": "ok",
+        "reviewedAt": "2026-08-12T13:05:21.277Z"
+      },
+      "stories": [
+        {
+          "id": "kerala_politics-pmjz1o",
+          "title": "Opinion | Soft Hindutva, Hard Double Standards: The Kerala Story - News18",
+          "summary": "Coverage from Google News — Kerala Politics. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU3VpVWlPVE94R1czV1p6Q3Nxa1hLblgwRUxGR0ZqX1hFakhsQ0pwTUpZckFpUWptckZqSEUxcXFweFMxWEJnazNNR3E3US1YZ2ZzX1F2TlA4TURBNi05TUJselZXd3BKRkpaYXg2RzU2RWFRQmlVQWNGU0NmTEl0dDNCQWUzSUFCdlRBV1VLSnRmbUFvclJabF9BWVkzN24wVzV4am0zQXZtM1ZpSGN0RdIBtgFBVV95cUxQNTExMjVib21iTG5PS2laSDhiVkkzTGZyZHRDV0dIOUo0VEx1MVltajZrS2RTV2hhbUl6bE9mcEdpNWx3ZGdUS0l6VUk3X2tmUnJLSi1hUHRiTWVWWWQ5R2gyRVJmYXVFZUJ6T3NQS1dUMFQtLWJwM0FpZlZtbWg3X3VUUDNQOFdXM3c1NmUxMUVLZjlENDVlaVdpMkwzd25KeFluSERRZjYxTnVfV2xWbzN3dU5VQQ?oc=5",
+          "source": "Google News — Kerala Politics",
+          "publishedAt": "2026-08-12T09:09:00.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-ag5wf1",
+          "title": "MP Parameswaran, eminent nuclear scientist, dies at 91",
+          "summary": "Coverage from Utkarsh Classes. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNkxhV2NvWVFfTmwzeEFwdzZHaG5qTWNiTVVXTldzT09JZEhEWTNDR21XdWtVTVExVkVpSzRTbVpXQ1VPUWh0T0o4aG1IY1Fxb0FkaFNac3FjTmRYT3FYNFRLdG1tREtGeWZfd1V4RnhpSHlWVDYtOEV3MVdvUVJONzhiTDJ1eTN4dFN6VnFDclhLb0FYS0RSV1VrODE2UVY0bGQycTAyNWxtckw0RWJFenFMRQ?oc=5",
+          "source": "Utkarsh Classes",
+          "publishedAt": "2026-08-12T08:15:00.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-hrh5gy",
+          "title": "CPI(M) accuses Kerala govt of ‘neglecting’ fishermen amid search ops",
+          "summary": "Coverage from ThePrint. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeHhkdjlyM3ozOWtZSjdwS3hZVHBlOVFtQTNOeU5XUW9HZnpwUXNxZ3A5eGFSaTIzN09kMWNLdGxRdGo3Wl81ajlCaHpyOGlIZ1Q5dUw3YkZtbV9SMGN2d29WdWJaSFZ4am9fZk5XQzUwbW51REJDTEMyM3dDRG9sb3hVUEZDc1dIeGllT3hkTUNvWXIwSDVZOEJ6bnNvVWw30gGmAUFVX3lxTE11Zi1zbjJsSURFR204Q2dQVnRkMnd4c0ppMzc4cmxpUkZudHcyTDBuSHhZT1doR3RUMllRMllpemFUVzE0b3Y3UzhXQkw5V3JfTS15cmhNcnFyRmRTdmM3dTlwZl85TF9DSFNBODA3TWdEaHZHMV9xTW56VTJ6eWhsbXNzRTJ0dU9Ldm9wSG5RTHlLd19lRURNeDRwSWl1UEp5WXJqOGc?oc=5",
+          "source": "ThePrint",
+          "publishedAt": "2026-08-11T14:49:30.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-ebk4la",
+          "title": "LS gives nod to Bill to rename Kerala as Keralam without debate",
+          "summary": "Coverage from ThePrint. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMXV6WnVLbXlBSVdGVWhmVk8tdTZobkNtTUJFeHFMLVpraEd6ckJzeUtWZldFYVZwWVNPeVpaUUFGNkFtd1Fid2IwakJ2NjlKRndQZ0JnbnpPelUxMkNFZ1pHal9YdHNNUnBISFg3Y1BEbHhmQWsybHBaeE52dVRhaXR3Z3ROWXVGTWtWbG5tQk5nNjE3WGd3cU1NcEt3aGfSAaQBQVVfeXFMUEVDYjFrS0lnYjY2M2dYN0JQR2FzT3pJaUR0eDhMUW5kMjVFM2QybHJHT0Z4WkpKMnI3UU9aeVRBdDdCQ1djX0tWNWUxeUNnSGdibTNoZVlSVzdsUWwyWnpBWmI4MlFwX0ZIS2ZoY2NfaXE2YVpLZ1prOWt0ek5Oa1RqcFgweGx1YXJJN0pKMjZ1anR6eVZpeVpnUnZPbmJpczNTOEc?oc=5",
+          "source": "ThePrint",
+          "publishedAt": "2026-08-11T12:47:52.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-jht9u3",
+          "title": "Vande Mataram, Savarkar quiz: Kerala government faces ‘RSS agenda’ charge",
+          "summary": "Coverage from The Indian Express. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZG4xdjZDZjJUdHpJRmNXRnRxaDdOOEx6X0ptLUc2LTlzSHViTHo5MUs4cFVEQ0Y2QURTQW4wTDFpcXM2ZFpQOUpHUkhEU1FTcUFudUxJZF9sdk1BcnM2TDJrdWdBRm40enhuR3ZnYlZ1WDdlS2g5OU5TVmh6MXVxRGtxeVVhMTctYlhPcFNoQ2QwbVI5MGQ2VGNBa09JWG5hTVh5RXg5OXIySVI2Nm5BNHluZVg2QUxyN085ZHNCdi1ReC1PMFVr0gHOAUFVX3lxTFBjR1hCMmVpd1prUnZ3UVFGWnROV001U0NrRkRVMDR4QVFuSXNndnpqdUN3Sm1ybkxPNlMzZmdVOHRSTWdkTWktRlNuYkFBMm5sZWN3OGhWSmJ0MU9wd1I3c1NFSVdVWHMzRWJGcDg0VFhEY2R5RzI3MnZIS0haX1VmSWk4ZUFIdjgtRVhGT3JvNjFmU01fYTFfU2ZKbmlPM1Jic0hSRzNpam9BdXJ0cFkzOXdvNlo5X3dOcDNuOEt4X0V5MEh3ZHczM3VOZDBn?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "2026-08-11T12:45:15.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-8dh2ad",
+          "title": "Vande Mataram Debate Sparks Political Unrest in Kerala",
+          "summary": "Coverage from Devdiscourse. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQb3ctN04wamxGTG05ejVUOVluSWw1dE4xTnBTZEpETUc0bEJkWTJVLS1WMXBYd05KRkxrd20tNUU4RWoxZ1dJajBMUTBYNmNnRDZINmZacm1FU2p0UjdtUFZOeFFFWks0dHl3S2FBQzh5T1I5TlExM2VMczd0djhyMXROeFl1VUpDMVhXcGUzRGNDbDlHdVc2SUoybmFvdUhMZlFlS3lPdHRLM3FFTUHSAbMBQVVfeXFMTWZnVDdwZjNxcVE2V1ZBM3UwV1dReHRUVXZha0Y4azgyMEhUejlVTm0tYkdoeEJ0eUVWMTBzV05TNS1KY1ZPTDNDdmVCWjJfS05oUFpaVW5WVnZIeXhvaVhlc2xwcGR3d1RVeGtjX0RUb29HWWVRVlU5bGF5Rmd0N2VHNzE0MWR5dmM0Nm1wZ0F6LTFoUTJKUEpidndaMm45dHAzbnFPQ19MbF9YdUUwZEkzbk0?oc=5",
+          "source": "Devdiscourse",
+          "publishedAt": "2026-08-10T18:17:45.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-kyy3ku",
+          "title": "Kerala government faces wrath of fishermen families over alleged lapse in search for missing persons",
+          "summary": "Coverage from Deccan Herald. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOWkk4ZEdWMmVKaE9HU0p5UEtXbmdsVzNzUmRENlhZRXZsUUltWFp2YW95dmJHTjRJUkpuMDFvTDlhTHltbnlkYWMwRDlrdWVZQXNnSUhTdTZrRjZXWU0xTi1DSVkwV1FlUjdsT1lJYjhRb2YyVnF6V0ZOdzRuUkNyVDhxWWp6SUZtcVk0QVRsX1d4Rmxtc19BOEh2d3VSZTVSaGxNdFJ4M096YURzazl4em5Nc2p4bkYzZVBNTWJLYlNoeTdtWUhEMHlhQUZ3RGsyNzlpdTBlU2R5dGVwRmxEX2tYeVg?oc=5",
+          "source": "Deccan Herald",
+          "publishedAt": "2026-08-10T16:30:54.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "kerala_politics-219gan",
+          "title": "Held for remarks against women protesters, Kerala political commentator gets bail",
+          "summary": "Coverage from The Indian Express. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWi1NQ0xNNENDdWoxOEFSOTdGX1ZrTDZEU3ZIaHpMa2Q0Zk1OTW0zQzc2cHplbzRISzFuR09wTHRPNndGWkt3SnZHbVhMdmEyQ3hWeUNlTmRSNjE5LWI2WktUS2hOTnZxRWRYalB1cy1PeEVqeTgxaERsbFl0QVRVNnlFR29rb0VXdHFhUUhRclpWZ3hleDlEWFJYUjVIcktvWUZtTTNkTkZINWl1Y0dhazFlejRPaUl6ZERmUUpaNjnSAccBQVVfeXFMTmpQdzk3c2F6UHdtbHZ4cUJJaXNfSk40TFR1ZDRqVmxmUE0tT05HbU55N1hpcnlHV3phcjV5WTlueVpsWWo3U0MzY2VMdWpEOGYwY05uTlBKQU9FVm1MOFhVWFFkR2EtYTV2TVZaV2RDcnprN3ZTMUFqcnJTQ2FrWkZsQTkza3B2UWUyWVY4eklxanVEQnFJSlNKMUpmaUl3U1ZKR2hvT0ZUNHRqYWRkaF95Vm52cFg0aHZxMGJiQzBpOGpnSE5BSQ?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "2026-08-10T16:20:36.000Z",
+          "section": "kerala_politics",
+          "imageUrl": null
+        }
+      ]
+    },
+    "india_politics": {
+      "id": "india_politics",
+      "title": "India Politics",
+      "shortTitle": "India",
+      "description": "National politics and policy debates across India.",
+      "editorial": "India desk today: Cockroach humour as a form of political pedagogy - ABC Religion & Ethics - ABC News & Headlines (Australian Broadcasting Corporation); The cost of memory politics (The Times of India); and India warns incidents on disputed border will affect China relations (The Japan Times).",
+      "editorialDoc": {
+        "version": 1,
+        "text": "India desk today: Cockroach humour as a form of political pedagogy - ABC Religion & Ethics - ABC News & Headlines (Australian Broadcasting Corporation); The cost of memory politics (The Times of India); and India warns incidents on disputed border will affect China relations (The Japan Times).",
+        "citations": [
+          {
+            "storyId": "india_politics-vf6z49",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd2RETjdGcGVva3FLbGk5RzlqYTVzblVOMUN6a3FlQ3ZkdjhlXzhNSHJDanZvZGpGR1JKdk1GMF9nZGp1bUd3UF9yY1pVMHlDY1dta0NQNHYtTkpnaUxvUFpIY1FxRVhFazZwemF4NmhXTE9saFliUFRweW9iZ19LdlZsTHRTWGhtdXc1azdaeTZOSkV0OUhTekl5SQ?oc=5",
+            "source": "Australian Broadcasting Corporation"
+          },
+          {
+            "storyId": "india_politics-ma0t6",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSk5fSUotRzYxOVJVOGViUUJ0UERLSGhFc2plbmpzOW5hOExKYmhwTHRyQVJFZ3J5NklsR0pKVlUtclBFZ04xQ21lYXo1S1NpcTlNTTRkclRzRGVrWEU5RjZ3NGNSV0QtMFJyRlFObmdjbDRSNUxhNGdxVUw4YWhoeXpZQnhzcm1xZ1FMTEE0dEJKdk52UldrVTRZZF9RZFBGRTR1UV9LQ1ZSTFJCNE5MVUppcTLSAboBQVVfeXFMUDdCY2xiVTVCVllBS043aDlGcWJVX080Z0tpVE9kR1F4LU5NbmwxcTFXQ1hmZVRmcU41Q0Vzb1BWRDY4TDZPWXBQWklxVFphVEZQVnlwR0JvSWt4dTF2V0x6d1Mtbi13S2Q3VTlVTDhpOU1YaF9meHF1bGRsZTdiSHJia2tyVktQaXI2VDI5S2M4UTZUZzJKazRNRVdHWWVZV3pzejBXeXZJTjl2dlNycE9VWXIydjVRZHhn?oc=5",
+            "source": "The Times of India"
+          },
+          {
+            "storyId": "india_politics-8x4lvo",
+            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURMdUhpY1ZHOVlxZXBfQ090M1Azd1dBOE5HeFFFek9pbUlwUy1xYmQyRmpaMHZYSXhvLUtXbTdHc29HMmJEWmxFSGlIR0t1YkFjX0E0Y3VKNVp2RGMySGwtTjhRaG1wZDRlY1RaS2dkUHFyZldRMUw5NFhTaHB5RTBGcWlHNFhPS3ROLVpEblRtZVBVZU1uUnhQSkU?oc=5",
+            "source": "The Japan Times"
+          }
+        ],
+        "mode": "deterministic",
+        "status": "ok",
+        "reviewedAt": "2026-08-12T13:05:21.279Z"
+      },
+      "stories": [
+        {
+          "id": "india_politics-vf6z49",
+          "title": "Cockroach humour as a form of political pedagogy - ABC Religion & Ethics - ABC News & Headlines",
+          "summary": "Coverage from Australian Broadcasting Corporation. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd2RETjdGcGVva3FLbGk5RzlqYTVzblVOMUN6a3FlQ3ZkdjhlXzhNSHJDanZvZGpGR1JKdk1GMF9nZGp1bUd3UF9yY1pVMHlDY1dta0NQNHYtTkpnaUxvUFpIY1FxRVhFazZwemF4NmhXTE9saFliUFRweW9iZ19LdlZsTHRTWGhtdXc1azdaeTZOSkV0OUhTekl5SQ?oc=5",
+          "source": "Australian Broadcasting Corporation",
+          "publishedAt": "2026-08-12T08:57:27.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-ma0t6",
+          "title": "The cost of memory politics",
+          "summary": "Coverage from The Times of India. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSk5fSUotRzYxOVJVOGViUUJ0UERLSGhFc2plbmpzOW5hOExKYmhwTHRyQVJFZ3J5NklsR0pKVlUtclBFZ04xQ21lYXo1S1NpcTlNTTRkclRzRGVrWEU5RjZ3NGNSV0QtMFJyRlFObmdjbDRSNUxhNGdxVUw4YWhoeXpZQnhzcm1xZ1FMTEE0dEJKdk52UldrVTRZZF9RZFBGRTR1UV9LQ1ZSTFJCNE5MVUppcTLSAboBQVVfeXFMUDdCY2xiVTVCVllBS043aDlGcWJVX080Z0tpVE9kR1F4LU5NbmwxcTFXQ1hmZVRmcU41Q0Vzb1BWRDY4TDZPWXBQWklxVFphVEZQVnlwR0JvSWt4dTF2V0x6d1Mtbi13S2Q3VTlVTDhpOU1YaF9meHF1bGRsZTdiSHJia2tyVktQaXI2VDI5S2M4UTZUZzJKazRNRVdHWWVZV3pzejBXeXZJTjl2dlNycE9VWXIydjVRZHhn?oc=5",
+          "source": "The Times of India",
+          "publishedAt": "2026-08-12T03:41:00.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-8x4lvo",
+          "title": "India warns incidents on disputed border will affect China relations",
+          "summary": "Coverage from The Japan Times. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYURMdUhpY1ZHOVlxZXBfQ090M1Azd1dBOE5HeFFFek9pbUlwUy1xYmQyRmpaMHZYSXhvLUtXbTdHc29HMmJEWmxFSGlIR0t1YkFjX0E0Y3VKNVp2RGMySGwtTjhRaG1wZDRlY1RaS2dkUHFyZldRMUw5NFhTaHB5RTBGcWlHNFhPS3ROLVpEblRtZVBVZU1uUnhQSkU?oc=5",
+          "source": "The Japan Times",
+          "publishedAt": "2026-08-12T02:30:00.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-6qx1lq",
+          "title": "I grew up with socialism in India. We don’t want it in NC.",
+          "summary": "Coverage from Carolina Journal. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQVRwbGkxM0VPajk2V1FqZVMwN29EMEFUQWFMbHl4eVlySGZqYjd3RG5tdjFWU09pbE9JbnBlLVQ1eEhfVGJLS3pCMHBaM2F5QUNUTC0yc3FaUjJZdVRVYVZwVFU1d1NBdXpPZE5oZ0FkajRlcVg4OEZyeUtfMU4tc0ZOOGJwSHE1MjdydWg2NGI1dHc3MVBlb3EwWXc?oc=5",
+          "source": "Carolina Journal",
+          "publishedAt": "2026-08-11T14:00:53.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-x812mh",
+          "title": "Bangladesh and India battle to save cricket series after political turmoil",
+          "summary": "Coverage from Al Jazeera. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRk9jUFlRVFF5MVF4XzczbjZ6b1RhLXd5X3B4bzZ5Mm96QXZ1VmVpcThvbFAyMTB4Smo5bURTb2xHa0lKLWZnS21acFRxYldDemN4QXhfdnhIZVpTcllRaDZDNk5TTVRTbHdTbjlpSXFzbGp6dkFfbWxNTjN1R25paEo4Xy1MTF92bi1wR2N1eEZmVDQ5LVdWT1JZS21ndElkMXZvQmdxM2YtLUVybVNfbldkN0RRY2hL0gG-AUFVX3lxTE85d2lkS2ZtMkJjTFRSaWQwcHRtYzU0NWNjWU5aWVF2NWl0MHpPcEJWSnREZWNBRzBZUC1HY2R4OXR4MGxTM1ZyTUdXUktRT1p0bWVKWVVZYXJ0ZFJTOHJHN1otZDd1MHUxelFlMTBIeE0wZkg4eDFjZ29tdzlUY3VLdFhNd1BFMGtud19CNXEtU1N2WFBPX0VkYWRxd3pJbHQzblJxOE05NlRYNjQ1Ykw4UHdFaHdoZzNmcWpsNFE?oc=5",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-08-11T10:05:21.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-3vhf1u",
+          "title": "‘My father is in RSS’: India’s Gen Z confronts Modi-loving parents at home",
+          "summary": "Coverage from Al Jazeera. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVc4NHlVS1I2X1RfWDhfWFRJd0VpNGdjd1JBVVNjMFl1di1uVUt3MU5JSmRtcmxSMk8wNjYwZVEtYUN4YjNMbU1BdHZobHNHT2FoUXRHVm4wOThUajFEbTVLcUlrT291dmpwd3E4QzdkTi1hQmhIM3g2VEgzRldZODJ2VjQ3UkU1NF9NclFLWFJ5RERYOWZEX1ZUTGFLX3ZSVHNhSVQzWF85U011bGFINtIBtgFBVV95cUxNVTgxNG1ia1JGXzdwT3BwQkZBclMyQnZGMVJrOUJjUnJqZ2NjSUg1NFhBTW0xUUl2RGtZUlRJOFJLZWxuZHRxQ3BqU3lHaURVdDJsWkN0cjVjZ3BLOXd2UGhTdUZVb1o2eWZ1UUg5YzN3X0VuR2l2ZVRESkZqQ2hwYVQxdzJKbjgzNi1sYUdxMUFsMnNJSGp6NGxVNkItSFRBaW82OXJzQ0pBdlhmajdZaWRsLVRPUQ?oc=5",
+          "source": "Al Jazeera",
+          "publishedAt": "2026-08-11T08:37:48.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-tji43y",
+          "title": "As conflict in the Middle East intensifies, India’s relationship with Israel deepens",
+          "summary": "Coverage from The Guardian. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPc3I5SE9SOTNVLWZ1bzlRQTBRbENMbVBhM1ZsR3NPUUl4a2tWeFU5dkt6UkpuS3pZajdaY3VyRTdycDh6R29kS0U0MEdoUlNBZHBfdFNxSU42X0w1NEw5ckU0RlhSeF9iazNJejY3YmtLY1VycERmZ2FUSkpKSHBkVDRFOUFpNlRNbElrSDlMZWsycGRjUy02RXJXU2RiTHZS?oc=5",
+          "source": "The Guardian",
+          "publishedAt": "2026-08-11T08:26:00.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        },
+        {
+          "id": "india_politics-aufvng",
+          "title": "India’s Youth Are Changing the Political Equation",
+          "summary": "Coverage from Frontline Magazine. Open the source for the full report.",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMzFwU3N3aTJxT1hxOGhrdlBzUGlhWUdIMTVKMmJwU2duUFNoZ1VXMWNYRGpUZEVvdFhKUjBXOTlHREo0c0U3cm5SMUFtWHU0a2xkTjdQd2wyQTNmUndaOVV5WmNvT19BQmdSSDhPMHJrNDU1RnFXcldCNU50UktUYk1iTksxZ0RkVElJV1NYYjVCbGJJTFlqTldrNmZoV3M5bWVRWTV30gGsAUFVX3lxTE1tSGc5b09sUDNtS01La0VUZWl3dWs4VHI5N2pmWFlTSUh2VGNZbnU5NWZCenN6UDhkYzZmbUM2ZWhLNGhsT3k0Nzl2UDVCOW9pcDBMYzlVM2xzLXY0NzAzWV9ZX0FTSHhyeDZyYmdrZS1ITG9WaFh1b0VEcW0wUzZ0NXJfU1B4bHVFOXVoQnJ0LXEzVkFweHJ6OVRSVHp2RHVONEpBZWY2Wl9ZLW4?oc=5",
+          "source": "Frontline Magazine",
+          "publishedAt": "2026-08-11T07:17:28.000Z",
+          "section": "india_politics",
+          "imageUrl": null
+        }
+      ]
+    },
+    "real_madrid": {
+      "id": "real_madrid",
+      "title": "Real Madrid",
+      "shortTitle": "Madrid",
+      "description": "Club news, matches, and transfers for Real Madrid.",
+      "editorial": "Madrid desk today: Open Thread: August 12, 2026 (NeRobutBlanco); Real Madrid sign Fran Lapiedra as first-team analyst (report); and Dumfries can challenge Alexander-Arnold for Real Madrid’s right-back spot (Zach Lowy).",
+      "editorialDoc": {
+        "version": 1,
+        "text": "Madrid desk today: Open Thread: August 12, 2026 (NeRobutBlanco); Real Madrid sign Fran Lapiedra as first-team analyst (report); and Dumfries can challenge Alexander-Arnold for Real Madrid’s right-back spot (Zach Lowy).",
+        "citations": [
+          {
+            "storyId": "real_madrid-pz4ypa",
+            "url": "https://www.managingmadrid.com/general/111222/open-thread-august-12-2026",
+            "source": "NeRobutBlanco"
+          },
+          {
+            "storyId": "real_madrid-4hmmp4",
+            "url": "https://www.managingmadrid.com/coach/111216/real-madrid-sign-fran-lapiedra-as-first-team-analyst-report",
+            "source": "report"
+          },
+          {
+            "storyId": "real_madrid-itm8ok",
+            "url": "https://www.managingmadrid.com/managing-madrid-editorials/111209/dumfries-can-challenge-alexander-arnold-for-real-madrids-right-back-spot",
+            "source": "Zach Lowy"
+          }
+        ],
+        "mode": "deterministic",
+        "status": "ok",
+        "reviewedAt": "2026-08-12T13:05:21.279Z"
+      },
+      "stories": [
+        {
+          "id": "real_madrid-pz4ypa",
+          "title": "Open Thread: August 12, 2026",
+          "summary": "The Open Thread/Daily Merengue is a place where you can discuss anything and everything related to football. Feel free to discuss the topics presented here, or start your very own discussions! The Open thread will be…",
+          "url": "https://www.managingmadrid.com/general/111222/open-thread-august-12-2026",
+          "source": "NeRobutBlanco",
+          "publishedAt": "2026-08-12T06:27:16.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-4hmmp4",
+          "title": "Real Madrid sign Fran Lapiedra as first-team analyst",
+          "summary": "MADRID, SPAIN - AUGUST 07: Trent Alexander-Arnold player of Real Madrid during a training session at on August 07, 2026 in Madrid, Spain. (Photo by Victor Carretero/Real Madrid via Getty Images) | Real Madrid via Getty…",
+          "url": "https://www.managingmadrid.com/coach/111216/real-madrid-sign-fran-lapiedra-as-first-team-analyst-report",
+          "source": "report",
+          "publishedAt": "2026-08-11T16:41:19.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-itm8ok",
+          "title": "Dumfries can challenge Alexander-Arnold for Real Madrid’s right-back spot",
+          "summary": "BUDAPEST, HUNGARY - AUGUST 8: Denzel Dumfries of Real Madrid during the match between Ferencvarosi TC and Real Madrid at Groupama Arena on August 8, 2026 in Budapest, Hungary. (Photo by David Balogh/Getty Images) |…",
+          "url": "https://www.managingmadrid.com/managing-madrid-editorials/111209/dumfries-can-challenge-alexander-arnold-for-real-madrids-right-back-spot",
+          "source": "Zach Lowy",
+          "publishedAt": "2026-08-11T14:59:46.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-3mkgfg",
+          "title": "Real Madrid sign five-year Latin America partnership with VERSUSbet",
+          "summary": "Real Madrid CF logo is seen on a jersey at the store in Krakow, Poland on July 13, 2026. (Photo by Jakub Porzycki/NurPhoto via Getty Images) | NurPhoto via Getty Images Real Madrid and VERSUSbet have expanded their…",
+          "url": "https://www.managingmadrid.com/real-madrid-cf-news/111205/real-madrid-sign-five-year-latin-america-partnership-with-versusbet",
+          "source": "Managing Madrid",
+          "publishedAt": "2026-08-11T14:53:43.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-78m4av",
+          "title": "Diomande’s Former Coach: “Look, the truth is that we saw things I’d hardly ever seen before… He is a different breed”",
+          "summary": "MADRID, SPAIN - AUGUST 07: Yan Diomande player of Real Madrid during a training session on August 07, 2026 in Madrid, Spain. (Photo by Sara Gordon/Real Madrid via Getty Images) | Real Madrid via Getty Images Borja…",
+          "url": "https://www.managingmadrid.com/latest-news/111201/diomandes-former-coach-look-the-truth-is-that-we-saw-things-id-hardly-ever-seen-before-he-is-a-different-breed",
+          "source": "Managing Madrid",
+          "publishedAt": "2026-08-11T14:48:45.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-7u6d4t",
+          "title": "Real Madrid announce squad for preseason friendly against Deportivo",
+          "summary": "Real Madrid have published their squad list for Wednesday’s match against Deportivo La Coruña. REAL MADRID SQUAD LIST: Goalkeepers: Lunin and Sergio Mestre. Defenders: Huijsen, Trent, Á. Carreras, Rüdiger, Dumfries…",
+          "url": "https://www.managingmadrid.com/111197/real-madrid-deportivo-2026-preseason-squad-list",
+          "source": "Lucas Navarrete",
+          "publishedAt": "2026-08-11T13:47:02.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-904dur",
+          "title": "Open Thread: August 11, 2026",
+          "summary": "The Open Thread/Daily Merengue is a place where you can discuss anything and everything related to football. Feel free to discuss the topics presented here, or start your very own discussions! The Open thread will be…",
+          "url": "https://www.managingmadrid.com/general/111190/open-thread-august-11-2026",
+          "source": "NeRobutBlanco",
+          "publishedAt": "2026-08-11T06:52:47.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        },
+        {
+          "id": "real_madrid-7jqmnu",
+          "title": "Real Madrid training: Cucurella and Konaté complete first session, Mbappé returns",
+          "summary": "MADRID, SPAIN - AUGUST 10: Jose Mourinho Head Coach of Real Madrid speak with his players during a training session on August 10, 2026 in Madrid, Spain. (Photo by Maria Jimenez/Real Madrid via Getty Images) | Real…",
+          "url": "https://www.managingmadrid.com/real-madrid-cf-news/111188/real-madrid-training-cucurella-and-konate-complete-first-session-mbappe-returns",
+          "source": "Managing Madrid",
+          "publishedAt": "2026-08-11T01:57:56.000Z",
+          "section": "real_madrid",
+          "imageUrl": null
+        }
+      ]
+    },
+    "movies": {
+      "id": "movies",
+      "title": "Movies",
+      "shortTitle": "Movies",
+      "description": "Reviews and entertainment coverage across Malayalam and English cinema.",
+      "editorial": "Movies section: no stories cleared the desk for this edition.",
+      "editorialDoc": {
+        "version": 1,
+        "text": "Movies section: no stories cleared the desk for this edition.",
+        "citations": [],
+        "mode": "deterministic",
+        "status": "fallback",
+        "reviewedAt": "2026-08-12T13:05:21.279Z"
+      },
+      "stories": []
+    }
+  },
+  "meta": {
+    "totalStories": 56,
+    "sourcesAttempted": 20,
+    "sourcesSucceeded": 16,
+    "maxPerSection": 8,
+    "mode": "deterministic",
+    "editorialPipeline": "phase1-editorialDoc",
+    "dateKey": "2026-08-12"
+  },
+  "errors": [
+    {
+      "source": "Indian Express Politics",
+      "section": "india_politics",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Malayalam Movie Reviews",
+      "section": "movies",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "English Movie Reviews",
+      "section": "movies",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Malayalam Entertainment",
+      "section": "movies",
+      "message": "HTTP 403"
+    }
+  ],
+  "sources": [
+    {
+      "type": "rss",
+      "name": "MIT Technology Review — AI",
+      "section": "ai",
+      "count": 10,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Google News — Artificial Intelligence",
+      "section": "ai",
+      "count": 24,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "VentureBeat — AI",
+      "section": "ai",
+      "count": 7,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Ars Technica",
+      "section": "technology",
+      "count": 20,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "The Verge",
+      "section": "technology",
+      "count": 10,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Google News — Technology",
+      "section": "technology",
+      "count": 24,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Hacker News",
+      "section": "technology",
+      "count": 6,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Google News — Kerala Politics",
+      "section": "kerala_politics",
+      "count": 24,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Indian Express Politics",
+      "section": "india_politics",
+      "count": 0,
+      "ok": false,
+      "message": "HTTP 403"
+    },
+    {
+      "type": "rss",
+      "name": "Google News — India Politics",
+      "section": "india_politics",
+      "count": 24,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Managing Madrid",
+      "section": "real_madrid",
+      "count": 10,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Malayalam Movie Reviews",
+      "section": "movies",
+      "count": 0,
+      "ok": false,
+      "message": "HTTP 403"
+    },
+    {
+      "type": "rss",
+      "name": "English Movie Reviews",
+      "section": "movies",
+      "count": 0,
+      "ok": false,
+      "message": "HTTP 403"
+    },
+    {
+      "type": "rss",
+      "name": "Malayalam Entertainment",
+      "section": "movies",
+      "count": 0,
+      "ok": false,
+      "message": "HTTP 403"
+    },
+    {
+      "type": "rss",
+      "name": "Block Club Chicago",
+      "section": "chicago",
+      "count": 10,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Google News — Chicago",
+      "section": "chicago",
+      "count": 24,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Chicago Sun-Times",
+      "section": "chicago",
+      "count": 24,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "BBC World",
+      "section": "global",
+      "count": 24,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "NPR World",
+      "section": "global",
+      "count": 10,
+      "ok": true
+    },
+    {
+      "type": "rss",
+      "name": "Google News — World",
+      "section": "global",
+      "count": 24,
+      "ok": true
+    }
+  ]
+}
